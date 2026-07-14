@@ -1,0 +1,1542 @@
+{
+  "sheet": "playerx-original-sheet.png",
+  "frameCount": 102,
+  "frames": [
+    {
+      "x": 1,
+      "y": 1,
+      "w": 48,
+      "h": 40,
+      "duration": 0.2000000029802322,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.7083333134651184,
+          0.4749999940395355
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 0,
+      "file": "frames/frame_000.png"
+    },
+    {
+      "x": 51,
+      "y": 1,
+      "w": 48,
+      "h": 40,
+      "duration": 30,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.7083333134651184,
+          0.4749999940395355
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 1,
+      "file": "frames/frame_001.png"
+    },
+    {
+      "x": 101,
+      "y": 1,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.7083333134651184,
+          0.4749999940395355
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 2,
+      "file": "frames/frame_002.png"
+    },
+    {
+      "x": 151,
+      "y": 1,
+      "w": 48,
+      "h": 40,
+      "duration": 0.2000000029802322,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.8125,
+          0.4749999940395355
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 3,
+      "file": "frames/frame_003.png"
+    },
+    {
+      "x": 201,
+      "y": 1,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.75,
+          0.4749999940395355
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 4,
+      "file": "frames/frame_004.png"
+    },
+    {
+      "x": 251,
+      "y": 1,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.75,
+          0.4749999940395355
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 5,
+      "file": "frames/frame_005.png"
+    },
+    {
+      "x": 301,
+      "y": 1,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.75,
+          0.4749999940395355
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 6,
+      "file": "frames/frame_006.png"
+    },
+    {
+      "x": 351,
+      "y": 1,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.75,
+          0.4749999940395355
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 7,
+      "file": "frames/frame_007.png"
+    },
+    {
+      "x": 401,
+      "y": 1,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.75,
+          0.4749999940395355
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 8,
+      "file": "frames/frame_008.png"
+    },
+    {
+      "x": 451,
+      "y": 1,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.75,
+          0.4749999940395355
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 9,
+      "file": "frames/frame_009.png"
+    },
+    {
+      "x": 1,
+      "y": 43,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 10,
+      "file": "frames/frame_010.png"
+    },
+    {
+      "x": 51,
+      "y": 43,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 11,
+      "file": "frames/frame_011.png"
+    },
+    {
+      "x": 101,
+      "y": 43,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 12,
+      "file": "frames/frame_012.png"
+    },
+    {
+      "x": 151,
+      "y": 43,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 13,
+      "file": "frames/frame_013.png"
+    },
+    {
+      "x": 201,
+      "y": 43,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 14,
+      "file": "frames/frame_014.png"
+    },
+    {
+      "x": 251,
+      "y": 43,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 15,
+      "file": "frames/frame_015.png"
+    },
+    {
+      "x": 301,
+      "y": 43,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 16,
+      "file": "frames/frame_016.png"
+    },
+    {
+      "x": 351,
+      "y": 43,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 17,
+      "file": "frames/frame_017.png"
+    },
+    {
+      "x": 401,
+      "y": 43,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 18,
+      "file": "frames/frame_018.png"
+    },
+    {
+      "x": 451,
+      "y": 43,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.7708333134651184,
+          0.4749999940395355
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 19,
+      "file": "frames/frame_019.png"
+    },
+    {
+      "x": 1,
+      "y": 85,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.7916666865348816,
+          0.449999988079071
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 20,
+      "file": "frames/frame_020.png"
+    },
+    {
+      "x": 51,
+      "y": 85,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.8125,
+          0.4749999940395355
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 21,
+      "file": "frames/frame_021.png"
+    },
+    {
+      "x": 101,
+      "y": 85,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.7916666865348816,
+          0.5
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 22,
+      "file": "frames/frame_022.png"
+    },
+    {
+      "x": 151,
+      "y": 85,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.7916666865348816,
+          0.4749999940395355
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 23,
+      "file": "frames/frame_023.png"
+    },
+    {
+      "x": 201,
+      "y": 85,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.7916666865348816,
+          0.449999988079071
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 24,
+      "file": "frames/frame_024.png"
+    },
+    {
+      "x": 251,
+      "y": 85,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.8125,
+          0.449999988079071
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 25,
+      "file": "frames/frame_025.png"
+    },
+    {
+      "x": 301,
+      "y": 85,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.8125,
+          0.5
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 26,
+      "file": "frames/frame_026.png"
+    },
+    {
+      "x": 351,
+      "y": 85,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.8125,
+          0.4749999940395355
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 27,
+      "file": "frames/frame_027.png"
+    },
+    {
+      "x": 401,
+      "y": 85,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 28,
+      "file": "frames/frame_028.png"
+    },
+    {
+      "x": 451,
+      "y": 85,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 29,
+      "file": "frames/frame_029.png"
+    },
+    {
+      "x": 1,
+      "y": 127,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.7708333134651184,
+          0.4749999940395355
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 30,
+      "file": "frames/frame_030.png"
+    },
+    {
+      "x": 51,
+      "y": 127,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.8541666865348816,
+          0.574999988079071
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 31,
+      "file": "frames/frame_031.png"
+    },
+    {
+      "x": 101,
+      "y": 127,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 32,
+      "file": "frames/frame_032.png"
+    },
+    {
+      "x": 151,
+      "y": 127,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 33,
+      "file": "frames/frame_033.png"
+    },
+    {
+      "x": 201,
+      "y": 127,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 34,
+      "file": "frames/frame_034.png"
+    },
+    {
+      "x": 251,
+      "y": 127,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.75,
+          0.4749999940395355
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 35,
+      "file": "frames/frame_035.png"
+    },
+    {
+      "x": 301,
+      "y": 127,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.7708333134651184,
+          0.4749999940395355
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 36,
+      "file": "frames/frame_036.png"
+    },
+    {
+      "x": 351,
+      "y": 127,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.7708333134651184,
+          0.449999988079071
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 37,
+      "file": "frames/frame_037.png"
+    },
+    {
+      "x": 401,
+      "y": 127,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 38,
+      "file": "frames/frame_038.png"
+    },
+    {
+      "x": 451,
+      "y": 127,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 39,
+      "file": "frames/frame_039.png"
+    },
+    {
+      "x": 1,
+      "y": 169,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.7708333134651184,
+          0.449999988079071
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 40,
+      "file": "frames/frame_040.png"
+    },
+    {
+      "x": 51,
+      "y": 169,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.75,
+          0.4749999940395355
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 41,
+      "file": "frames/frame_041.png"
+    },
+    {
+      "x": 101,
+      "y": 169,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 42,
+      "file": "frames/frame_042.png"
+    },
+    {
+      "x": 151,
+      "y": 169,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 43,
+      "file": "frames/frame_043.png"
+    },
+    {
+      "x": 201,
+      "y": 169,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.7708333134651184,
+          0.4749999940395355
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 44,
+      "file": "frames/frame_044.png"
+    },
+    {
+      "x": 251,
+      "y": 169,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.8125,
+          0.425000011920929
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 45,
+      "file": "frames/frame_045.png"
+    },
+    {
+      "x": 301,
+      "y": 169,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 46,
+      "file": "frames/frame_046.png"
+    },
+    {
+      "x": 351,
+      "y": 169,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 47,
+      "file": "frames/frame_047.png"
+    },
+    {
+      "x": 401,
+      "y": 169,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.25,
+          0.425000011920929
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 48,
+      "file": "frames/frame_048.png"
+    },
+    {
+      "x": 451,
+      "y": 169,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.25,
+          0.425000011920929
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 49,
+      "file": "frames/frame_049.png"
+    },
+    {
+      "x": 1,
+      "y": 211,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 50,
+      "file": "frames/frame_050.png"
+    },
+    {
+      "x": 51,
+      "y": 211,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 51,
+      "file": "frames/frame_051.png"
+    },
+    {
+      "x": 101,
+      "y": 211,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 52,
+      "file": "frames/frame_052.png"
+    },
+    {
+      "x": 151,
+      "y": 211,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 53,
+      "file": "frames/frame_053.png"
+    },
+    {
+      "x": 201,
+      "y": 211,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 54,
+      "file": "frames/frame_054.png"
+    },
+    {
+      "x": 251,
+      "y": 211,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 55,
+      "file": "frames/frame_055.png"
+    },
+    {
+      "x": 301,
+      "y": 211,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.7250000238418579,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 56,
+      "file": "frames/frame_056.png"
+    },
+    {
+      "x": 351,
+      "y": 211,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 57,
+      "file": "frames/frame_057.png"
+    },
+    {
+      "x": 401,
+      "y": 211,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.7916666865348816,
+          0.425000011920929
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 58,
+      "file": "frames/frame_058.png"
+    },
+    {
+      "x": 451,
+      "y": 211,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.7916666865348816,
+          0.425000011920929
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 59,
+      "file": "frames/frame_059.png"
+    },
+    {
+      "x": 1,
+      "y": 253,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 60,
+      "file": "frames/frame_060.png"
+    },
+    {
+      "x": 51,
+      "y": 253,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 61,
+      "file": "frames/frame_061.png"
+    },
+    {
+      "x": 101,
+      "y": 253,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 62,
+      "file": "frames/frame_062.png"
+    },
+    {
+      "x": 151,
+      "y": 253,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 63,
+      "file": "frames/frame_063.png"
+    },
+    {
+      "x": 201,
+      "y": 253,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 64,
+      "file": "frames/frame_064.png"
+    },
+    {
+      "x": 251,
+      "y": 253,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 65,
+      "file": "frames/frame_065.png"
+    },
+    {
+      "x": 301,
+      "y": 253,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.8333333134651184,
+          0.5
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 66,
+      "file": "frames/frame_066.png"
+    },
+    {
+      "x": 351,
+      "y": 253,
+      "w": 48,
+      "h": 40,
+      "duration": 2,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.8333333134651184,
+          0.5
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 67,
+      "file": "frames/frame_067.png"
+    },
+    {
+      "x": 401,
+      "y": 253,
+      "w": 48,
+      "h": 40,
+      "duration": 5,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [
+        [
+          "Shoot",
+          0.8333333134651184,
+          0.5
+        ]
+      ],
+      "collisionPoly": [],
+      "index": 68,
+      "file": "frames/frame_068.png"
+    },
+    {
+      "x": 451,
+      "y": 253,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 69,
+      "file": "frames/frame_069.png"
+    },
+    {
+      "x": 1,
+      "y": 295,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 70,
+      "file": "frames/frame_070.png"
+    },
+    {
+      "x": 51,
+      "y": 295,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 71,
+      "file": "frames/frame_071.png"
+    },
+    {
+      "x": 101,
+      "y": 295,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 72,
+      "file": "frames/frame_072.png"
+    },
+    {
+      "x": 151,
+      "y": 295,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 73,
+      "file": "frames/frame_073.png"
+    },
+    {
+      "x": 201,
+      "y": 295,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 74,
+      "file": "frames/frame_074.png"
+    },
+    {
+      "x": 251,
+      "y": 295,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 75,
+      "file": "frames/frame_075.png"
+    },
+    {
+      "x": 301,
+      "y": 295,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 76,
+      "file": "frames/frame_076.png"
+    },
+    {
+      "x": 351,
+      "y": 295,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 77,
+      "file": "frames/frame_077.png"
+    },
+    {
+      "x": 401,
+      "y": 295,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 78,
+      "file": "frames/frame_078.png"
+    },
+    {
+      "x": 451,
+      "y": 295,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 79,
+      "file": "frames/frame_079.png"
+    },
+    {
+      "x": 1,
+      "y": 337,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 80,
+      "file": "frames/frame_080.png"
+    },
+    {
+      "x": 51,
+      "y": 337,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 81,
+      "file": "frames/frame_081.png"
+    },
+    {
+      "x": 101,
+      "y": 337,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 82,
+      "file": "frames/frame_082.png"
+    },
+    {
+      "x": 151,
+      "y": 337,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 83,
+      "file": "frames/frame_083.png"
+    },
+    {
+      "x": 201,
+      "y": 337,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 84,
+      "file": "frames/frame_084.png"
+    },
+    {
+      "x": 251,
+      "y": 337,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 85,
+      "file": "frames/frame_085.png"
+    },
+    {
+      "x": 301,
+      "y": 337,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 86,
+      "file": "frames/frame_086.png"
+    },
+    {
+      "x": 351,
+      "y": 337,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 87,
+      "file": "frames/frame_087.png"
+    },
+    {
+      "x": 401,
+      "y": 337,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 88,
+      "file": "frames/frame_088.png"
+    },
+    {
+      "x": 451,
+      "y": 337,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 89,
+      "file": "frames/frame_089.png"
+    },
+    {
+      "x": 1,
+      "y": 379,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 90,
+      "file": "frames/frame_090.png"
+    },
+    {
+      "x": 51,
+      "y": 379,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 91,
+      "file": "frames/frame_091.png"
+    },
+    {
+      "x": 101,
+      "y": 379,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 92,
+      "file": "frames/frame_092.png"
+    },
+    {
+      "x": 151,
+      "y": 379,
+      "w": 48,
+      "h": 40,
+      "duration": 4,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 93,
+      "file": "frames/frame_093.png"
+    },
+    {
+      "x": 201,
+      "y": 379,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 94,
+      "file": "frames/frame_094.png"
+    },
+    {
+      "x": 251,
+      "y": 379,
+      "w": 48,
+      "h": 40,
+      "duration": 6,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 95,
+      "file": "frames/frame_095.png"
+    },
+    {
+      "x": 301,
+      "y": 379,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 96,
+      "file": "frames/frame_096.png"
+    },
+    {
+      "x": 351,
+      "y": 379,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 97,
+      "file": "frames/frame_097.png"
+    },
+    {
+      "x": 401,
+      "y": 379,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 98,
+      "file": "frames/frame_098.png"
+    },
+    {
+      "x": 451,
+      "y": 379,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 99,
+      "file": "frames/frame_099.png"
+    },
+    {
+      "x": 1,
+      "y": 421,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 100,
+      "file": "frames/frame_100.png"
+    },
+    {
+      "x": 51,
+      "y": 421,
+      "w": 48,
+      "h": 40,
+      "duration": 1,
+      "originX": 0.5,
+      "originY": 0.800000011920929,
+      "imagePoints": [],
+      "collisionPoly": [],
+      "index": 101,
+      "file": "frames/frame_101.png"
+    }
+  ]
+}

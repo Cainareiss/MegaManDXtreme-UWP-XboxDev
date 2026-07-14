@@ -1,0 +1,3630 @@
+{
+    "formatVersion":  1,
+    "source":  "GameFiles/Dialogues.xml",
+    "generatedAt":  "2026-07-04T01:14:52.2487039Z",
+    "dialogueCount":  63,
+    "lineCount":  362,
+    "duplicateLineIds":  1,
+    "entries":  [
+                    {
+                        "id":  "dialogue_9d99b80419c2",
+                        "dialogue":  "Prologue",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #d848d8\u003eI made it in.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_e51971412046",
+                        "dialogue":  "Prologue",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #7050e0\u003eDo you see him?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_aae1562c4715",
+                        "dialogue":  "Prologue",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #d848d8\u003eNot yet...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_c29b8510125b",
+                        "dialogue":  "Prologue",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #d848d8\u003e....Ah!\u003cTW wait 0.5\u003e Here he is!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_60983a8735ce",
+                        "dialogue":  "Prologue",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #7050e0\u003eLet\u0027s begin the operation then.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_8f5a012efa79",
+                        "dialogue":  "Prologue",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #7050e0\u003eBring him in now.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_50f0513a8267",
+                        "dialogue":  "Prologue",
+                        "line":  "7",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #d848d8\u003eCommencing transfer...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_9ac87da9ef5b",
+                        "dialogue":  "Intro1",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "........",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_eb8e496e2eaf",
+                        "dialogue":  "Intro1",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "This place is familiar...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_cfa736c7b8f3",
+                        "dialogue":  "Intro1",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Why am I here!?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_86095f20a721",
+                        "dialogue":  "Vile Intro",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "...Vile?\u003cTW wait 0.5\u003e  Why are you...?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_58864f1a2683",
+                        "dialogue":  "Vile Intro",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "It can\u0027t be,\u003cTW wait 0.2\u003e  I crushed you!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_038ebc3d482b",
+                        "dialogue":  "Vile Intro",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "VILE",
+                        "english":  "Hahaha!\u003cTW wait 0.5\u003e  Be ready to die, X!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_b8e7614cc760",
+                        "dialogue":  "Vile Intro",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "...!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_26a735cdf89a",
+                        "dialogue":  "Intro2",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #58f898\u003eZero! I think I found him!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_65877c8a9d6c",
+                        "dialogue":  "Intro2",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Huh? Who\u0027s there?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_e71bda8f1b76",
+                        "dialogue":  "Intro2",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "ZERO",
+                        "english":  "\u003cC #e84000\u003eX! Do you hear me?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_f4c00e3faf51",
+                        "dialogue":  "Intro2",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Zero? Where are you?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_e612e90b1ad4",
+                        "dialogue":  "Intro2",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "ZERO",
+                        "english":  "\u003cC #e84000\u003eIt\u0027s him!\u003cTW wait 0.5\u003e Transfer him back!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_1b1c8d9a4e4d",
+                        "dialogue":  "Intro2",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #58f898\u003eOn it!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_0df48822cd96",
+                        "dialogue":  "Cutscene1-1",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "Transfer complete!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_f6fba122b726",
+                        "dialogue":  "Cutscene1-1",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "ZERO",
+                        "english":  "Welcome back X.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_aa110025e791",
+                        "dialogue":  "Cutscene1-1",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Zero!\u003cTW wait 0.5\u003e What happened just now?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_6c3f42fe87c7",
+                        "dialogue":  "Cutscene1-1",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "ZERO",
+                        "english":  "While you were in stasis,\u003cTW wait 0.2\u003e your mind got dragged inside that machine you see there.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_6cfb5832ae60",
+                        "dialogue":  "Cutscene1-1",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "ZERO",
+                        "english":  "This is the person you have to thanks for bringing you back.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_0f08cd60489e",
+                        "dialogue":  "Cutscene1-1",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "ZERO",
+                        "english":  "His name is Middy,\u003cTW wait 0.2\u003e he is a computer genius,\u003cTW wait 0.2\u003e the best in his domain.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_f31279fe4fa1",
+                        "dialogue":  "Cutscene1-2",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "Hello!\u003cTW wait 0.5\u003e My name is Middy,\u003cTW wait 0.2\u003e glad to meet you X!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_478394d11ede",
+                        "dialogue":  "Cutscene1-2",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "I\u0027m sorry that we met in such circumstances.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_02955f499d7e",
+                        "dialogue":  "Cutscene1-2",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Don\u0027t worry.\u003cTW wait 0.5\u003e Glad to meet you too!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_93c6d8a75505",
+                        "dialogue":  "Cutscene1-3",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "But tell me, what\u0027s going on exactly?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_8fe4b867ec0e",
+                        "dialogue":  "Cutscene1-3",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "This is the Mother Computer.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_df5ee14d83b9",
+                        "dialogue":  "Cutscene1-3",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "It has been in development at the Hunter HQ for a while now,",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_4d03bc09bfd5",
+                        "dialogue":  "Cutscene1-3",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "as part of the Augmented-Training program.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_10a8c106b700",
+                        "dialogue":  "Cutscene1-3",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "It is able to create life-like simulations based on past data.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_44ad3c9ae60b",
+                        "dialogue":  "Cutscene1-4",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "I believe someone managed to hack its core and dragged you inside while you were asleep.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_328276e910a8",
+                        "dialogue":  "Cutscene1-4",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "Now all sort of simulations are happening simultaneously inside the computer.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_9edf3c94539c",
+                        "dialogue":  "Cutscene1-4",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "ZERO",
+                        "english":  "From what Middy showed me,\u003cTW wait 0.2\u003e these look like recreations of your past battles, X.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_1af9068883a8",
+                        "dialogue":  "Cutscene1-4",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "My past battles?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_aa181c32e147",
+                        "dialogue":  "Cutscene1-4",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "Not only that,\u003cTW wait 0.2\u003e  but the bosses data seem to act as a shield against my tracking attempts.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_67f582b185f1",
+                        "dialogue":  "Cutscene1-4",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "This hacker is certainly skillful.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_9fc2c1467a90",
+                        "dialogue":  "Cutscene1-4",
+                        "line":  "7",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "What can we do then?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_961dbebc1ab6",
+                        "dialogue":  "Cutscene1-4",
+                        "line":  "8",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "You need to go back inside the Mother Computer as data form.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_7cd27bd880af",
+                        "dialogue":  "Cutscene1-4",
+                        "line":  "9",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "If you manage to destroy the shields,\u003cTW wait 0.2\u003e  I\u0027ll be able to track the hacker\u0027s signal.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_b1723d793848",
+                        "dialogue":  "Cutscene1-4",
+                        "line":  "10",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "But you\u0027ll have to be careful,\u003cTW wait 0.2\u003e these recreations might be as dangerous as the originals.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_14a647629d02",
+                        "dialogue":  "Cutscene1-4",
+                        "line":  "11",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Understood.\u003cTW wait 0.5\u003e  Will you join me Zero?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_fac5f8da8fbd",
+                        "dialogue":  "Cutscene1-4",
+                        "line":  "12",
+                        "occurrence":  1,
+                        "speaker":  "ZERO",
+                        "english":  "I wish I could, but the hacking has ripple effects on the real world,",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_65f20390afa6",
+                        "dialogue":  "Cutscene1-4",
+                        "line":  "13",
+                        "occurrence":  1,
+                        "speaker":  "ZERO",
+                        "english":  "a lot of reploids are now acting rogue outside.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_b541d6f29040",
+                        "dialogue":  "Cutscene1-4",
+                        "line":  "14",
+                        "occurrence":  1,
+                        "speaker":  "ZERO",
+                        "english":  "Someone needs to take care of this issue.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_9c5598bb8eab",
+                        "dialogue":  "Cutscene1-4",
+                        "line":  "15",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Alright,\u003cTW wait 0.2\u003e  best of luck to you then Zero!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_6e1cdf0b4250",
+                        "dialogue":  "Cutscene1-4",
+                        "line":  "16",
+                        "occurrence":  1,
+                        "speaker":  "ZERO",
+                        "english":  "Same goes to you,\u003cTW wait 0.2\u003e  be careful in there.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_4745c40234cc",
+                        "dialogue":  "Cutscene1-4",
+                        "line":  "17",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Send me now Middy!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_241cce91176e",
+                        "dialogue":  "Cutscene1-5",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "Energy charge...\u003cTW wait 0.5\u003e  Setup complete,\u003cTW wait 0.5\u003e  ready for transfer!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_0f0984b72d52",
+                        "dialogue":  "Cutscene1-5",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "Good luck X!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_7a3b59c8d241",
+                        "dialogue":  "Cutscene2-1",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #7050e0\u003eThey made their move.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_b66878e3b46f",
+                        "dialogue":  "Cutscene2-2",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "Huh,\u003cTW wait 0.5\u003e I didn\u0027t expect the past data to be destroyed that easily.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_82d9411ae3ae",
+                        "dialogue":  "Cutscene2-2",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "We would get into trouble if the computer protections are broken...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_e13a8a0ed4dd",
+                        "dialogue":  "Cutscene2-3",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "Kekeke!\u003cTW wait 0.5\u003e Take it easy Techno!\u003cTW wait 0.5\u003e Let\u0027s relax and see his action from here.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_a086c27fa21c",
+                        "dialogue":  "Cutscene2-3",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #7050e0\u003eHe is not to be underestimated.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_fd9beb3c5cee",
+                        "dialogue":  "Cutscene2-3",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #7050e0\u003eZain,\u003cTW wait 0.5\u003e Geemel,\u003cTW wait 0.5\u003e get in position.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_6361b8bc7496",
+                        "dialogue":  "Cutscene2-3",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "ZAIN",
+                        "english":  "Understood. I will crush him.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_082831e9e599",
+                        "dialogue":  "Cutscene2-3",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "GEEMEL",
+                        "english":  "Kekeke!\u003cTW wait 0.2\u003e No way!\u003cTW wait 0.2\u003e I\u0027d rather live!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_5c2a22964c98",
+                        "dialogue":  "Cutscene2-3",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #7050e0\u003eThen you\u0027re useless to me.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_0da832c1e006",
+                        "dialogue":  "Cutscene2-3",
+                        "line":  "7",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #7050e0\u003eI shall put you back to rust in the gutter where I found you.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_7a5775d32821",
+                        "dialogue":  "Cutscene2-3",
+                        "line":  "8",
+                        "occurrence":  1,
+                        "speaker":  "GEEMEL",
+                        "english":  "Ke!! Not fair...!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_3beaee82ebe0",
+                        "dialogue":  "Cutscene2-3",
+                        "line":  "9",
+                        "occurrence":  1,
+                        "speaker":  "ZAIN",
+                        "english":  "Don\u0027t worry Geemel,\u003cTW wait 0.2\u003e against us, he can\u0027t win.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_9b8d4d402837",
+                        "dialogue":  "Cutscene2-3",
+                        "line":  "10",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "If we succeed, we\u0027ll be free to do anything we want,\u003cTW wait 0.2\u003e don\u0027t forget that!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_f6a9ab72c638",
+                        "dialogue":  "Cutscene2-3",
+                        "line":  "11",
+                        "occurrence":  1,
+                        "speaker":  "GEEMEL",
+                        "english":  "Kekeke!\u003cTW wait 0.2\u003e You\u0027re right, let\u0027s dispose of that piece of junk!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_f5aca48ee443",
+                        "dialogue":  "Cutscene2-3",
+                        "line":  "12",
+                        "occurrence":  1,
+                        "speaker":  "ZAIN",
+                        "english":  "That\u0027s the spirit.\u003cTW wait 0.5\u003e Transfer us Techno.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_c33431879a3b",
+                        "dialogue":  "Cutscene2-3",
+                        "line":  "13",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "On it.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_c309e170a84a",
+                        "dialogue":  "Cutscene2-4",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #7050e0\u003eDid you find it?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_118826e13823",
+                        "dialogue":  "Cutscene2-4",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "Yes,\u003cTW wait 0.3\u003e but it will take some time to fully reconstruct it.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_b33d90aaae0a",
+                        "dialogue":  "Cutscene2-4",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #7050e0\u003eKeep it going.\u003cTW wait 0.5\u003e We\u0027ll soon see how your comrades perform.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_b4daeba49399",
+                        "dialogue":  "Cutscene2-4",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "Understood.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_0862ec656d3b",
+                        "dialogue":  "Armor Foot",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "LIGHT",
+                        "english":  "Enter this capsule, X.\u003cTW wait 0.5\u003e NEWLINE Take this Leg Upgrade.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_a2a09f79245e",
+                        "dialogue":  "Armor Foot",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "The Upgrade will enhance your dash speed...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_d29ed86be071",
+                        "dialogue":  "Armor Foot",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "This Upgrade will also allow you to crush certain blocks.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_6fa5d9be4007",
+                        "dialogue":  "Armor Foot",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Your field of activities have now been expanded.\u003cTW wait 0.5\u003e NEWLINE Go destroy the evil, X!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_0f950950d448",
+                        "dialogue":  "Armor Head",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "LIGHT",
+                        "english":  "Enter this capsule, X.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_1d12708470d3",
+                        "dialogue":  "Armor Head",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "This Head Upgrade will give you the ability of the Head Crush,",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_5b8f1eca3f91",
+                        "dialogue":  "Armor Head",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "and allow you to crush certain blocks...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_38bce114ca4a",
+                        "dialogue":  "Armor Head",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Don\u0027t hold back!\u003cTW wait 0.5\u003e Crush them all!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_55c35e19f15c",
+                        "dialogue":  "Armor Arm",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "LIGHT",
+                        "english":  "Enter this capsule, X.\u003cTW wait 0.5\u003e NEWLINE Take this Arm Upgrade.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_3df091ab5f92",
+                        "dialogue":  "Armor Arm",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "The Upgrade will increase the strength of your charged shots.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_c1a0c8ec7305",
+                        "dialogue":  "Armor Arm",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "This Upgrade will also allow you to charge any of your special weapons.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_7f31dbef1b55",
+                        "dialogue":  "Armor Arm",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Defeat the enemy there, X!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_2b46cc3e9d27",
+                        "dialogue":  "Armor Body",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "LIGHT",
+                        "english":  "Enter this capsule, X.\u003cTW wait 0.5\u003e NEWLINE Take this Body Upgrade.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_4301e4ba16dd",
+                        "dialogue":  "Armor Body",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "This Upgrade will increase your defensive ability and you\u0027ll receive less damage...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_28a9d7c35771",
+                        "dialogue":  "Armor Body",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "It will also extend the durability of your shield weapon.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_06446bd1987c",
+                        "dialogue":  "Armor Body",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "It can only absord a limited quantity of damage,",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_335f53b2eb84",
+                        "dialogue":  "Armor Body",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "So be sure to let it recharge between missions.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_6d00610d849f",
+                        "dialogue":  "Armor Body",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Protect peace and our future!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_35a377971eb3",
+                        "dialogue":  "Armor Hado",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "LIGHT",
+                        "english":  "Enter this capsule, X.\u003cTW wait 0.5\u003e NEWLINE I\u0027ll give you the Shotokan moves...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_a24deb5a590d",
+                        "dialogue":  "Armor Hado",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "\"Hadou-ken\" and \"Shouryu-ken\"!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_cbc145d8c31a",
+                        "dialogue":  "Armor Hado",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "First,\u003cTW wait 0.3\u003e fully charge your buster with the arm part.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_2d63b4a3fdcf",
+                        "dialogue":  "Armor Hado",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Then hold the UP button and release the charge...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_ad64486cbdc9",
+                        "dialogue":  "Armor Hado",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "You\u0027ll perform the famous Shouryu-ken!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_66fb7101489f",
+                        "dialogue":  "Armor Hado",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "If you hold the DOWN button...\u003cTW wait 0.3\u003e You\u0027ll perform powerful Hadou-ken!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_645f57311a06",
+                        "dialogue":  "Armor Hado",
+                        "line":  "7",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Remember that you can only perform these moves when you are on the ground.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_2a83d2841560",
+                        "dialogue":  "Armor Hado",
+                        "line":  "8",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "You\u0027ll also need to have all your armor parts equipped.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_ec53c11d9d98",
+                        "dialogue":  "Armor Hado",
+                        "line":  "9",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Beat em\u0027 up, X!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_16eb9b5c1252",
+                        "dialogue":  "Black Zero",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "LIGHT",
+                        "english":  "Zero?\u003cTW wait 0.5\u003e I wasn\u0027t expecting you....",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_06b426e2520f",
+                        "dialogue":  "Black Zero",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "This upgrade is meant for X,\u003cTW wait 0.3\u003e I\u0027m sorry...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_eb0c713d55a8",
+                        "dialogue":  "Black Zero",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Here\u0027s a secret however :\u003cTW wait 0.3\u003e NEWLINE If you hold TAB or SELECT when selecting a stage,",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_7397f015b116",
+                        "dialogue":  "Black Zero",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "You will activate your BLACK ZERO form!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_d8b256deec09",
+                        "dialogue":  "Black Zero",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Hold TAB or SELECT again when selecting a stage to deactivate it.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_4efce101e8be",
+                        "dialogue":  "Black Zero",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "What does it do?\u003cTW wait 0.3\u003e Nothing,\u003cTW wait 0.3\u003e but it looks cool!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_aa33d49c998e",
+                        "dialogue":  "Black Zero",
+                        "line":  "7",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Also,\u003cTW wait 0.3\u003e please deliver this upgrade to X, we will need it.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_9f2dad8e99cd",
+                        "dialogue":  "Black Zero",
+                        "line":  "8",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "I\u0027m counting on you Zero.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_a3a6a6c53124",
+                        "dialogue":  "ZeroChip1",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "...I successfully completed the first chip...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_fc7b487d0321",
+                        "dialogue":  "ZeroChip1",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "But there\u0027s still a lot left to be done.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_53d45eaa3880",
+                        "dialogue":  "ZeroChip1",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "I have to complete the other 3 parts before it\u0027s too late.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_39a8ce473b64",
+                        "dialogue":  "ZeroChip1",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "This data will serve as a backup in case something unexpected happens...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_0bb029928c09",
+                        "dialogue":  "ZeroChip2",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "...The second chip has been completed...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_705c959eca73",
+                        "dialogue":  "ZeroChip2",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "We\u0027re running out of time, the enemy is getting near.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_5678c8536785",
+                        "dialogue":  "ZeroChip2",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "But,\u003cTW wait 0.5\u003e if I succeed,\u003cTW wait 0.5\u003e no one will be able to get in our way.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_1b69e667c464",
+                        "dialogue":  "ZeroChip3",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "The third chip has been completed.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_b8a242fcd7b6",
+                        "dialogue":  "ZeroChip3",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Ultimate power is at our hands.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_259cd1d1d64d",
+                        "dialogue":  "ZeroChip3",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Soon, our most powerful ally will finally awake...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_a5215e5d9487",
+                        "dialogue":  "ZeroChip3",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "...then not even Sigma will stand a chance.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_e6822c58112a",
+                        "dialogue":  "ZeroChip4",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "...I don\u0027t understand...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_b6346f1fc241",
+                        "dialogue":  "ZeroChip4",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "All my calculations are correct, yet...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_65c0b9bf0aea",
+                        "dialogue":  "ZeroChip4",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "For some reason, you keep fighting against us,\u003cTW wait 0.5\u003e against me...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_c3ffa28215e2",
+                        "dialogue":  "ZeroChip4",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Was it your destiny to destroy the Mavericks?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_642fb5bd7991",
+                        "dialogue":  "ZeroChip4",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "...The enemy is now at our door.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_f7837ddbb794",
+                        "dialogue":  "ZeroChip4",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "I will salvage what I can from the data,\u003cTW wait 0.5\u003e in the hope to put a last stand.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_00f17065ae47",
+                        "dialogue":  "ZeroChip4",
+                        "line":  "7",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "This will be the last recording.\u003cTW wait 0.5\u003e Signing off.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_db6eded60e27",
+                        "dialogue":  "Techno-Intro",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Huh? Who is that?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_358d18a7f00c",
+                        "dialogue":  "Techno-Intro",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "They look like....",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_38471caf8314",
+                        "dialogue":  "Techno-Intro",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "My name is Techno.\u003cTW wait 0.3\u003e I\u0027ve been monitoring you for some time X.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_dea22cfb83a2",
+                        "dialogue":  "Techno-Intro",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "This place has all the tools to analyse your abilities.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_5fc353a4b04e",
+                        "dialogue":  "Techno-Intro",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "With that data,\u003cTW wait 0.3\u003e I will find the perfect counter to stop you.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_4f63d8d5a0d1",
+                        "dialogue":  "Techno-Intro",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Let\u0027s start the testing.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_33186a5cec5b",
+                        "dialogue":  "Geemel-Intro",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "GEEMEL",
+                        "english":  "Kekeke!\u003cTW wait 0.3\u003e I\u0027ve been waiting for you X!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_6706ae49b2cb",
+                        "dialogue":  "Geemel-Intro",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Who are you?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_1b63e380ce33",
+                        "dialogue":  "Geemel-Intro",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "GEEMEL",
+                        "english":  "I\u0027m Geemel!\u003cTW wait 0.3\u003e And I\u0027ll be the last problem you\u0027ll be dealing with!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_61a0475ebc2c",
+                        "dialogue":  "Geemel-Defeat",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "GEEMEL",
+                        "english":  "Kyee!\u003cTW wait 0.3\u003e I knew I should have stayed at the base.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_25a703e10b89",
+                        "dialogue":  "Geemel-Defeat",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "GEEMEL",
+                        "english":  "I\u0027ll make you pay later, kekeke!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_1a6e92fbca57",
+                        "dialogue":  "Zain-Intro",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "ZAIN",
+                        "english":  "You must be X...\u003cTW wait 0.5\u003e I was waiting for this fight.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_5a4c56967f27",
+                        "dialogue":  "Zain-Intro",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "ZAIN",
+                        "english":  "My name is Zain!\u003cTW wait 0.3\u003e You have no chance of beating me!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_87d82566c011",
+                        "dialogue":  "Zain-Defeat",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "ZAIN",
+                        "english":  "I underestimated you....",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_50f6ef59db84",
+                        "dialogue":  "Zain-Defeat",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "ZAIN",
+                        "english":  "You got lucky,\u003cTW wait 0.3\u003e but it won\u0027t be enough to save you next time...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_15bcb14aaeb6",
+                        "dialogue":  "Cutscene3",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "Welcome back X!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_15a3388be27c",
+                        "dialogue":  "Cutscene3",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Now that you destroyed the past bosses,\u003cTW wait 0.2\u003e I\u0027m able to locate the hacker signal.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_8e7d133304af",
+                        "dialogue":  "Cutscene3",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "It seems to emit from that fortress,\u003cTW wait 0.3\u003e but I don\u0027t see any direct access.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_081a2609eb1d",
+                        "dialogue":  "Cutscene3",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "There is probably a transporter access inside.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_2fbb72dbc94a",
+                        "dialogue":  "Cutscene3",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "I\u0027ll make a path then,\u003cTW wait 0.3\u003e can you send me there?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_c5b8d229eac1",
+                        "dialogue":  "Cutscene3",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "Yes, I will send you to the entrance.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_23ab0da6bb33",
+                        "dialogue":  "Cutscene3",
+                        "line":  "7",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "....\u003cTW wait 0.5\u003eI\u0027m sorry X...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_24f8a7a7e241",
+                        "dialogue":  "Cutscene3",
+                        "line":  "8",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "What do you mean?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_3bd41aa07445",
+                        "dialogue":  "Cutscene3",
+                        "line":  "9",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "I wish I could help more...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_5d462e8ee4b6",
+                        "dialogue":  "Cutscene3",
+                        "line":  "10",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "While you\u0027re taking all the risks,\u003cTW wait 0.3\u003e I sit here watching,\u003cTW wait 0.5\u003e I feel useless...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_5a58980156a5",
+                        "dialogue":  "Cutscene3",
+                        "line":  "11",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Don\u0027t say that.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_0fcc5154af0f",
+                        "dialogue":  "Cutscene3",
+                        "line":  "12",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "If it wasn\u0027t for you,\u003cTW wait 0.2\u003e I would still be stuck inside the Mother Computer.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_c36416422139",
+                        "dialogue":  "Cutscene3",
+                        "line":  "13",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "And we wouldn\u0027t have been able to track our enemy.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_64727572f4f3",
+                        "dialogue":  "Cutscene3",
+                        "line":  "14",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "As Maverick Hunters, we\u0027re all doing our part,\u003cTW wait 0.3\u003e and you\u0027ve been doing yours great.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_b9228a6eedfb",
+                        "dialogue":  "Cutscene3",
+                        "line":  "15",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Don\u0027t undervalue yourself Middy.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_479eddbc427e",
+                        "dialogue":  "Cutscene3",
+                        "line":  "16",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "...\u003cTW wait 0.3\u003eyou\u0027re right,\u003cTW wait 0.3\u003e thanks X!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_fbea5f0c2cb4",
+                        "dialogue":  "Cutscene3",
+                        "line":  "17",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "I\u0027ll keep doing my best.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_09a7f51a14a6",
+                        "dialogue":  "Cutscene3",
+                        "line":  "18",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Preparing the coordinates!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_d81784c1fec8",
+                        "dialogue":  "Cutscene4-1",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "They located our position,\u003cTW wait 0.3\u003e this is bad!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_355f92bcab2a",
+                        "dialogue":  "Cutscene4-1",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "GEEMEL",
+                        "english":  "Kyee!\u003cTW wait 0.3\u003e This guy really is unstoppable!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_6b28bceccb23",
+                        "dialogue":  "Cutscene4-1",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "ZAIN",
+                        "english":  "Hmph.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_02f2592a514f",
+                        "dialogue":  "Cutscene4-1",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #7050e0\u003eHow much time before it is complete?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_adb20fd428c7",
+                        "dialogue":  "Cutscene4-1",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "More than we have if he gets through our defenses.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_cd8136550eb5",
+                        "dialogue":  "Cutscene4-1",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #7050e0\u003eWe need to take action then.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_d45cb893bcb8",
+                        "dialogue":  "Cutscene4-1",
+                        "line":  "7",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "\u003cC #7050e0\u003eYou two,\u003cTW wait 0.3\u003e go and protect the transporter.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_75b05ea58d6f",
+                        "dialogue":  "Cutscene4-1",
+                        "line":  "8",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "\u003cC #7050e0\u003eI\u0027ll buy us some time.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_bb85b8c3ba97",
+                        "dialogue":  "Cutscene4-1",
+                        "line":  "9",
+                        "occurrence":  1,
+                        "speaker":  "ZAIN",
+                        "english":  "You\u0027re going to face him?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_37e9fca6eb54",
+                        "dialogue":  "Cutscene4-1",
+                        "line":  "10",
+                        "occurrence":  1,
+                        "speaker":  "GEEMEL",
+                        "english":  "Keke!\u003cTW wait 0.3\u003e He will tear you to pieces!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_4d24c23612ba",
+                        "dialogue":  "Cutscene4-1",
+                        "line":  "11",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #7050e0\u003eDeath is the least of my concern.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_c363f54b30e9",
+                        "dialogue":  "Cutscene4-1",
+                        "line":  "12",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "\u003cC #7050e0\u003eNow GO!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_9a1a06925b41",
+                        "dialogue":  "Cutscene4-1",
+                        "line":  "13",
+                        "occurrence":  1,
+                        "speaker":  "GEEMEL",
+                        "english":  "Kyeh...!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_ddb944d83ba4",
+                        "dialogue":  "Cutscene4-2",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #7050e0\u003eYou,\u003cTW wait 0.3\u003e do whatever it takes to have it completed in time.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_59c1beafb415",
+                        "dialogue":  "Cutscene4-2",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "\u003cC #7050e0\u003eWe cannot fail now.\u003cTW wait 0.5\u003e Do not disappoint me.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_6cbd8ec63ada",
+                        "dialogue":  "Cutscene4-3",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "....Don\u0027t worry,\u003cTW wait 0.3\u003e you can count on me.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_fae756720c81",
+                        "dialogue":  "Serges Meetup1",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "????",
+                        "english":  "\u003cC #7050e0\u003eYou finally arrived, X.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_272ae05850b1",
+                        "dialogue":  "Serges Meetup1",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Who is there?\u003cTW wait 0.5\u003e Show yourself!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_8dab3e7b5762",
+                        "dialogue":  "Serges Meetup2",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "You!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_6da018e858e7",
+                        "dialogue":  "Serges Meetup2",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "SERGES",
+                        "english":  "Indeed.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_40eb6ffed869",
+                        "dialogue":  "Serges Meetup2",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Back then,\u003cTW wait 0.5\u003e Sigma saw potential in my genius abilities.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_b8307b9cc549",
+                        "dialogue":  "Serges Meetup2",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "He made a backup of my data,\u003cTW wait 0.5\u003e in case things would take a bad turn.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_50e0cf41f54d",
+                        "dialogue":  "Serges Meetup2",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "I was therefore able to retain my memories,",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_af9f97981aab",
+                        "dialogue":  "Serges Meetup2",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "unlike the empty husks you\u0027ve been fighting up to this point.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_12f7e40052c0",
+                        "dialogue":  "Serges Meetup2",
+                        "line":  "7",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "I then spent some time gathering new allies,",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_9e526997e09b",
+                        "dialogue":  "Serges Meetup2",
+                        "line":  "8",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "waiting for the perfect moment to strike.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_3313351af44a",
+                        "dialogue":  "Serges Meetup2",
+                        "line":  "9",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Now the plan is in motion once again!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_3d93d5748908",
+                        "dialogue":  "Serges Meetup2",
+                        "line":  "10",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "I won\u0027t let that happen!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_8f65d3d0abc8",
+                        "dialogue":  "Serges Meetup2",
+                        "line":  "11",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "I stopped you once,\u003cTW wait 0.5\u003e NEWLINE this time I\u0027ll make sure you won\u0027t come back!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_afa0a285e5dc",
+                        "dialogue":  "Serges Meetup2",
+                        "line":  "12",
+                        "occurrence":  1,
+                        "speaker":  "SERGES",
+                        "english":  "Hahaha!\u003cTW wait 0.2\u003e Are you so sure?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_fde34f1a314c",
+                        "dialogue":  "Serges Meetup2",
+                        "line":  "13",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "You can\u0027t stop progress, X!\u003cTW wait 0.5\u003e Only delay it!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_50fa23fbd185",
+                        "dialogue":  "Serges Meetup2",
+                        "line":  "14",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "I\u0027ll watch you despair from the other side!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_fa923db68ebc",
+                        "dialogue":  "ZainGeemel1",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "ZAIN",
+                        "english":  "End of the road for you X.\u003cTW wait 0.2\u003e This time you won\u0027t get away.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_7c4f7883b75e",
+                        "dialogue":  "ZainGeemel1",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Out of my way!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_1ed7b0d4ef6e",
+                        "dialogue":  "ZainGeemel2",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "GEEMEL",
+                        "english":  "Kekeke!\u003cTW wait 0.2\u003e We\u0027re not taking any chance this time!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_bfd947b6397f",
+                        "dialogue":  "ZainGeemel2",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Two on one,\u003cTW wait 0.2\u003e our success is guaranteed!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_a6bb16d59975",
+                        "dialogue":  "ZainGeemel2",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "ZAIN",
+                        "english":  "Bring it on!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_4620c9bc446e",
+                        "dialogue":  "ZainGeemel3",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "GEEMEL",
+                        "english":  "Kekeke!\u003cTW wait 0.2\u003e He is cornered!\u003cTW wait 0.2\u003e Get him Zain!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_b3b0eae43674",
+                        "dialogue":  "ZainGeemel3",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Ah!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_7fddc01f225d",
+                        "dialogue":  "ZainGeemel3",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "ZAIN",
+                        "english":  "Die!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_d7425c642d8e",
+                        "dialogue":  "ZainGeemel4",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "ZAIN",
+                        "english":  "GAAAAAH!!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_a7a4aba204ca",
+                        "dialogue":  "ZainGeemel5",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "GEEMEL",
+                        "english":  "K-Ke!\u003cTW wait 0.5\u003e No!\u003cTW wait 0.5\u003e Zain!!\u003cTW wait 0.5\u003e Why you...!!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_06e39b8afcb7",
+                        "dialogue":  "ZainGeemel5",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "ZERO",
+                        "english":  "X!\u003cTW wait 0.5\u003e Don\u0027t let him escape!\u003cTW wait 0.2\u003e Take him down now!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_9e25666e28b3",
+                        "dialogue":  "ZainGeemel5",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "GEEMEL",
+                        "english":  "Ke!!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_83e54824981c",
+                        "dialogue":  "ZainGeemel6",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Zero!\u003cTW wait 0.2\u003e You\u0027re here?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_20725b6c42bd",
+                        "dialogue":  "ZainGeemel6",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "ZERO",
+                        "english":  "Middy was tracking their position and noticed they were both coming your way.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_65ba19f541ff",
+                        "dialogue":  "ZainGeemel6",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "He dispatched me as fast he could,\u003cTW wait 0.2\u003e sorry I couldn\u0027t make it here sooner.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_b79d7539619a",
+                        "dialogue":  "ZainGeemel6",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "I\u0027ll take care of Geemel,\u003cTW wait 0.2\u003e you go to the computer elevator.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_239e7f35db08",
+                        "dialogue":  "ZainGeemel6",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Be careful, X.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_07887a20b923",
+                        "dialogue":  "ZainGeemel6",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "You too Zero, on my way!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_0f8c3b3cf631",
+                        "dialogue":  "Cutscene5-1",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "\u003cC #00cae8\u003eMiddy,\u003cTW wait 0.3\u003e  I found the transporter.\u003cTW wait 0.3\u003e  The panel is locked however.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_4b4d195dd765",
+                        "dialogue":  "Cutscene5-1",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "Alright, give me a second.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_44f141c8aea8",
+                        "dialogue":  "Cutscene5-1",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Authorization granted!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_74d430caec21",
+                        "dialogue":  "Cutscene5-1",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "\u003cC #00cae8\u003eThanks, I\u0027m going now!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_8b595f9f471f",
+                        "dialogue":  "Cutscene5-2",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "X,\u003cTW wait 0.3\u003e before you go....",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_c2bc3ab50b17",
+                        "dialogue":  "Cutscene5-2",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "\u003cC #00cae8\u003eWhat is it?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_0548ff41a897",
+                        "dialogue":  "Cutscene5-2",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "...\u003cTW wait 0.5\u003eNothing.\u003cTW wait 0.3\u003e I\u0027m sure you will do fine.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_608ffdb83666",
+                        "dialogue":  "Cutscene5-2",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Good luck!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_fbf351bb87fd",
+                        "dialogue":  "Confronts Techno-1",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "This is the Hacker Computer?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_90c83f2ae841",
+                        "dialogue":  "Confronts Techno-2",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "You\u0027re arriving too late X,\u003cTW wait 0.2\u003e I uploaded the computer program inside my CPU.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_a56307452cf3",
+                        "dialogue":  "Confronts Techno-2",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Even if you destroy it,\u003cTW wait 0.2\u003e the program will continue to run from inside my body",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_5ed17bd0e319",
+                        "dialogue":  "Confronts Techno-2",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "until I build a new one.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_29f3cde444e9",
+                        "dialogue":  "Confronts Techno-2",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "I just need to take you down then!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_39a2f7bdfea3",
+                        "dialogue":  "Confronts Techno-2",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "Ah-ah!\u003cTW wait 0.2\u003e It seems that my brother didn\u0027t tell you everything.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_7e6aefdc09d5",
+                        "dialogue":  "Confronts Techno-2",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Your brother?\u003cTW wait 0.2\u003e Wait, you\u0027re not talking about...!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_90ffdf9d306d",
+                        "dialogue":  "Confronts Techno-2",
+                        "line":  "7",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "That\u0027s right.\u003cTW wait 0.2\u003e Middy and I are made of the same CPU.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_56ed228b6921",
+                        "dialogue":  "Confronts Techno-2",
+                        "line":  "8",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "If you destroy me,\u003cTW wait 0.2\u003e Middy will die as well.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_0fd87d3e70bb",
+                        "dialogue":  "Confronts Techno-2",
+                        "line":  "9",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Middy,\u003cTW wait 0.2\u003e is that true?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_6081fe3c4677",
+                        "dialogue":  "Confronts Techno-2",
+                        "line":  "10",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "\u003cC #58f898\u003e...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_c774ad9ae103",
+                        "dialogue":  "Confronts Techno-2",
+                        "line":  "11",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Middy!\u003cTW wait 0.2\u003e Answer me!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_258013fbd209",
+                        "dialogue":  "Confronts Techno-2",
+                        "line":  "12",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "\u003cC #58f898\u003e...Yes,\u003cTW wait 0.2\u003e he is saying the truth...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_db1b2728eaf3",
+                        "dialogue":  "Confronts Techno-2",
+                        "line":  "13",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "\u003cC #58f898\u003eBut it doesn\u0027t matter,\u003cTW wait 0.2\u003e you need to take him down!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_72ff1bbb7fda",
+                        "dialogue":  "Confronts Techno-2",
+                        "line":  "1",
+                        "occurrence":  2,
+                        "speaker":  "",
+                        "english":  "\u003cC #58f898\u003eOtherwise this nightmare will continue!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_979352dd9bc0",
+                        "dialogue":  "Confronts Techno-2",
+                        "line":  "14",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Middy,\u003cTW wait 0.2\u003e why...?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_583ffe01efd8",
+                        "dialogue":  "Confronts Techno-2",
+                        "line":  "15",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "Haha! What will you do now?\u003cTW wait 0.2\u003e I guess it\u0027s time for me to go to a safer place.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_5c1f93208862",
+                        "dialogue":  "Confronts Techno-2",
+                        "line":  "16",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "\u003cC #58f898\u003eX! Don\u0027t let him escape!\u003cTW wait 0.2\u003e I\u0027ll be fine!\u003cTW wait 0.2\u003e Stop him! NOW!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_66354753e27c",
+                        "dialogue":  "Confronts Techno-2",
+                        "line":  "17",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Damn it...!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_e1e3c020346f",
+                        "dialogue":  "Confronts Techno-3",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "Ha...ha...\u003cTW wait 0.2\u003e it\u0027s too late...\u003cTW wait 0.2\u003e I already brought him back.\u003cTW wait 0.5\u003e\nThe plan...\u003cTW wait 0.5\u003e is...\u003cTW wait 0.5\u003e complete.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_e9e152d840c0",
+                        "dialogue":  "Confronts Techno-3",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Him?\u003cTW wait 0.5\u003e No... you didn\u0027t...!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_dbc1ede3f27c",
+                        "dialogue":  "Confronts Techno-3",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "K-....!!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_564dfa5a5754",
+                        "dialogue":  "Confronts Techno-4",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Middy?\u003cTW wait 0.5\u003e Do you copy?\u003cTW wait 0.5\u003e Are you alright?!\u003cTW wait 0.5\u003e Middy!!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_fd2cf9899f1c",
+                        "dialogue":  "Confronts Techno-4",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "RADIO",
+                        "english":  "\u003cC #707070\u003e..................",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_b7a17ae5afa3",
+                        "dialogue":  "Confronts Techno-4",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "......",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_77be0c26004a",
+                        "dialogue":  "Confronts Techno-4",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "You\u0027re going to pay for this,\u003cTW wait 0.5\u003e Sigma.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_2b71081ca98b",
+                        "dialogue":  "Confronts Sigma-1",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "I know you\u0027re here,\u003cTW wait 0.5\u003e there\u0027s no point in hiding Sigma!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_85b449281db2",
+                        "dialogue":  "Confronts Sigma-2",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "SIGMA",
+                        "english":  "So we meet once again.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_f8f5779a64bd",
+                        "dialogue":  "Confronts Sigma-2",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "The old man did a great job,\u003cTW wait 0.5\u003e same goes for my new allies.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_3ff4488f7901",
+                        "dialogue":  "Confronts Sigma-2",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "But it wouldn\u0027t have been possible without you, X!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_c02e7ec9ceab",
+                        "dialogue":  "Confronts Sigma-2",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "What do you mean?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_767c3c67ac28",
+                        "dialogue":  "Confronts Sigma-2",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "SIGMA",
+                        "english":  "When analysing reploids,\u003cTW wait 0.2\u003e computers only see data.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_15ec28ecc0ce",
+                        "dialogue":  "Confronts Sigma-2",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "They cannot comprehend emotions.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_3532590a7f7d",
+                        "dialogue":  "Confronts Sigma-2",
+                        "line":  "7",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Sorrow,\u003cTW wait 0.5\u003e anger,\u003cTW wait 0.5\u003e hatred!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_95334e43d687",
+                        "dialogue":  "Confronts Sigma-2",
+                        "line":  "8",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "When you were dragged inside the Mother Computer,\u003cTW wait 0.2\u003e it is that gift of yours,",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_65372023d659",
+                        "dialogue":  "Confronts Sigma-2",
+                        "line":  "9",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "those emotions,\u003cTW wait 0.2\u003e those memories,\u003cTW wait 0.2\u003e that brought me back!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_f613a202b592",
+                        "dialogue":  "Confronts Sigma-2",
+                        "line":  "10",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "That-\u003cTW wait 0.5\u003e That can\u0027t be!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_d39042ec9bac",
+                        "dialogue":  "Confronts Sigma-2",
+                        "line":  "11",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "If what you say is true...\u003cTW wait 0.5\u003e then I\u0027ll fix my mistake right here and now!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_24d99a3aca4e",
+                        "dialogue":  "Confronts Sigma-2",
+                        "line":  "12",
+                        "occurrence":  1,
+                        "speaker":  "SIGMA",
+                        "english":  "Bwahahaha!\u003cTW wait 0.2\u003e You can try, but for how long?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_5292dea07c96",
+                        "dialogue":  "Confronts Sigma-2",
+                        "line":  "13",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "As long as anger and hatred exists in the heart of reploids and humans,",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_e1de9a815edd",
+                        "dialogue":  "Confronts Sigma-2",
+                        "line":  "14",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Mavericks will never cease to exist!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_94cb431e4013",
+                        "dialogue":  "Confronts Sigma-2",
+                        "line":  "15",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Our battle will continue over and over!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_7220d4c0b44b",
+                        "dialogue":  "Confronts Sigma-2",
+                        "line":  "16",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "And this time...\u003cTW wait 0.5\u003e I will emerge victorious!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_99f5b9739bdd",
+                        "dialogue":  "Sigma Defeat",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "SIGMA",
+                        "english":  "This isn\u0027t over yet, X!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_ffe22e581fbc",
+                        "dialogue":  "Sigma Defeat",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "As long as that hatred persists in your heart,\u003cTW wait 0.2\u003e I\u0027ll keep coming back!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_cb0106ed373d",
+                        "dialogue":  "Sigma Defeat",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Bwahahaha!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_7aadabe84c16",
+                        "dialogue":  "After Sigma Death",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "It is over...\u003cTW wait 0.5\u003e at last...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_b2bc172e5fb2",
+                        "dialogue":  "Middy Alert",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "RADIO",
+                        "english":  "\u003cC #58f898\u003e...........\u003cTW wait 0.3\u003eX.....\u003cTW wait 0.3\u003eX!....\u003cTW wait 0.3\u003eDo y......\u003cTW wait 0.3\u003ehear m....",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_1e729757029a",
+                        "dialogue":  "Middy Alert",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Huh?\u003cTW wait 0.5\u003e That voice,\u003cTW wait 0.3\u003e it can\u0027t be...?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_064accc06242",
+                        "dialogue":  "Middy Alert",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "RADIO",
+                        "english":  "\u003cC #58f898\u003e.......X!\u003cTW wait 0.5\u003e You need to get out of there now!!\u003cTW wait 0.3\u003e It\u0027s a tr-",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_c9e9010a6ce3",
+                        "dialogue":  "Middy Alert",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Middy!?\u003cTW wait 0.5\u003e Is that you?!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_9bc9895a8027",
+                        "dialogue":  "Middy Alert",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "But,\u003cTW wait 0.5\u003e if you\u0027re alive,\u003cTW wait 0.5\u003e then...!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_18f8316a62ba",
+                        "dialogue":  "Techno Return-1",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "Good job X!\u003cTW wait 0.5\u003e Sigma really didn\u0027t stand a chance against you.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_b4ffa6963bd8",
+                        "dialogue":  "Techno Return-1",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "It wasn\u0027t without troubles,\u003cTW wait 0.2\u003e but in the end, the plan unfolded as expected.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_5719e304dba6",
+                        "dialogue":  "Techno Return-1",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Techno!\u003cTW wait 0.5\u003e That can\u0027t be, I defeated you!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_ece72452ddba",
+                        "dialogue":  "Techno Return-1",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "Oh,\u003cTW wait 0.2\u003e you\u0027re talking about him?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_46eb7de2f168",
+                        "dialogue":  "Techno Return-2",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "GEEMEL",
+                        "english":  ".......",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_68249140866e",
+                        "dialogue":  "Techno Return-2",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "That\u0027s...!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_e61692aef3a0",
+                        "dialogue":  "Techno Return-2",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "That coward was about to run away,\u003cTW wait 0.2\u003e so instead, I made him useful for a change.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_afb4cb0ef680",
+                        "dialogue":  "Techno Return-2",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "I had to make sure that you were determined enough to destroy Sigma,",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_0a0c707cbead",
+                        "dialogue":  "Techno Return-2",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "without risking my own life in the process.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_e3a929e3287c",
+                        "dialogue":  "Techno Return-2",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "GEEMEL",
+                        "english":  "...\u003cTW wait 0.2\u003eKe...\u003cTW wait 0.2\u003eKe...\u003cTW wait 0.2\u003eHelp....",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_67babb45e80f",
+                        "dialogue":  "Techno Return-2",
+                        "line":  "7",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "You were a good puppet,\u003cTW wait 0.2\u003e I don\u0027t need you anymore now.\u003cTW wait 0.2\u003e Disappear.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_4ec2d25f4cf8",
+                        "dialogue":  "Techno Return-3",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "What is going on?\u003cTW wait 0.2\u003e What is this place!?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_7ed3f89de358",
+                        "dialogue":  "Techno Return-3",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "This,\u003cTW wait 0.5\u003e is the Mother Computer core.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_1a0fccd787ab",
+                        "dialogue":  "Techno Return-3",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "After I linked my CPU to the Hacker Computer,\u003cTW wait 0.2\u003e I saw everything it has to offer.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_b942b01aefde",
+                        "dialogue":  "Techno Return-3",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "That\u0027s where I saw it,\u003cTW wait 0.2\u003e the power to shape the world the way I wanted.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_9ec00b5ff50e",
+                        "dialogue":  "Techno Return-3",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "But I can\u0027t harness such a power by myself,\u003cTW wait 0.2\u003e I need the power of someone else.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_c97db9e6b9c5",
+                        "dialogue":  "Techno Return-3",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "I hijacked the transporter so it would take you here,",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_2de2104d0b6b",
+                        "dialogue":  "Techno Return-3",
+                        "line":  "7",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "a perfect copy of the Hacker Facility,\u003cTW wait 0.2\u003e recreated inside the core of the Mother Computer.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_e8220f08803f",
+                        "dialogue":  "Techno Return-3",
+                        "line":  "8",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "It even managed to trick Sigma!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_29dcfcf12374",
+                        "dialogue":  "Techno Return-3",
+                        "line":  "9",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "And now that you disposed of him...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_11198c1f5ed5",
+                        "dialogue":  "Techno Return-3",
+                        "line":  "10",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "His data is mine!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_451282fc0027",
+                        "dialogue":  "Techno Return-4",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "You...\u003cTW wait 0.2\u003e What have you done!?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_811b2df6a597",
+                        "dialogue":  "Techno Return-4",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "Hahahaha!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_c31a3b00b407",
+                        "dialogue":  "Techno Return-4",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Now that Sigma\u0027s power is in my control....",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_f6c290b66ff8",
+                        "dialogue":  "Techno Return-4",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "There\u0027s only one thing that will make me truly unstoppable...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_4b580f84dbc1",
+                        "dialogue":  "Techno Return-4",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Your power, X!!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_3a2f5ff06a26",
+                        "dialogue":  "Techno Defeat-1",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "It\u0027s over,\u003cTW wait 0.3\u003e surrender now!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_abb506c02c96",
+                        "dialogue":  "Techno Defeat-1",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "Guhhh....\u003cTW wait 0.5\u003e No....\u003cTW wait 0.5\u003e I won\u0027t...!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_1ef4df2047be",
+                        "dialogue":  "Techno Defeat-2",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Ah!!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_ae7828fafe52",
+                        "dialogue":  "Techno Defeat-2",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "Your data will be mine!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_2b1aaba3b581",
+                        "dialogue":  "Techno Defeat-2",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "And then...\u003cTW wait 0.5\u003e no one...\u003cTW wait 0.5\u003e will be able to get in my way!!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_47bdc02cf1ee",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "Enough!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_9573dbecd21e",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "Gyaah!\u003cTW wait 0.3\u003e What\u0027s happening..!?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_3fafcabc8338",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Middy?!\u003cTW wait 0.5\u003e How can you...!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_78246709d8e4",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "We\u0027re made of the same parts, brother.\u003cTW wait 0.3\u003e I know you from inside out.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_da90a9c49817",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "What you can do,\u003cTW wait 0.3\u003e  I can do it as well!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_5308bca8d0b3",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Middy!!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_dea665df7225",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "7",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "X!\u003cTW wait 0.3\u003e I sent Zero back to the Hunter Base!\u003cTW wait 0.3\u003e Once my signal fades,\u003cTW wait 0.3\u003e he will send you back.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_64c705487998",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "8",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Now take Techno down!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_dca89abea298",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "9",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "Let me go!\u003cTW wait 0.3\u003e Without X data,\u003cTW wait 0.3\u003e Sigma will-",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_a590f12d6cf2",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "10",
+                        "occurrence":  1,
+                        "speaker":  "SIGMA",
+                        "english":  "You miserable pest!\u003cTW wait 0.3\u003e You think a bug like you can control my power?!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_de0cc195b16d",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "11",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "I\u0027ll just escape with your body and use the Mother Computer for myself!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_bb4fe7e61004",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "12",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Bwahahaha!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_cb0446d88e5f",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "13",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "GAAAAH!!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_fc9825530edc",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "14",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "X!\u003cTW wait 0.3\u003e Sigma influence is getting stronger!\u003cTW wait 0.3\u003e I won\u0027t be able to hold him much longer!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_444ece94a43b",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "15",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Please destroy him!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_3f0a4c97fb6a",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "16",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "Idiot!!\u003cTW wait 0.3\u003e If he kills me, you die too!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_48754236a53f",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "17",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "...I know that very well.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_a69b2a0a3bed",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "18",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "...!\u003cTW wait 0.3\u003e NEWLINE So it is true!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_66516d23316e",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "19",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "Guh!\u003cTW wait 0.3\u003e Think about it! With all that power,\u003cTW wait 0.3\u003e we can create a world for ourselves!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_c2f6fc4d0bf4",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "20",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "We wouldn\u0027t have to worry about the Mavericks,\u003cTW wait 0.3\u003e about Sigma,\u003cTW wait 0.3\u003e about anything!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_8f65f0c0a94d",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "21",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "This world would be for us to command!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_c327cbab7b8a",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "22",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "Always thinking about yourself first...\u003cTW wait 0.5\u003e your lust for power has drove you mad.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_e05a91e0978c",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "23",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "You are no longer different from Sigma!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_a537e2443b13",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "24",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "I-\u003cTW wait 0.3\u003eI...!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_abcb2279d50b",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "25",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "I fight for the others!\u003cTW wait 0.3\u003e To bring them a brighter future!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_6922e2f734ff",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "26",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "That is why I\u0027m a Maverick Hunter!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_9ff11ef9ab54",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "27",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "And as a Maverick Hunter...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_f8d8194912f3",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "28",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "I will do my part!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_a404189f717c",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "29",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "!!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_6568177027bb",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "30",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "Now,\u003cTW wait 0.3\u003e X!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_7c708e7ae2a2",
+                        "dialogue":  "Techno Defeat-3",
+                        "line":  "31",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  ".....\u003cTW wait 0.5\u003e NEWLINE Forgive me,\u003cTW wait 0.3\u003e Middy!!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_c443e29c96bb",
+                        "dialogue":  "Epilogue",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "ZERO",
+                        "english":  "Welcome back, X.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_010eb3a3e7fc",
+                        "dialogue":  "Epilogue",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "The Mother Computer has turned back to normal.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_3c94b3c981a9",
+                        "dialogue":  "Epilogue",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "The Maverick activity it caused outside has also stopped.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_3501898ae8cb",
+                        "dialogue":  "Epilogue",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Dr. Cain will soon decommission the project as it proved itself too risky.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_57972178f884",
+                        "dialogue":  "Epilogue",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "You did it.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_82b4455677b7",
+                        "dialogue":  "Epilogue",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "....",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_5da100c26f55",
+                        "dialogue":  "Epilogue",
+                        "line":  "7",
+                        "occurrence":  1,
+                        "speaker":  "ZERO",
+                        "english":  "Are you alright?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_be120b730ed9",
+                        "dialogue":  "Epilogue",
+                        "line":  "8",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "I couldn\u0027t save Middy...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_0b8941901f0f",
+                        "dialogue":  "Epilogue",
+                        "line":  "9",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Is it worth fighting if more people have to die to achieve peace?",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_d606b0dbd640",
+                        "dialogue":  "Epilogue",
+                        "line":  "10",
+                        "occurrence":  1,
+                        "speaker":  "ZERO",
+                        "english":  "Hey,\u003cTW wait 0.5\u003e don\u0027t say that.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_a6192005dfe4",
+                        "dialogue":  "Epilogue",
+                        "line":  "11",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "It is our role as Maverick Hunters,\u003cTW wait 0.3\u003e to put the greater good above our own lives.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_798daad3de24",
+                        "dialogue":  "Epilogue",
+                        "line":  "12",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Middy knew it well,\u003cTW wait 0.3\u003e his sacrifice wasn\u0027t in vain.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_3d9bd09685a6",
+                        "dialogue":  "Epilogue",
+                        "line":  "13",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "He gave his best to save us all,\u003cTW wait 0.3\u003e and so should we.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_3e8617a17cca",
+                        "dialogue":  "Epilogue",
+                        "line":  "14",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "...You\u0027re right,\u003cTW wait 0.3\u003e thank you Zero.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_7bfaa56207a2",
+                        "dialogue":  "Epilogue",
+                        "line":  "15",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "I must keep fighting!\u003cTW wait 0.5\u003e I promise I won\u0027t give up!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_6df8678244b4",
+                        "dialogue":  "Epilogue",
+                        "line":  "16",
+                        "occurrence":  1,
+                        "speaker":  "ZERO",
+                        "english":  "And I\u0027ll be by your side until the end.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_1364d7763c69",
+                        "dialogue":  "Epilogue",
+                        "line":  "17",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "Now follow me,\u003cTW wait 0.3\u003e we have a mess to clean outside.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_5b8f4c43664d",
+                        "dialogue":  "Epilogue",
+                        "line":  "18",
+                        "occurrence":  1,
+                        "speaker":  "X",
+                        "english":  "Right,\u003cTW wait 0.3\u003e let\u0027s go!",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_bc2c7030f0d0",
+                        "dialogue":  "Secret Ending-1",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "\u003cC #58f898\u003e....Thank you,\u003cTW wait 0.3\u003e X...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_fd5fccf160b1",
+                        "dialogue":  "Secret Ending-1",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "\u003cC #58f898\u003e....Thank you for trusting me....",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_4d5ab8105020",
+                        "dialogue":  "Secret Ending-2",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "Uuuuh...\u003cTW wait 0.5\u003e brother...\u003cTW wait 0.5\u003e is that you....",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_598347b0f213",
+                        "dialogue":  "Secret Ending-2",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "Yes.\u003cTW wait 0.5\u003e Everything is alright now.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_d013c50d75cc",
+                        "dialogue":  "Secret Ending-2",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "I\u0027m sorry...\u003cTW wait 0.5\u003e I wanted a safer world just for us...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_b331fbdabd0e",
+                        "dialogue":  "Secret Ending-2",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "TECHNO",
+                        "english":  "I didn\u0027t mean to....",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_976de9b04f53",
+                        "dialogue":  "Secret Ending-2",
+                        "line":  "5",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "It\u0027s ok,\u003cTW wait 0.5\u003e the world is in good hands,\u003cTW wait 0.5\u003e I know it.",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_d1dccf681ef8",
+                        "dialogue":  "Secret Ending-2",
+                        "line":  "6",
+                        "occurrence":  1,
+                        "speaker":  "MIDDY",
+                        "english":  "You can rest now....",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_b2262aff04e8",
+                        "dialogue":  "Sigma Ending-1",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "That was close...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_197823e2cfa5",
+                        "dialogue":  "Sigma Ending-2",
+                        "line":  "1",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "That little reploid was really skillful,\u003cTW wait 0.3\u003e tricking me like that...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_b737ece272f8",
+                        "dialogue":  "Sigma Ending-2",
+                        "line":  "2",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "I need to stay low for now...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_ffa58cb9382a",
+                        "dialogue":  "Sigma Ending-2",
+                        "line":  "3",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "However,\u003cTW wait 0.3\u003e that ability to blur the lines between the real world and the cyber space...",
+                        "portuguese":  "",
+                        "notes":  ""
+                    },
+                    {
+                        "id":  "dialogue_0edfcff274ef",
+                        "dialogue":  "Sigma Ending-2",
+                        "line":  "4",
+                        "occurrence":  1,
+                        "speaker":  "",
+                        "english":  "I wonder...\u003cTW wait 0.6\u003e NEWLINE How far could I take it....",
+                        "portuguese":  "",
+                        "notes":  ""
+                    }
+                ]
+}

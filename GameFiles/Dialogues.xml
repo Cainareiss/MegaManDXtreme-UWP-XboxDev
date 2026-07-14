@@ -1,0 +1,1063 @@
+<?xml version='1.0' ?>
+<D>
+<!-- PROLOGUE-->
+	<Dialogue id='Prologue' last_line='7' cutscene='yes' >
+		<TextLine id='1' mug1='' mug2='' name='????'>
+			&lt;C #d848d8>I made it in.</TextLine>
+		<TextLine id='2' mug1='' mug2='' name='????'>
+			&lt;C #7050e0>Do you see him?</TextLine>
+		<TextLine id='3' mug1='' mug2='' name='????'>
+			&lt;C #d848d8>Not yet...</TextLine>
+		<TextLine id='4' mug1='' mug2='' name='????'>
+			&lt;C #d848d8>....Ah!&lt;TW wait 0.5> Here he is!</TextLine>
+		<TextLine id='5' mug1='' mug2='' name='????'>
+			&lt;C #7050e0>Let's begin the operation then.</TextLine>
+		<TextLine id='6' mug1='' mug2='' name='????'>
+			&lt;C #7050e0>Bring him in now.</TextLine>
+		<TextLine id='7' mug1='' mug2='' name='????'>
+			&lt;C #d848d8>Commencing transfer...</TextLine>				
+	</Dialogue>
+
+
+<!-- INTRO STAGE-->
+	<Dialogue id='Intro1' last_line='3' cutscene='yes' resume='yes'>
+		<TextLine id='1' mug1='X_1Eyeclose' mug2='' name='X'>
+			........</TextLine>
+		<TextLine id='2' mug1='X_1' mug2='' name='X'>
+			This place is familiar...</TextLine>
+		<TextLine id='3' mug1='X_2Surprise' mug2='' name='X'>
+			Why am I here!?</TextLine>
+	</Dialogue>
+			
+	<Dialogue id='Vile Intro' last_line='4' cutscene='yes' resume='no'>
+		<TextLine id='1' mug1='X_2Surprise' mug2='' name='X'>
+			...Vile?&lt;TW wait 0.5>  Why are you...?</TextLine>
+		<TextLine id='2' mug1='' mug2='' name='X'>
+			It can't be,&lt;TW wait 0.2>  I crushed you!</TextLine>
+		<TextLine id='3' mug1='' mug2='Vile' name='VILE'>
+			Hahaha!&lt;TW wait 0.5>  Be ready to die, X!</TextLine>
+		<TextLine id='4' mug1='X_3' mug2='' name='X'>
+			...!</TextLine>
+	</Dialogue>
+
+	<Dialogue id='Intro2' last_line='6' cutscene='yes'>
+		<TextLine id='1' mug1='' mug2='' name='????'>
+			&lt;C #58f898>Zero! I think I found him!</TextLine>
+		<TextLine id='2' mug1='X_3Surprise' mug2='' name='X'>
+			Huh? Who's there?</TextLine>
+		<TextLine id='3' mug1='' mug2='' name='ZERO'>
+			&lt;C #e84000>X! Do you hear me?</TextLine>
+		<TextLine id='4' mug1='X_2' mug2='' name='X'>
+			Zero? Where are you?</TextLine>
+		<TextLine id='5' mug1='' mug2='' name='ZERO'>
+			&lt;C #e84000>It's him!&lt;TW wait 0.5> Transfer him back!</TextLine>
+		<TextLine id='6' mug1='' mug2='' name='????'>
+			&lt;C #58f898>On it!</TextLine>
+	</Dialogue>
+
+
+<!-- CUTSCENE 1 : X arrives to HQ-->
+	<Dialogue id='Cutscene1-1' last_line='6'>
+		<TextLine id='1' mug1='' mug2='Middy' name='????'>
+			Transfer complete!</TextLine>
+		<TextLine id='2' mug1='' mug2='Zero' name='ZERO'>
+			Welcome back X.</TextLine>
+		<TextLine id='3' mug1='X_1Surprise' mug2='' name='X'>
+			Zero!&lt;TW wait 0.5> What happened just now?</TextLine>
+		<TextLine id='4' mug1='' mug2='Zero' name='ZERO'>
+			While you were in stasis,&lt;TW wait 0.2> your mind got dragged inside that machine you see there.</TextLine>
+		<TextLine id='5' mug1='' mug2='' name='ZERO'>
+			This is the person you have to thanks for bringing you back.</TextLine>
+		<TextLine id='6' mug1='' mug2='Zero_Smile' name='ZERO'>
+			His name is Middy,&lt;TW wait 0.2> he is a computer genius,&lt;TW wait 0.2> the best in his domain.</TextLine>
+	</Dialogue>
+
+	<Dialogue id='Cutscene1-2' last_line='3'>
+		<TextLine id='1' mug1='Scene1' mug2='' name='MIDDY'>
+			Hello!&lt;TW wait 0.5> My name is Middy,&lt;TW wait 0.2> glad to meet you X!</TextLine>
+		<TextLine id='2' mug1='' mug2='' name='MIDDY'>
+			I'm sorry that we met in such circumstances.</TextLine>
+		<TextLine id='3' mug1='' mug2='' name='X'>
+			Don't worry.&lt;TW wait 0.5> Glad to meet you too!</TextLine>
+	</Dialogue>
+	
+	<Dialogue id='Cutscene1-3' last_line='5'>
+		<TextLine id='1' mug1='X_1' mug2='' name='X'>
+			But tell me, what's going on exactly?</TextLine>
+		
+		<TextLine id='2' mug1='' mug2='Middy_Talk' name='MIDDY'>
+			This is the Mother Computer.</TextLine>
+		<TextLine id='3' mug1='' mug2='' name='MIDDY'>
+			It has been in development at the Hunter HQ for a while now, </TextLine>
+		<TextLine id='4' mug1='' mug2='' name='MIDDY'>
+			as part of the Augmented-Training program.</TextLine>
+		<TextLine id='5' mug1='' mug2='' name='MIDDY'>
+			It is able to create life-like simulations based on past data.</TextLine>
+	</Dialogue>	
+
+	<Dialogue id='Cutscene1-4' last_line='17'>
+		<TextLine id='1' mug1='' mug2='' name='MIDDY'>
+			I believe someone managed to hack its core and dragged you inside while you were asleep.</TextLine>
+		<TextLine id='2' mug1='' mug2='' name='MIDDY'>
+			Now all sort of simulations are happening simultaneously inside the computer.</TextLine>
+		
+		<TextLine id='3' mug1='' mug2='Zero_Talk' name='ZERO'>
+			From what Middy showed me,&lt;TW wait 0.2> these look like recreations of your past battles, X.</TextLine>
+		
+		<TextLine id='4' mug1='X_1Surprise' mug2='' name='X'>
+			My past battles?</TextLine>
+		
+		<TextLine id='5' mug1='' mug2='Middy_Serious' name='MIDDY'>
+			Not only that,&lt;TW wait 0.2>  but the bosses data seem to act as a shield against my tracking attempts.</TextLine>
+		<TextLine id='6' mug1='' mug2='' name='MIDDY'>
+			This hacker is certainly skillful.</TextLine>
+		
+		<TextLine id='7' mug1='X_1' mug2='' name='X'>
+			What can we do then?</TextLine>
+		
+		<TextLine id='8' mug1='' mug2='Middy_Talk' name='MIDDY'>
+			You need to go back inside the Mother Computer as data form.</TextLine>
+		<TextLine id='9' mug1='' mug2='' name='MIDDY'>
+			If you manage to destroy the shields,&lt;TW wait 0.2>  I'll be able to track the hacker's signal.</TextLine>
+		<TextLine id='10' mug1='' mug2='' name='MIDDY'>
+			But you'll have to be careful,&lt;TW wait 0.2> these recreations might be as dangerous as the originals.</TextLine>
+			
+		<TextLine id='11' mug1='X_1' mug2='' name='X'>
+		Understood.&lt;TW wait 0.5>  Will you join me Zero?</TextLine>
+		
+		<TextLine id='12' mug1='' mug2='Zero' name='ZERO'>
+			I wish I could, but the hacking has ripple effects on the real world, </TextLine>
+		<TextLine id='13' mug1='' mug2='' name='ZERO'>
+			a lot of reploids are now acting rogue outside.</TextLine>
+		<TextLine id='14' mug1='' mug2='' name='ZERO'>
+			Someone needs to take care of this issue.</TextLine>
+			
+		<TextLine id='15' mug1='X_1Smile' mug2='' name='X'>
+			Alright,&lt;TW wait 0.2>  best of luck to you then Zero!</TextLine>
+			
+		<TextLine id='16' mug1='' mug2='Zero_Smile' name='ZERO'>
+			Same goes to you,&lt;TW wait 0.2>  be careful in there.</TextLine>
+			
+		<TextLine id='17' mug1='X_2' mug2='' name='X'>
+			Send me now Middy!</TextLine>		
+	</Dialogue>	
+
+	<Dialogue id='Cutscene1-5' last_line='2'>
+		<TextLine id='1' mug1='' mug2='' name='MIDDY'>
+			Energy charge...&lt;TW wait 0.5>  Setup complete,&lt;TW wait 0.5>  ready for transfer! </TextLine>
+		<TextLine id='2' mug1='' mug2='' name='MIDDY'>
+			Good luck X!</TextLine>
+	</Dialogue>
+
+
+
+<!-- CUTSCENE 2 : Shadow Hunters-->
+	<Dialogue id='Cutscene2-1' last_line='1'>
+		<TextLine id='1' mug1='' mug2='' name='????'>
+			&lt;C #7050e0>They made their move.</TextLine>
+	</Dialogue>
+
+	<Dialogue id='Cutscene2-2' last_line='2'>
+		<TextLine id='1' mug1='' mug2='' name='????'>
+			Huh,&lt;TW wait 0.5> I didn't expect the past data to be destroyed that easily.</TextLine>
+		<TextLine id='2' mug1='' mug2='' name='????'>
+			We would get into trouble if the computer protections are broken...</TextLine>
+	</Dialogue>
+
+	<Dialogue id='Cutscene2-3' last_line='13'>
+		<TextLine id='1' mug1='' mug2='Geemel_1' name='????'>
+			Kekeke!&lt;TW wait 0.5> Take it easy Techno!&lt;TW wait 0.5> Let's relax and see his action from here.</TextLine>
+		
+		<TextLine id='2' mug1='None' mug2='' name='????'>
+			&lt;C #7050e0>He is not to be underestimated.</TextLine>
+		<TextLine id='3' mug1='' mug2='' name='????'>
+			&lt;C #7050e0>Zain,&lt;TW wait 0.5> Geemel,&lt;TW wait 0.5> get in position.</TextLine>
+		
+		<TextLine id='4' mug1='' mug2='Zain' name='ZAIN'>
+			Understood. I will crush him.</TextLine>
+		
+		<TextLine id='5' mug1='' mug2='Geemel_1' name='GEEMEL'>
+			Kekeke!&lt;TW wait 0.2> No way!&lt;TW wait 0.2> I'd rather live!</TextLine>	
+
+		<TextLine id='6' mug1='None' mug2='' name='????'>
+			&lt;C #7050e0>Then you're useless to me. </TextLine>
+		<TextLine id='7' mug1='' mug2='' name='????'>
+			&lt;C #7050e0>I shall put you back to rust in the gutter where I found you. </TextLine>
+
+		<TextLine id='8' mug1='' mug2='Geemel_2' name='GEEMEL'>
+			Ke!! Not fair...!</TextLine>		
+
+		<TextLine id='9' mug1='Zain' mug2='' name='ZAIN'>
+			Don't worry Geemel,&lt;TW wait 0.2> against us, he can't win.</TextLine>
+
+		<TextLine id='10' mug1='Techno' mug2='' name='TECHNO'>
+			If we succeed, we'll be free to do anything we want,&lt;TW wait 0.2> don't forget that!</TextLine>
+			
+		<TextLine id='11' mug1='' mug2='Geemel_1' name='GEEMEL'>
+			Kekeke!&lt;TW wait 0.2> You're right, let's dispose of that piece of junk!</TextLine>
+			
+		<TextLine id='12' mug1='Zain' mug2='' name='ZAIN'>
+			That's the spirit.&lt;TW wait 0.5> Transfer us Techno.</TextLine>
+			
+		<TextLine id='13' mug1='' mug2='Techno' name='TECHNO'>
+			On it.</TextLine>
+
+	</Dialogue>
+
+	<Dialogue id='Cutscene2-4' last_line='4'>
+		<TextLine id='1' mug1='' mug2='' name='????'>
+			&lt;C #7050e0>Did you find it? </TextLine>
+		<TextLine id='2' mug1='' mug2='Techno' name='TECHNO'>
+			Yes,&lt;TW wait 0.3> but it will take some time to fully reconstruct it. </TextLine>
+		<TextLine id='3' mug1='None' mug2='' name='????'>
+			&lt;C #7050e0>Keep it going.&lt;TW wait 0.5> We'll soon see how your comrades perform. </TextLine>
+		<TextLine id='4' mug1='' mug2='Techno' name='TECHNO'>
+			Understood. </TextLine>
+	</Dialogue>
+
+
+<!-- Light CAPSULES-->
+	<Dialogue id='Armor Foot' last_line='4' dialogname='Capsule' resume='yes'>
+		<TextLine id='1' mug1='' mug2='Light' name='LIGHT'>
+			Enter this capsule, X.&lt;TW wait 0.5> NEWLINE Take this Leg Upgrade.</TextLine>
+		<TextLine id='2' mug1='' mug2=''>
+			The Upgrade will enhance your dash speed...</TextLine>
+		<TextLine id='3' mug1='' mug2=''>
+			This Upgrade will also allow you to crush certain blocks.</TextLine>
+		<TextLine id='4' mug1='' mug2=''>
+			Your field of activities have now been expanded.&lt;TW wait 0.5> NEWLINE Go destroy the evil, X!</TextLine>
+	</Dialogue>
+	
+	<Dialogue id='Armor Head' last_line='4' dialogname='Capsule' resume='yes'>
+		<TextLine id='1' mug1='Light' mug2='' name='LIGHT'>
+			Enter this capsule, X.</TextLine>
+		<TextLine id='2' mug1='' mug2=''>
+			This Head Upgrade will give you the ability of the Head Crush,</TextLine>
+		<TextLine id='3' mug1='' mug2=''>
+			 and allow you to crush certain blocks...</TextLine>			
+		<TextLine id='4' mug1='' mug2=''>
+			Don't hold back!&lt;TW wait 0.5> Crush them all!</TextLine>
+	</Dialogue>
+	
+	<Dialogue id='Armor Arm' last_line='4' dialogname='Capsule' resume='yes'>
+		<TextLine id='1' mug1='Light' mug2='' name='LIGHT'>
+			Enter this capsule, X.&lt;TW wait 0.5> NEWLINE Take this Arm Upgrade.</TextLine>
+		<TextLine id='2' mug1='' mug2=''>
+			The Upgrade will increase the strength of your charged shots.</TextLine>
+		<TextLine id='3' mug1='' mug2=''>
+			This Upgrade will also allow you to charge any of your special weapons.</TextLine>
+		<TextLine id='4' mug1='' mug2=''>
+			Defeat the enemy there, X!</TextLine>
+	</Dialogue>
+	
+	<Dialogue id='Armor Body' last_line='6' dialogname='Capsule' resume='yes'>
+		<TextLine id='1' mug1='Light' mug2='' name='LIGHT'>
+			Enter this capsule, X.&lt;TW wait 0.5> NEWLINE Take this Body Upgrade.</TextLine>
+		<TextLine id='2' mug1='' mug2=''>
+			This Upgrade will increase your defensive ability and you'll receive less damage...</TextLine>
+		<TextLine id='3' mug1='' mug2=''>
+			It will also extend the durability of your shield weapon.</TextLine>
+		<TextLine id='4' mug1='' mug2=''>
+			It can only absord a limited quantity of damage,</TextLine>
+		<TextLine id='5' mug1='' mug2=''>
+			So be sure to let it recharge between missions.</TextLine>
+		<TextLine id='6' mug1='' mug2=''>
+			Protect peace and our future!</TextLine>
+	</Dialogue>
+	
+	<Dialogue id='Armor Hado' last_line='9' dialogname='Capsule' resume='yes'>
+		<TextLine id='1' mug1='Light' mug2='' name='LIGHT'>
+			Enter this capsule, X.&lt;TW wait 0.5> NEWLINE I'll give you the Shotokan moves...</TextLine>
+		<TextLine id='2' mug1='' mug2='' >
+			"Hadou-ken" and "Shouryu-ken"!</TextLine>
+		<TextLine id='3' mug1='' mug2='' >
+			First,&lt;TW wait 0.3> fully charge your buster with the arm part.</TextLine>
+		<TextLine id='4' mug1='' mug2='' >
+			Then hold the UP button and release the charge...</TextLine>
+		<TextLine id='5' mug1='' mug2='' >
+			You'll perform the famous Shouryu-ken!</TextLine>
+		<TextLine id='6' mug1='' mug2='' >
+			If you hold the DOWN button...&lt;TW wait 0.3> You'll perform powerful Hadou-ken!</TextLine>
+		<TextLine id='7' mug1='' mug2='' >
+			Remember that you can only perform these moves when you are on the ground.</TextLine>
+		<TextLine id='8' mug1='' mug2='' >
+			You'll also need to have all your armor parts equipped.</TextLine>
+		<TextLine id='9' mug1='' mug2='' >
+			Beat em' up, X!</TextLine>
+	</Dialogue>
+
+	<Dialogue id='Black Zero' last_line='8' dialogname='Capsule' resume='yes'>
+		<TextLine id='1' mug1='Light' mug2='' name='LIGHT'>
+			Zero?&lt;TW wait 0.5> I wasn't expecting you....</TextLine>
+		<TextLine id='2' mug1='' mug2='' >
+			This upgrade is meant for X,&lt;TW wait 0.3> I'm sorry...</TextLine>
+		<TextLine id='3' mug1='' mug2='' >
+			Here's a secret however :&lt;TW wait 0.3> NEWLINE If you hold TAB or SELECT when selecting a stage,</TextLine>
+		<TextLine id='4' mug1='' mug2='' >
+			You will activate your BLACK ZERO form!</TextLine>
+		<TextLine id='5' mug1='' mug2='' >
+			Hold TAB or SELECT again when selecting a stage to deactivate it.</TextLine>
+		<TextLine id='6' mug1='' mug2='' >
+			What does it do?&lt;TW wait 0.3> Nothing,&lt;TW wait 0.3> but it looks cool!</TextLine>
+		<TextLine id='7' mug1='' mug2='' >
+			Also,&lt;TW wait 0.3> please deliver this upgrade to X, we will need it.</TextLine>
+		<TextLine id='8' mug1='' mug2='' >
+			I'm counting on you Zero.</TextLine>
+	</Dialogue>
+	
+<!-- Serges CAPSULES-->	
+	<Dialogue id='ZeroChip1' last_line='4' dialogname='Capsule' resume='yes'>
+		<TextLine id='1' mug1='' mug2='' name='????'>
+			...I successfully completed the first chip...</TextLine>
+		<TextLine id='2' mug1='' mug2=''>
+			But there's still a lot left to be done.</TextLine>
+		<TextLine id='3' mug1='' mug2=''>
+			I have to complete the other 3 parts before it's too late.</TextLine>
+		<TextLine id='4' mug1='' mug2=''>
+			This data will serve as a backup in case something unexpected happens...</TextLine>
+	</Dialogue>
+	
+	<Dialogue id='ZeroChip2' last_line='3' dialogname='Capsule' resume='yes'>
+		<TextLine id='1' mug1='' mug2='' name='????'>
+			...The second chip has been completed...</TextLine>
+		<TextLine id='2' mug1='' mug2=''>
+			We're running out of time, the enemy is getting near.</TextLine>
+		<TextLine id='3' mug1='' mug2=''>
+			But,&lt;TW wait 0.5> if I succeed,&lt;TW wait 0.5> no one will be able to get in our way.</TextLine>
+	</Dialogue>
+
+	<Dialogue id='ZeroChip3' last_line='4' dialogname='Capsule' resume='yes'>
+		<TextLine id='1' mug1='' mug2='' name='????'>
+			The third chip has been completed.</TextLine>
+		<TextLine id='2' mug1='' mug2=''>
+			Ultimate power is at our hands.</TextLine>
+		<TextLine id='3' mug1='' mug2=''>
+			Soon, our most powerful ally will finally awake...</TextLine>
+		<TextLine id='4' mug1='' mug2=''>
+			...then not even Sigma will stand a chance.</TextLine>
+	</Dialogue>
+
+	<Dialogue id='ZeroChip4' last_line='7' dialogname='Capsule' resume='yes'>
+		<TextLine id='1' mug1='' mug2='' name='????'>
+			...I don't understand...</TextLine>
+		<TextLine id='2' mug1='' mug2=''>
+			All my calculations are correct, yet...</TextLine>
+		<TextLine id='3' mug1='' mug2=''>
+			For some reason, you keep fighting against us,&lt;TW wait 0.5> against me...</TextLine>
+		<TextLine id='4' mug1='' mug2=''>
+			Was it your destiny to destroy the Mavericks?</TextLine>
+		<TextLine id='5' mug1='' mug2=''>
+			...The enemy is now at our door.</TextLine>
+		<TextLine id='6' mug1='' mug2=''>
+			I will salvage what I can from the data,&lt;TW wait 0.5> in the hope to put a last stand.</TextLine>
+		<TextLine id='7' mug1='' mug2=''>
+			This will be the last recording.&lt;TW wait 0.5> Signing off.</TextLine>
+	</Dialogue>
+
+
+<!--X meets Techno:-->
+	<Dialogue id='Techno-Intro' last_line='6' cutscene='yes'>
+		<TextLine id='1' mug1='X_1Surprise' mug2='' name='X'>
+			Huh? Who is that? </TextLine>
+		<TextLine id='2' mug1='' mug2='' >
+			They look like.... </TextLine>
+
+		<TextLine id='3' mug1='' mug2='Techno_Smile' name='TECHNO'>
+			My name is Techno.&lt;TW wait 0.3> I've been monitoring you for some time X. </TextLine>
+		<TextLine id='4' mug1='' mug2='' >
+			This place has all the tools to analyse your abilities. </TextLine>
+		<TextLine id='5' mug1='' mug2='' >
+			With that data,&lt;TW wait 0.3> I will find the perfect counter to stop you. </TextLine>
+		<TextLine id='6' mug1='' mug2='' >
+			Let's start the testing. </TextLine>
+	</Dialogue>
+
+<!--X VS Geemel:-->
+	<Dialogue id='Geemel-Intro' last_line='3' cutscene='yes'>
+		<TextLine id='1' mug1='' mug2='Geemel_1' name='GEEMEL'>
+			Kekeke!&lt;TW wait 0.3> I've been waiting for you X! </TextLine>
+			
+		<TextLine id='2' mug1='X_3' mug2='' name='X'>
+			Who are you? </TextLine>
+
+		<TextLine id='3' mug1='' mug2='Geemel_1' name='GEEMEL'>
+			I'm Geemel!&lt;TW wait 0.3> And I'll be the last problem you'll be dealing with! </TextLine>
+	</Dialogue>
+
+	<Dialogue id='Geemel-Defeat' last_line='2' cutscene='yes'>
+		<TextLine id='1' mug1='' mug2='Geemel_2' name='GEEMEL'>
+			Kyee!&lt;TW wait 0.3> I knew I should have stayed at the base.  </TextLine>
+		<TextLine id='2' mug1='' mug2='Geemel_1' name='GEEMEL'>
+			I'll make you pay later, kekeke!  </TextLine>
+	</Dialogue>			
+
+<!--X VS Zain:-->			
+	<Dialogue id='Zain-Intro' last_line='2' cutscene='yes'>
+		<TextLine id='1' mug1='' mug2='Zain' name='ZAIN'>
+			You must be X...&lt;TW wait 0.5> I was waiting for this fight. </TextLine>			
+		<TextLine id='2' mug1='' mug2='' name='ZAIN'>
+			My name is Zain!&lt;TW wait 0.3> You have no chance of beating me! </TextLine>
+	</Dialogue>
+	
+	<Dialogue id='Zain-Defeat' last_line='2' cutscene='yes'>
+		<TextLine id='1' mug1='' mug2='Zain' name='ZAIN'>
+			I underestimated you.... </TextLine>			
+		<TextLine id='2' mug1='' mug2='' name='ZAIN'>
+			You got lucky,&lt;TW wait 0.3> but it won't be enough to save you next time... </TextLine>
+	</Dialogue>
+
+
+
+<!-- CUTSCENE 3 : All bosses defeated-->	
+	<Dialogue id='Cutscene3' last_line='18' >
+		<TextLine id='1' mug1='' mug2='Middy' name='MIDDY'>
+			Welcome back X!</TextLine>
+		<TextLine id='2' mug1='' mug2=''>
+			Now that you destroyed the past bosses,&lt;TW wait 0.2> I'm able to locate the hacker signal.</TextLine>
+		<TextLine id='3' mug1='' mug2='Middy_Talk'>
+			It seems to emit from that fortress,&lt;TW wait 0.3> but I don't see any direct access.</TextLine>
+		<TextLine id='4' mug1='' mug2=''>
+			There is probably a transporter access inside.</TextLine>
+		
+		<TextLine id='5' mug1='X_1' mug2='' name='X'>
+			I'll make a path then,&lt;TW wait 0.3> can you send me there?</TextLine>
+		
+		<TextLine id='6' mug1='' mug2='Middy_Smile' name='MIDDY'>
+			Yes, I will send you to the entrance.</TextLine>
+		<TextLine id='7' mug1='' mug2='Middy_Sad'>
+			....&lt;TW wait 0.5>I'm sorry X...</TextLine>
+			
+		<TextLine id='8' mug1='X_1Surprise' mug2='' name='X'>
+			What do you mean?</TextLine>
+			
+		<TextLine id='9' mug1='' mug2='Middy_Sad' name='MIDDY'>
+			I wish I could help more...</TextLine>
+		<TextLine id='10' mug1='' mug2=''>
+			While you're taking all the risks,&lt;TW wait 0.3> I sit here watching,&lt;TW wait 0.5> I feel useless...</TextLine>
+			
+		<TextLine id='11' mug1='X_1' mug2='' name='X'>
+			Don't say that.</TextLine>
+		<TextLine id='12' mug1='' mug2=''>
+			If it wasn't for you,&lt;TW wait 0.2> I would still be stuck inside the Mother Computer.</TextLine>
+		<TextLine id='13' mug1='' mug2=''>
+			And we wouldn't have been able to track our enemy.</TextLine>
+		<TextLine id='14' mug1='X_1Smile' mug2=''>
+			As Maverick Hunters, we're all doing our part,&lt;TW wait 0.3> and you've been doing yours great.</TextLine>
+		<TextLine id='15' mug1='' mug2=''>
+			Don't undervalue yourself Middy.</TextLine>
+			
+		<TextLine id='16' mug1='' mug2='Middy_Talk' name='MIDDY'>
+			...&lt;TW wait 0.3>you're right,&lt;TW wait 0.3> thanks X! </TextLine>
+		<TextLine id='17' mug1='' mug2='Middy'>
+			I'll keep doing my best.</TextLine>
+		<TextLine id='18' mug1='' mug2=''>
+			Preparing the coordinates!</TextLine>
+	</Dialogue>
+
+
+<!-- CUTSCENE 4 : Shadow Hunters on the move-->
+	<Dialogue id='Cutscene4-1' last_line='13' >
+		<TextLine id='1' mug1='' mug2='Techno_Talk' name='TECHNO'>
+			They located our position,&lt;TW wait 0.3> this is bad! </TextLine>
+		
+		<TextLine id='2' mug1='' mug2='Geemel_1' name='GEEMEL' >
+			Kyee!&lt;TW wait 0.3> This guy really is unstoppable! </TextLine>
+
+		<TextLine id='3' mug1='' mug2='Zain' name='ZAIN'>
+			Hmph. </TextLine>
+		
+		<TextLine id='4' mug1='' mug2='None' name='????'>
+			&lt;C #7050e0>How much time before it is complete? </TextLine>
+		
+		<TextLine id='5' mug1='' mug2='Techno_Talk' name='TECHNO'>
+			More than we have if he gets through our defenses. </TextLine>
+		
+		<TextLine id='6' mug1='' mug2='None' name='????'>
+			&lt;C #7050e0>We need to take action then. </TextLine>
+		<TextLine id='7' mug1='' mug2='' >
+			&lt;C #7050e0>You two,&lt;TW wait 0.3> go and protect the transporter. </TextLine>
+		<TextLine id='8' mug1='' mug2='' >
+			&lt;C #7050e0>I'll buy us some time. </TextLine>
+
+		<TextLine id='9' mug1='' mug2='Zain' name='ZAIN' >
+			You're going to face him? </TextLine>			
+		<TextLine id='10' mug1='' mug2='Geemel_1' name='GEEMEL' >
+			Keke!&lt;TW wait 0.3> He will tear you to pieces! </TextLine>
+
+		<TextLine id='11' mug1='' mug2='None' name='????'>
+			&lt;C #7050e0>Death is the least of my concern. </TextLine>
+		<TextLine id='12' mug1='' mug2='' >
+			&lt;C #7050e0>Now GO! </TextLine>		
+
+		<TextLine id='13' mug1='' mug2='Geemel_1' name='GEEMEL' >
+			Kyeh...! </TextLine>			
+	</Dialogue>
+
+	<Dialogue id='Cutscene4-2' last_line='2' >
+		<TextLine id='1' mug1='' mug2='' name='????'>
+			&lt;C #7050e0>You,&lt;TW wait 0.3> do whatever it takes to have it completed in time. </TextLine>
+		<TextLine id='2' mug1='' mug2='' >
+			&lt;C #7050e0>We cannot fail now.&lt;TW wait 0.5> Do not disappoint me. </TextLine>			
+	</Dialogue>
+	
+	<Dialogue id='Cutscene4-3' last_line='1' >
+		<TextLine id='1' mug1='' mug2='Techno_Sus' name='TECHNO'>
+			....Don't worry,&lt;TW wait 0.3> you can count on me. </TextLine>	
+	</Dialogue>
+			
+
+
+<!-- X confronts Serges-->	
+	<Dialogue id='Serges Meetup1' last_line='2' cutscene='yes'>
+		<TextLine id='1' mug1='' mug2='' name='????'>
+		&lt;C #7050e0>You finally arrived, X.</TextLine>
+		<TextLine id='2' mug1='X_1' mug2='' name='X'>
+			Who is there?&lt;TW wait 0.5> Show yourself!</TextLine>
+	</Dialogue>
+
+	<Dialogue id='Serges Meetup2' last_line='14' cutscene='yes'>
+		<TextLine id='1' mug1='X_2' mug2='' name='X'>
+			You!</TextLine>
+		<TextLine id='2' mug1='' mug2='Serges' name='SERGES'>
+			Indeed. </TextLine>
+		<TextLine id='3' mug1='' mug2=''>
+			Back then,&lt;TW wait 0.5> Sigma saw potential in my genius abilities.</TextLine>
+		<TextLine id='4' mug1='' mug2=''>
+			He made a backup of my data,&lt;TW wait 0.5> in case things would take a bad turn.</TextLine>
+		<TextLine id='5' mug1='' mug2=''>
+			I was therefore able to retain my memories,</TextLine>
+		<TextLine id='6' mug1='' mug2=''>
+			unlike the empty husks you've been fighting up to this point.</TextLine>
+		<TextLine id='7' mug1='' mug2=''>
+			I then spent some time gathering new allies, </TextLine>
+		<TextLine id='8' mug1='' mug2=''>
+			waiting for the perfect moment to strike.</TextLine>
+		<TextLine id='9' mug1='' mug2=''>
+			Now the plan is in motion once again!</TextLine>
+		<TextLine id='10' mug1='X_3' mug2='' name='X'>
+			I won't let that happen!</TextLine>
+		<TextLine id='11' mug1='' mug2=''>
+			I stopped you once,&lt;TW wait 0.5> NEWLINE this time I'll make sure you won't come back!</TextLine>
+		<TextLine id='12' mug1='' mug2='Serges' name='SERGES'>
+			Hahaha!&lt;TW wait 0.2> Are you so sure?</TextLine>		
+		<TextLine id='13' mug1='' mug2=''>
+			You can't stop progress, X!&lt;TW wait 0.5> Only delay it!</TextLine>
+		<TextLine id='14' mug1='' mug2=''>
+			I'll watch you despair from the other side!</TextLine>
+	</Dialogue>
+
+<!--X VS Zain & Geemel:-->
+	<Dialogue id='ZainGeemel1' last_line='2' cutscene='yes'>
+		<TextLine id='1' mug1='' mug2='Zain' name='ZAIN'>
+		End of the road for you X.&lt;TW wait 0.2> This time you won't get away.</TextLine>
+		<TextLine id='2' mug1='X_3' mug2='' name='X'>
+		Out of my way!</TextLine>
+	</Dialogue>
+		
+	<Dialogue id='ZainGeemel2' last_line='3' cutscene='yes'>
+		<TextLine id='1' mug1='' mug2='Geemel_1' name='GEEMEL'>
+		Kekeke!&lt;TW wait 0.2> We're not taking any chance this time!</TextLine>
+		<TextLine id='2' mug1='' mug2='' >
+		Two on one,&lt;TW wait 0.2> our success is guaranteed!</TextLine>
+		<TextLine id='3' mug1='' mug2='Zain' name='ZAIN'>
+		Bring it on!</TextLine>
+	</Dialogue>
+<!--X VS Zain & Geemel - Post fight:-->
+	<Dialogue id='ZainGeemel3' last_line='3' cutscene='yes'>
+		<TextLine id='1' mug1='' mug2='Geemel_1' name='GEEMEL'>
+		Kekeke!&lt;TW wait 0.2> He is cornered!&lt;TW wait 0.2> Get him Zain!</TextLine>
+		<TextLine id='2' mug1='X_2' mug2='' name='X'>
+		Ah!</TextLine>
+		<TextLine id='3' mug1='' mug2='Zain' name='ZAIN'>
+		Die!</TextLine>
+	</Dialogue>
+
+	<Dialogue id='ZainGeemel4' last_line='1' cutscene='yes'>
+		<TextLine id='1' mug1='' mug2='' name='ZAIN'>
+		GAAAAAH!!</TextLine>
+	</Dialogue>
+	
+	<Dialogue id='ZainGeemel5' last_line='3' cutscene='yes'>
+		<TextLine id='1' mug1='' mug2='Geemel_2' name='GEEMEL'>
+		K-Ke!&lt;TW wait 0.5> No!&lt;TW wait 0.5> Zain!!&lt;TW wait 0.5> Why you...!!</TextLine>
+		<TextLine id='2' mug1='Zero' mug2='' name='ZERO'>
+		X!&lt;TW wait 0.5> Don't let him escape!&lt;TW wait 0.2> Take him down now!</TextLine>
+		<TextLine id='3' mug1='' mug2='Geemel_2' name='GEEMEL'>
+		Ke!!</TextLine>
+	</Dialogue>
+		
+	<Dialogue id='ZainGeemel6' last_line='6' cutscene='yes'>
+		<TextLine id='1' mug1='X_2' mug2='' name='X'>
+		Zero!&lt;TW wait 0.2> You're here?</TextLine>
+		<TextLine id='2' mug1='' mug2='Zero' name='ZERO'>
+		Middy was tracking their position and noticed they were both coming your way.</TextLine>
+		<TextLine id='3' mug1='' mug2='' >
+		He dispatched me as fast he could,&lt;TW wait 0.2> sorry I couldn't make it here sooner.</TextLine>
+		<TextLine id='4' mug1='' mug2='' >
+		I'll take care of Geemel,&lt;TW wait 0.2> you go to the computer elevator.</TextLine>
+		<TextLine id='5' mug1='' mug2='' >
+		Be careful, X.</TextLine>
+		<TextLine id='6' mug1='X_1' mug2='' name='X'>
+		You too Zero, on my way!</TextLine>
+	</Dialogue>	
+
+
+<!--CUTSCENE 5 : Before entering the final Fortress-->
+	<Dialogue id='Cutscene5-1' last_line='4' >
+		<TextLine id='1' mug1='' mug2='' name='X'>
+			&lt;C #00cae8>Middy,&lt;TW wait 0.3>  I found the transporter.&lt;TW wait 0.3>  The panel is locked however.</TextLine>
+		
+		<TextLine id='2' mug1='' mug2='Middy_Talk' name='MIDDY'>
+			Alright, give me a second.</TextLine>
+		<TextLine id='3' mug1='' mug2='Middy_Smile'>
+			Authorization granted!</TextLine>
+
+		<TextLine id='4' mug1='None' mug2='' name='X'>
+			&lt;C #00cae8>Thanks, I'm going now!</TextLine>		
+	</Dialogue>
+
+	<Dialogue id='Cutscene5-2' last_line='4' >
+		<TextLine id='1' mug1='' mug2='Middy_Serious' name='MIDDY'>
+			X,&lt;TW wait 0.3> before you go....</TextLine>
+	
+		<TextLine id='2' mug1='' mug2='' name='X'>
+			&lt;C #00cae8>What is it?</TextLine>
+		
+		<TextLine id='3' mug1='' mug2='Middy_Serious' name='MIDDY'>
+			...&lt;TW wait 0.5>Nothing.&lt;TW wait 0.3> I'm sure you will do fine.</TextLine>
+		<TextLine id='4' mug1='' mug2='Middy_Smile'>
+			Good luck!</TextLine>
+	</Dialogue>
+
+
+
+<!--X confronts Techno-->
+	<Dialogue id='Confronts Techno-1' last_line='1' cutscene='yes'>
+		<TextLine id='1' mug1='X_2' mug2='' name='X'>
+		This is the Hacker Computer?</TextLine>
+	</Dialogue>
+
+	<Dialogue id='Confronts Techno-2' last_line='18' cutscene='yes'>
+		<TextLine id='1' mug1='' mug2='Techno' name='TECHNO'>
+		You're arriving too late X,&lt;TW wait 0.2> I uploaded the computer program inside my CPU.</TextLine>
+		<TextLine id='2' mug1='' mug2=''>
+		Even if you destroy it,&lt;TW wait 0.2> the program will continue to run from inside my body</TextLine>
+		<TextLine id='3' mug1='' mug2=''>
+		until I build a new one.</TextLine>
+		
+		<TextLine id='4' mug1='X_3' mug2='' name='X'>
+		I just need to take you down then!</TextLine>
+		
+		<TextLine id='5' mug1='' mug2='Techno_Smile' name='TECHNO'>		
+		Ah-ah!&lt;TW wait 0.2> It seems that my brother didn't tell you everything.</TextLine>
+		
+		<TextLine id='6' mug1='X_3Surprise' mug2='' name='X'>
+		Your brother?&lt;TW wait 0.2> Wait, you're not talking about...!</TextLine>
+		
+		<TextLine id='7' mug1='' mug2='Techno' name='TECHNO'>
+		That's right.&lt;TW wait 0.2> Middy and I are made of the same CPU.</TextLine>
+		<TextLine id='8' mug1='' mug2=''>
+		If you destroy me,&lt;TW wait 0.2> Middy will die as well.</TextLine>
+		
+		<TextLine id='9' mug1='X_1Surprise' mug2='' name='X'>
+		Middy,&lt;TW wait 0.2> is that true?</TextLine>	
+		
+		<TextLine id='10' mug1='' mug2='' name='MIDDY'>
+		&lt;C #58f898>...</TextLine>
+		
+		<TextLine id='11' mug1='X_1Angry' mug2='' name='X'>
+		Middy!&lt;TW wait 0.2> Answer me!</TextLine>	
+		
+		<TextLine id='12' mug1='' mug2='' name='MIDDY'>
+		&lt;C #58f898>...Yes,&lt;TW wait 0.2> he is saying the truth...</TextLine>
+		<TextLine id='13' mug1='' mug2=''>
+		&lt;C #58f898>But it doesn't matter,&lt;TW wait 0.2> you need to take him down!</TextLine>
+		<TextLine id='14' mug1='' mug2=''>
+		&lt;C #58f898>Otherwise this nightmare will continue!</TextLine>
+		
+		<TextLine id='15' mug1='X_1Angry' mug2='' name='X'>
+		Middy,&lt;TW wait 0.2> why...?</TextLine>
+		
+		<TextLine id='16' mug1='' mug2='Techno_Smile' name='TECHNO'>
+		Haha! What will you do now?&lt;TW wait 0.2> I guess it's time for me to go to a safer place.</TextLine>
+		
+		<TextLine id='17' mug1='' mug2='' name='MIDDY'>
+		&lt;C #58f898>X! Don't let him escape!&lt;TW wait 0.2> I'll be fine!&lt;TW wait 0.2> Stop him! NOW!</TextLine>
+		
+		<TextLine id='18' mug1='X_3' mug2='' name='X'>
+		Damn it...!</TextLine>
+	</Dialogue>	
+	
+	<Dialogue id='Confronts Techno-3' last_line='3' cutscene='yes'>
+		<TextLine id='1' mug1='' mug2='Techno_Hurt' name='TECHNO'>
+		Ha...ha...&lt;TW wait 0.2> it's too late...&lt;TW wait 0.2> I already brought him back.&lt;TW wait 0.5>
+The plan...&lt;TW wait 0.5> is...&lt;TW wait 0.5> complete.</TextLine>
+		
+		<TextLine id='2' mug1='X_2Surprise' mug2='' name='X'>
+		Him?&lt;TW wait 0.5> No... you didn't...!</TextLine>
+		
+		<TextLine id='3' mug1='' mug2='Techno_Hurt' name='TECHNO'>
+		K-....!!</TextLine>
+	</Dialogue>	
+	
+	<Dialogue id='Confronts Techno-4' last_line='4' cutscene='yes' resume='yes'>
+		<TextLine id='1' mug1='X_2Surprise' mug2='' name='X'>
+		Middy?&lt;TW wait 0.5> Do you copy?&lt;TW wait 0.5> Are you alright?!&lt;TW wait 0.5> Middy!!</TextLine>
+		
+		<TextLine id='2' mug1='' mug2='' name='RADIO'>
+		&lt;C #707070>..................</TextLine>
+		
+		<TextLine id='3' mug1='X_1' mug2='' name='X'>
+		......</TextLine>
+		<TextLine id='4' mug1='X_1Angry' mug2='' name='X'>
+		You're going to pay for this,&lt;TW wait 0.5> Sigma.</TextLine>
+	</Dialogue>	
+
+
+<!--X confronts Sigma-->
+	<Dialogue id='Confronts Sigma-1' last_line='1' cutscene='yes'>
+		<TextLine id='1' mug1='X_3' mug2='' name='X'>
+		I know you're here,&lt;TW wait 0.5> there's no point in hiding Sigma!</TextLine>
+	</Dialogue>
+	
+	<Dialogue id='Confronts Sigma-2' last_line='16' cutscene='yes'>
+		<TextLine id='1' mug1='' mug2='Sigma' name='SIGMA'>
+		So we meet once again.</TextLine>
+		<TextLine id='2' mug1='' mug2=''>
+		The old man did a great job,&lt;TW wait 0.5> same goes for my new allies.</TextLine>
+		<TextLine id='3' mug1='' mug2=''>
+		But it wouldn't have been possible without you, X!</TextLine>
+		
+		<TextLine id='4' mug1='X_3' mug2='' name='X'>
+		What do you mean?</TextLine>
+		
+		<TextLine id='5' mug1='' mug2='Sigma' name='SIGMA'>
+		When analysing reploids,&lt;TW wait 0.2> computers only see data.</TextLine>
+		<TextLine id='6' mug1='' mug2=''>
+		They cannot comprehend emotions.</TextLine>
+		<TextLine id='7' mug1='' mug2=''>
+		Sorrow,&lt;TW wait 0.5> anger,&lt;TW wait 0.5> hatred!</TextLine>
+		<TextLine id='8' mug1='' mug2=''>
+		When you were dragged inside the Mother Computer,&lt;TW wait 0.2> it is that gift of yours,</TextLine>
+		<TextLine id='9' mug1='' mug2=''>
+		those emotions,&lt;TW wait 0.2> those memories,&lt;TW wait 0.2> that brought me back!</TextLine>
+		
+		<TextLine id='10' mug1='X_3Surprise' mug2='' name='X'>
+		That-&lt;TW wait 0.5> That can't be!</TextLine>
+		<TextLine id='11' mug1='X_3' mug2=''>
+		If what you say is true...&lt;TW wait 0.5> then I'll fix my mistake right here and now!</TextLine>
+		
+		<TextLine id='12' mug1='' mug2='Sigma' name='SIGMA'>
+		Bwahahaha!&lt;TW wait 0.2> You can try, but for how long?</TextLine>
+		<TextLine id='13' mug1='' mug2=''>
+		As long as anger and hatred exists in the heart of reploids and humans,</TextLine>
+		<TextLine id='14' mug1='' mug2=''>
+		Mavericks will never cease to exist!</TextLine>
+		<TextLine id='15' mug1='' mug2=''>
+		Our battle will continue over and over!</TextLine>
+		<TextLine id='16' mug1='' mug2=''>
+		And this time...&lt;TW wait 0.5> I will emerge victorious!</TextLine>
+	</Dialogue>
+
+<!--=Sigma Death-->
+	<Dialogue id='Sigma Defeat' last_line='3' cutscene='yes'>
+		<TextLine id='1' mug1='' mug2='' name='SIGMA'>
+		This isn't over yet, X!</TextLine>
+		<TextLine id='2' mug1='' mug2=''>
+		As long as that hatred persists in your heart,&lt;TW wait 0.2> I'll keep coming back!</TextLine>
+		<TextLine id='3' mug1='' mug2=''>
+		Bwahahaha!</TextLine>
+	</Dialogue>
+	
+<!--After Sigma Death-->	
+	<Dialogue id='After Sigma Death' last_line='1' cutscene='yes'>
+		<TextLine id='1' mug1='X_1Eyeclose' mug2='' name='X'>
+		It is over...&lt;TW wait 0.5> at last...</TextLine>
+	</Dialogue>
+	
+	<Dialogue id='Middy Alert' last_line='5' cutscene='yes'>
+		<TextLine id='1' mug1='' mug2='' name='RADIO'>
+		&lt;C #58f898>...........&lt;TW wait 0.3>X.....&lt;TW wait 0.3>X!....&lt;TW wait 0.3>Do y......&lt;TW wait 0.3>hear m....</TextLine>
+		<TextLine id='2' mug1='X_1Surprise' mug2='' name='X'>
+		Huh?&lt;TW wait 0.5> That voice,&lt;TW wait 0.3> it can't be...?</TextLine>
+		<TextLine id='3' mug1='' mug2='' name='RADIO'>
+		&lt;C #58f898>.......X!&lt;TW wait 0.5> You need to get out of there now!!&lt;TW wait 0.3> It's a tr-</TextLine>
+		<TextLine id='4' mug1='X_2Surprise' mug2='' name='X'>
+		Middy!?&lt;TW wait 0.5> Is that you?!</TextLine>
+		<TextLine id='5' mug1='X_2Surprise' mug2='' name='X'>
+		But,&lt;TW wait 0.5> if you're alive,&lt;TW wait 0.5> then...!</TextLine>
+	</Dialogue>	
+
+
+<!-- Techno Return-->
+	<Dialogue id='Techno Return-1' last_line='4' cutscene='yes'>
+		<TextLine id='1' mug1='' mug2='Techno_Smile' name='TECHNO'>
+		Good job X!&lt;TW wait 0.5> Sigma really didn't stand a chance against you.</TextLine>
+		<TextLine id='2' mug1='' mug2=''>
+		It wasn't without troubles,&lt;TW wait 0.2> but in the end, the plan unfolded as expected.</TextLine>
+		
+		<TextLine id='3' mug1='X_3Surprise' mug2='' name='X'> 
+		Techno!&lt;TW wait 0.5> That can't be, I defeated you!</TextLine>
+		
+		<TextLine id='4' mug1='' mug2='Techno_Smile' name='TECHNO'>
+		Oh,&lt;TW wait 0.2> you're talking about him?</TextLine>
+	</Dialogue>
+
+	<Dialogue id='Techno Return-2' last_line='7' cutscene='yes'>
+		<TextLine id='1' mug1='' mug2='Geemel_3' name='GEEMEL'>
+		.......</TextLine>
+		
+		<TextLine id='2' mug1='X_3Surprise' mug2='' name='X'>
+		That's...!</TextLine>
+		
+		<TextLine id='3' mug1='' mug2='Techno' name='TECHNO'> 
+		That coward was about to run away,&lt;TW wait 0.2> so instead, I made him useful for a change.</TextLine>		
+		<TextLine id='4' mug1='' mug2=''>
+		I had to make sure that you were determined enough to destroy Sigma, </TextLine>
+		<TextLine id='5' mug1='' mug2=''>
+		without risking my own life in the process.</TextLine>
+
+		<TextLine id='6' mug1='' mug2='Geemel_3' name='GEEMEL'>
+		...&lt;TW wait 0.2>Ke...&lt;TW wait 0.2>Ke...&lt;TW wait 0.2>Help....</TextLine>
+
+		<TextLine id='7' mug1='' mug2='Techno' name='TECHNO'>
+		You were a good puppet,&lt;TW wait 0.2> I don't need you anymore now.&lt;TW wait 0.2> Disappear.</TextLine>			
+	</Dialogue>
+
+	<Dialogue id='Techno Return-3' last_line='10' cutscene='yes'>
+		
+		<TextLine id='1' mug1='X_3' mug2='' name='X'>
+		What is going on?&lt;TW wait 0.2> What is this place!?</TextLine>
+		
+		<TextLine id='2' mug1='' mug2='Techno' name='TECHNO'>
+		This,&lt;TW wait 0.5> is the Mother Computer core.</TextLine>
+		<TextLine id='3' mug1='' mug2=''>
+		After I linked my CPU to the Hacker Computer,&lt;TW wait 0.2> I saw everything it has to offer.</TextLine>
+		<TextLine id='4' mug1='' mug2=''>
+		That's where I saw it,&lt;TW wait 0.2> the power to shape the world the way I wanted.</TextLine>
+		<TextLine id='5' mug1='' mug2=''>
+		But I can't harness such a power by myself,&lt;TW wait 0.2> I need the power of someone else.</TextLine>
+		<TextLine id='6' mug1='' mug2=''>
+		I hijacked the transporter so it would take you here,</TextLine>
+		<TextLine id='7' mug1='' mug2=''>
+		a perfect copy of the Hacker Facility,&lt;TW wait 0.2> recreated inside the core of the Mother Computer.</TextLine>
+		<TextLine id='8' mug1='' mug2=''>
+		It even managed to trick Sigma!</TextLine>
+		<TextLine id='9' mug1='' mug2='Techno_Smile'>
+		And now that you disposed of him...</TextLine>
+		<TextLine id='10' mug1='' mug2='Techno_Mad'>
+		His data is mine!</TextLine>
+	</Dialogue>
+	
+	<Dialogue id='Techno Return-4' last_line='5' cutscene='yes'>
+		
+		<TextLine id='1' mug1='X_3Surprise' mug2='' name='X'> 
+		You...&lt;TW wait 0.2> What have you done!?</TextLine>
+		
+		<TextLine id='2' mug1='' mug2='Techno_Mad' name='TECHNO'>
+		Hahahaha!</TextLine>
+		<TextLine id='3' mug1='' mug2=''>
+		Now that Sigma's power is in my control.... </TextLine>
+		<TextLine id='4' mug1='' mug2=''>
+		There's only one thing that will make me truly unstoppable...</TextLine>
+		<TextLine id='5' mug1='' mug2=''>
+		Your power, X!!</TextLine>
+
+	</Dialogue>
+
+
+<!-- Techno Defeated-->
+	<Dialogue id='Techno Defeat-1' last_line='2' cutscene='yes'>
+		<TextLine id='1' mug1='X_3' mug2='' name='X'>
+		It's over,&lt;TW wait 0.3> surrender now!</TextLine>
+		
+		<TextLine id='2' mug1='' mug2='Techno_Hurt' name='TECHNO'>
+		Guhhh....&lt;TW wait 0.5> No....&lt;TW wait 0.5> I won't...!</TextLine>		
+	</Dialogue>
+
+	<Dialogue id='Techno Defeat-2' last_line='3' cutscene='yes'>
+		<TextLine id='1' mug1='X_1Stun' mug2='' name='X'>
+		Ah!! </TextLine>
+		
+		<TextLine id='2' mug1='' mug2='Techno_Mad' name='TECHNO'>
+		Your data will be mine! </TextLine>
+		<TextLine id='3' mug1='' mug2=''>
+		And then...&lt;TW wait 0.5> no one...&lt;TW wait 0.5> will be able to get in my way!! </TextLine>			
+	</Dialogue>
+
+	<Dialogue id='Techno Defeat-3' last_line='31' cutscene='yes'>
+		<TextLine id='1' mug1='' mug2='Middy_Stun' name='MIDDY'>
+		Enough! </TextLine>
+		
+		<TextLine id='2' mug1='' mug2='Techno_Stun' name='TECHNO'>
+		Gyaah!&lt;TW wait 0.3> What's happening..!? </TextLine>
+		<TextLine id='3' mug1='' mug2=''>
+		Middy?!&lt;TW wait 0.5> How can you...! </TextLine>			
+	
+		<TextLine id='4' mug1='' mug2='Middy_Stun' name='MIDDY'>
+		We're made of the same parts, brother.&lt;TW wait 0.3> I know you from inside out. </TextLine>
+		<TextLine id='5' mug1='' mug2='' >
+		What you can do,&lt;TW wait 0.3>  I can do it as well! </TextLine>
+	
+		<TextLine id='6' mug1='X_2Surprise' mug2='' name='X'>
+		Middy!! </TextLine>	
+
+		<TextLine id='7' mug1='' mug2='Middy_Stun' name='MIDDY'>
+		X!&lt;TW wait 0.3> I sent Zero back to the Hunter Base!&lt;TW wait 0.3> Once my signal fades,&lt;TW wait 0.3> he will send you back. </TextLine>	
+		<TextLine id='8' mug1='' mug2=''>
+		Now take Techno down! </TextLine>	
+	
+		<TextLine id='9' mug1='' mug2='Techno_Stun' name='TECHNO'>
+		Let me go!&lt;TW wait 0.3> Without X data,&lt;TW wait 0.3> Sigma will- </TextLine>
+		
+		<TextLine id='10' mug1='' mug2='Virus' name='SIGMA'>
+		You miserable pest!&lt;TW wait 0.3> You think a bug like you can control my power?!</TextLine>
+		<TextLine id='11' mug1='' mug2='' >
+		I'll just escape with your body and use the Mother Computer for myself!</TextLine>
+		<TextLine id='12' mug1='' mug2='' >
+		Bwahahaha!</TextLine>	
+
+		<TextLine id='13' mug1='' mug2='Techno_Stun2' name='TECHNO'>
+		GAAAAH!! </TextLine>
+		
+		<TextLine id='14' mug1='' mug2='Middy_Stun2' name='MIDDY'>
+		X!&lt;TW wait 0.3> Sigma influence is getting stronger!&lt;TW wait 0.3> I won't be able to hold him much longer! </TextLine>	
+		<TextLine id='15' mug1='' mug2=''>
+		Please destroy him! </TextLine>			
+
+		<TextLine id='16' mug1='' mug2='Techno_Stun' name='TECHNO'>
+		Idiot!!&lt;TW wait 0.3> If he kills me, you die too!  </TextLine>		
+
+		<TextLine id='17' mug1='' mug2='Middy_Stun2' name='MIDDY'>
+		...I know that very well. </TextLine>
+
+		<TextLine id='18' mug1='X_2Surprise' mug2='' name='X'>
+		...!&lt;TW wait 0.3> NEWLINE So it is true! </TextLine>	
+
+		<TextLine id='19' mug1='' mug2='Techno_Stun' name='TECHNO'>
+		Guh!&lt;TW wait 0.3> Think about it! With all that power,&lt;TW wait 0.3> we can create a world for ourselves! </TextLine>
+		<TextLine id='20' mug1='' mug2=''>
+		We wouldn't have to worry about the Mavericks,&lt;TW wait 0.3> about Sigma,&lt;TW wait 0.3> about anything! </TextLine>	
+		<TextLine id='21' mug1='' mug2=''>
+		This world would be for us to command! </TextLine>	
+
+		<TextLine id='22' mug1='' mug2='Middy_Stun2' name='MIDDY'>
+		Always thinking about yourself first...&lt;TW wait 0.5> your lust for power has drove you mad.</TextLine>	
+		<TextLine id='23' mug1='' mug2=''>
+		You are no longer different from Sigma! </TextLine>	
+
+		<TextLine id='24' mug1='' mug2='Techno_Stun' name='TECHNO'>
+		I-&lt;TW wait 0.3>I...! </TextLine>
+
+		<TextLine id='25' mug1='' mug2='Middy_Stun' name='MIDDY'>
+		I fight for the others!&lt;TW wait 0.3> To bring them a brighter future!</TextLine>	
+		<TextLine id='26' mug1='' mug2=''>
+		That is why I'm a Maverick Hunter! </TextLine>	
+		<TextLine id='27' mug1='' mug2=''>
+		And as a Maverick Hunter... </TextLine>
+		<TextLine id='28' mug1='' mug2=''>
+		I will do my part! </TextLine>		
+
+		<TextLine id='29' mug1='X_1Surprise' mug2='' name='X'>
+		!! </TextLine>
+
+		<TextLine id='30' mug1='' mug2='Middy_Stun2' name='MIDDY'>
+		Now,&lt;TW wait 0.3> X!</TextLine>
+		
+		<TextLine id='31' mug1='X_3' mug2='' name='X'>
+		.....&lt;TW wait 0.5> NEWLINE Forgive me,&lt;TW wait 0.3> Middy!! </TextLine>
+	</Dialogue>
+
+
+<!-- Epilogue-->
+	<Dialogue id='Epilogue' last_line='18'>
+		<TextLine id='1' mug1='' mug2='Zero' name='ZERO'>
+		Welcome back, X.</TextLine>		
+		<TextLine id='2' mug1='' mug2=''>
+		The Mother Computer has turned back to normal.</TextLine>		
+		<TextLine id='3' mug1='' mug2=''>
+		The Maverick activity it caused outside has also stopped.</TextLine>	
+		<TextLine id='4' mug1='' mug2=''>
+		Dr. Cain will soon decommission the project as it proved itself too risky.</TextLine>	
+		<TextLine id='5' mug1='' mug2='Zero_Smile'>
+		You did it.</TextLine>	
+
+		<TextLine id='6' mug1='X_1Sad' mug2='' name='X'>
+		....</TextLine>	
+
+		<TextLine id='7' mug1='' mug2='Zero' name='ZERO'>
+		Are you alright?</TextLine>	
+
+		<TextLine id='8' mug1='X_1Sad' mug2='' name='X'>
+		I couldn't save Middy...</TextLine>	
+		<TextLine id='9' mug1='' mug2=''>
+		Is it worth fighting if more people have to die to achieve peace?</TextLine>	
+
+		<TextLine id='10' mug1='' mug2='Zero_Talk' name='ZERO'>
+		Hey,&lt;TW wait 0.5> don't say that.</TextLine>
+		<TextLine id='11' mug1='' mug2=''>
+		It is our role as Maverick Hunters,&lt;TW wait 0.3> to put the greater good above our own lives.</TextLine>
+		<TextLine id='12' mug1='' mug2=''>
+		Middy knew it well,&lt;TW wait 0.3> his sacrifice wasn't in vain.</TextLine>
+		<TextLine id='13' mug1='' mug2=''>
+		He gave his best to save us all,&lt;TW wait 0.3> and so should we.</TextLine>
+
+		<TextLine id='14' mug1='X_1Sad' mug2='' name='X'>
+		...You're right,&lt;TW wait 0.3> thank you Zero.</TextLine>	
+		<TextLine id='15' mug1='X_1' mug2=''>
+		I must keep fighting!&lt;TW wait 0.5> I promise I won't give up!</TextLine>
+
+		<TextLine id='16' mug1='' mug2='Zero_Smile' name='ZERO'>
+		And I'll be by your side until the end.</TextLine>
+		<TextLine id='17' mug1='' mug2=''>
+		Now follow me,&lt;TW wait 0.3> we have a mess to clean outside.</TextLine>	
+
+		<TextLine id='18' mug1='X_1Smile' mug2='' name='X'>
+		Right,&lt;TW wait 0.3> let's go!</TextLine>			
+	</Dialogue>
+
+<!-- Secret Ending-->
+	<Dialogue id='Secret Ending-1' last_line='2'>
+		<TextLine id='1' mug1='' mug2='' name=''>
+		&lt;C #58f898>....Thank you,&lt;TW wait 0.3> X...</TextLine>
+		
+		<TextLine id='2' mug1='' mug2='' name=''>
+		&lt;C #58f898>....Thank you for trusting me....</TextLine>		
+	</Dialogue>
+
+	<Dialogue id='Secret Ending-2' last_line='6'>
+		<TextLine id='1' mug1='' mug2='' name='TECHNO'>
+		Uuuuh...&lt;TW wait 0.5> brother...&lt;TW wait 0.5> is that you....</TextLine>
+		
+		<TextLine id='2' mug1='' mug2='' name='MIDDY'>
+		Yes.&lt;TW wait 0.5> Everything is alright now.</TextLine>
+
+		<TextLine id='3' mug1='' mug2='' name='TECHNO'>
+		I'm sorry...&lt;TW wait 0.5> I wanted a safer world just for us...</TextLine>
+		<TextLine id='4' mug1='' mug2='' name='TECHNO'>
+		I didn't mean to....</TextLine>
+
+		<TextLine id='5' mug1='' mug2='' name='MIDDY'>
+		It's ok,&lt;TW wait 0.5> the world is in good hands,&lt;TW wait 0.5> I know it.</TextLine>
+		<TextLine id='6' mug1='' mug2='' name='MIDDY'>
+		You can rest now....</TextLine>
+	</Dialogue>
+
+<!-- Sigma Ending-->
+	<Dialogue id='Sigma Ending-1' last_line='1'>
+		<TextLine id='1' mug1='' mug2='' name=''>
+		That was close...</TextLine>	
+	</Dialogue>
+
+	<Dialogue id='Sigma Ending-2' last_line='4'>
+		<TextLine id='1' mug1='' mug2='' name=''>
+		That little reploid was really skillful,&lt;TW wait 0.3> tricking me like that...</TextLine>	
+		<TextLine id='2' mug1='' mug2='' name=''>
+		I need to stay low for now...</TextLine>	
+		<TextLine id='3' mug1='' mug2='' name=''>
+		However,&lt;TW wait 0.3> that ability to blur the lines between the real world and the cyber space...</TextLine>	
+		<TextLine id='4' mug1='' mug2='' name=''>
+		I wonder...&lt;TW wait 0.6> NEWLINE How far could I take it....</TextLine>	
+	</Dialogue>
+
+</D>

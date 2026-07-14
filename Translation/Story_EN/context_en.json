@@ -1,0 +1,2157 @@
+{
+  "formatVersion": 1,
+  "source": "GameFiles/data.js",
+  "generatedAt": "2026-07-04T01:13:37.657Z",
+  "entryCount": 184,
+  "entries": [
+    {
+      "id": "story_64b8697db7ba",
+      "section": "Event Sheet: Auto Save Events",
+      "english": "Auto Save Events",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][36][0]"
+      ]
+    },
+    {
+      "id": "story_6a4386ca66d8",
+      "section": "Event Sheet: Auto Save Events",
+      "english": "This game uses an AUTO-SAVE system.\n\nDo not close the game when the AUTO-SAVE icon is on-screen.",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][36][1][2][7][1][6][1][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_1cda5b37d3df",
+      "section": "Event Sheet: Auto Save Events",
+      "english": "Collected items will not be saved until the boss stage is cleared.\n\nCollecting an item inside a cleared boss stage will activate AUTO-SAVE.",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][36][1][2][7][2][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_1e5a0dee7dbc",
+      "section": "Event Sheet: Auto Save Events",
+      "english": "You can map your weapons to the gamepad Right Stick and the 1-8 top number keys in the pause menu.\n\nPressing Right Stick or 9 will reset to the X-Buster.",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][36][1][2][7][3][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_68e71eebb941",
+      "section": "Event Sheet: Auto Save Events",
+      "english": "Once a stage is cleared, hold UP when selecting the stage to skip to the boss room.",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][36][1][2][7][4][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_e7f4fe0a4cd9",
+      "section": "Event Sheet: Auto Save Events",
+      "english": "Story events contained in stages will replay on revisit.\n\nIt's like reading a book's chapter again!",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][36][1][2][7][5][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_18039127933e",
+      "section": "Event Sheet: Auto Save Events",
+      "english": "Extra lives will reset everytime you enter a stage.\n\nYou can choose how much you want to start with in the EXTRA menu.",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][36][1][2][7][6][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_69beac10bc7f",
+      "section": "Event Sheet: Auto Save Events",
+      "english": "Bosses will react differently to certain weapons.\n\nSome of them can be used to counter the boss abilities, so try different combinations!",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][36][1][2][7][7][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_50160b7ff767",
+      "section": "Event Sheet: Auto Save Events",
+      "english": "You can equip or unequip armor parts individually in the Pause Menu.",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][36][1][2][7][8][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_42c036a06ffb",
+      "section": "Event Sheet: Boss",
+      "english": "- Intro",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][6][6][3][5][0][1][2][1]",
+        "project[6][8][1][8][7][4][7][0][6][1][5][0][1][2][1]"
+      ]
+    },
+    {
+      "id": "story_fcc10c15331f",
+      "section": "Event Sheet: Boss",
+      "english": "Vile - Intro",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][1][1][1]",
+        "project[6][8][1][8][7][3][7][1][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][3][7][1][7][1][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_f2ec9040611c",
+      "section": "Event Sheet: Boss",
+      "english": "Vile Intro",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][1][7][0][6][1][5][1][1][1][1]",
+        "project[6][28][1][1][7][6][5][0][9][0][1][1]",
+        "project[6][28][1][9][7][5][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_bfda07af7ac4",
+      "section": "Event Sheet: Boss",
+      "english": "Armored Armadillo - Intro",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][10][1][1]",
+        "project[6][8][1][8][7][3][7][10][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][3][7][10][7][3][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_8c196376aa90",
+      "section": "Event Sheet: Boss",
+      "english": "heavy crash",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][10][7][1][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][3][7][6][6][4][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][6][7][10][6][4][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][11][7][16][7][0][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][12][7][6][6][1][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][15][7][1][7][7][6][1][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][15][7][1][7][10][7][0][6][2][5][0][1][0]",
+        "project[6][14][1][6][6][1][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_9a527fee8b2f",
+      "section": "Event Sheet: Boss",
+      "english": "Wheel Gator - Intro",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][11][1][1]",
+        "project[6][8][1][8][7][3][7][11][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][3][7][11][7][2][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_e0945a2987b3",
+      "section": "Event Sheet: Boss",
+      "english": "Magna Centipede - Intro",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][12][1][1]",
+        "project[6][8][1][8][7][3][7][12][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_6d6965798807",
+      "section": "Event Sheet: Boss",
+      "english": "Flame Stag - Intro",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][13][1][1]",
+        "project[6][8][1][8][7][3][7][13][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_47db5920007f",
+      "section": "Event Sheet: Boss",
+      "english": "Morph Moth - Intro",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][14][1][1]",
+        "project[6][8][1][8][7][3][7][14][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_7b4efd1c5df6",
+      "section": "Event Sheet: Boss",
+      "english": "Sigma - Intro",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][15][1][1]",
+        "project[6][8][1][8][7][3][7][15][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_c51a7d431211",
+      "section": "Event Sheet: Boss",
+      "english": "Sigma",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][15][7][0][7][0][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][3][7][15][7][2][7][0][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][3][7][15][7][4][6][0][5][0][1][1]",
+        "project[6][8][1][8][7][5][7][16][1][1]",
+        "project[6][8][1][8][7][5][7][16][5][0][9][0][1][1]",
+        "project[6][35][1][16][7][0][6][1][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_ee53b67a8b0b",
+      "section": "Event Sheet: Boss",
+      "english": "Confronts Sigma-1",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][15][7][0][7][1][6][0][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_fbebe432459d",
+      "section": "Event Sheet: Boss",
+      "english": "Boss Intro 1",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][15][7][1][6][1][5][1][1][1][1]",
+        "project[6][8][1][8][7][8][7][2][6][0][5][1][1][1][1]",
+        "project[6][35][1][13][7][0][6][0][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_36283f470ec8",
+      "section": "Event Sheet: Boss",
+      "english": "Confronts Sigma-2",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][15][7][2][7][1][6][0][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_1510c9352d01",
+      "section": "Event Sheet: Boss",
+      "english": "Sigma2 - Intro",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][16][1][1]",
+        "project[6][8][1][8][7][3][7][16][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][5][7][16][7][25][6][7][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_7952f0767559",
+      "section": "Event Sheet: Boss",
+      "english": "Sigma Rebirth",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][16][7][1][6][14][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_6088b77311cf",
+      "section": "Event Sheet: Boss",
+      "english": "Techno - Intro",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][17][1][1]",
+        "project[6][8][1][8][7][3][7][17][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][7][7][0][7][2][6][4][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_04bd1092bd40",
+      "section": "Event Sheet: Boss",
+      "english": "Techno",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][17][7][0][7][0][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][3][7][17][7][1][6][2][5][1][1][1]",
+        "project[6][8][1][8][7][3][7][17][7][1][7][0][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][3][7][17][7][3][6][0][5][0][1][2][5][0][1]",
+        "project[6][8][1][8][7][3][7][17][7][8][7][0][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][3][7][17][7][17][6][5][5][0][1][1]",
+        "project[6][8][1][8][7][5][7][18][1][1]",
+        "project[6][8][1][8][7][5][7][18][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][8][7][0][6][5][5][0][1][1]",
+        "project[6][28][1][11][7][0][7][1][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_344136ce8fb5",
+      "section": "Event Sheet: Boss",
+      "english": "After Sigma Death",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][17][7][1][7][2][6][1][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_2fc91701a25d",
+      "section": "Event Sheet: Boss",
+      "english": "Techno Return-2",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][17][7][10][6][1][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_8bb1c0599542",
+      "section": "Event Sheet: Boss",
+      "english": "Techno Return-3",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][17][7][12][6][1][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_796284fa3a6a",
+      "section": "Event Sheet: Boss",
+      "english": "Techno Return-4",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][17][7][15][6][1][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_6b0c95398e54",
+      "section": "Event Sheet: Boss",
+      "english": "Boss Fight 6",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][17][7][16][6][1][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_3c1db91a6ded",
+      "section": "Event Sheet: Boss",
+      "english": "Middy Alert",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][17][7][2][6][1][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_98e42fc57d91",
+      "section": "Event Sheet: Boss",
+      "english": "Boss Intro 3",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][17][7][5][6][0][5][1][1][1][1]",
+        "project[6][28][1][11][7][1][7][0][6][5][5][1][1][1][1]",
+        "project[6][35][1][11][7][1][6][3][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_c48d75cda651",
+      "section": "Event Sheet: Boss",
+      "english": "Techno Return-1",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][17][7][7][6][3][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_a570c90e9622",
+      "section": "Event Sheet: Boss",
+      "english": "Vile2 - Intro",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][2][1][1]",
+        "project[6][8][1][8][7][3][7][2][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_6953edeb83f2",
+      "section": "Event Sheet: Boss",
+      "english": "player - teleportin",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][2][7][0][6][4][5][0][1][0]",
+        "project[6][8][1][8][7][3][7][17][7][3][6][3][5][0][1][0]",
+        "project[6][8][1][8][7][6][7][13][6][1][5][0][1][0]",
+        "project[6][8][1][8][7][8][7][4][6][5][5][0][1][0]",
+        "project[6][8][1][8][7][9][7][8][6][4][5][0][1][0]",
+        "project[6][28][1][14][7][1][6][3][5][0][1][0]",
+        "project[6][35][1][10][7][0][7][1][6][7][5][0][1][0]",
+        "project[6][35][1][11][7][3][6][7][5][0][1][0]",
+        "project[6][35][1][12][7][0][7][1][6][5][5][0][1][0]",
+        "project[6][35][1][13][7][1][6][7][5][0][1][0]",
+        "project[6][35][1][13][7][2][6][3][5][0][1][0]",
+        "project[6][35][1][15][7][0][6][9][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_b76d7151b8c5",
+      "section": "Event Sheet: Boss",
+      "english": "Zain - Intro",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][3][1][1]",
+        "project[6][8][1][8][7][3][7][3][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_c032adc1ff62",
+      "section": "Event Sheet: Boss",
+      "english": "X",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][3][7][1][6][1][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][3][7][3][7][1][6][4][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][3][7][4][7][4][6][0][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][3][7][4][7][5][6][0][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][3][7][5][7][0][7][2][5][0][9][2][1][1]",
+        "project[6][8][1][8][7][3][7][5][7][3][6][5][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][3][7][9][7][0][7][0][7][1][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][3][7][9][7][0][7][0][7][1][6][0][5][0][1][2][2][0][1]",
+        "project[6][8][1][8][7][3][7][15][7][2][6][0][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][3][7][15][7][3][6][0][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][3][7][17][7][1][7][2][6][0][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][3][7][17][7][2][6][0][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][3][7][17][7][7][6][2][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][3][7][17][7][8][7][0][6][0][5][0][1][1][2][2][1]",
+        "project[6][8][1][8][7][3][7][17][7][9][6][0][5][0][1][1][2][2][1]",
+        "project[6][8][1][8][7][3][7][17][7][10][6][0][5][0][1][1][2][2][1]",
+        "project[6][8][1][8][7][3][7][17][7][11][6][0][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][3][7][17][7][12][6][0][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][3][7][17][7][15][6][0][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][6][7][1][6][2][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][6][7][5][6][0][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][6][7][5][6][9][5][1][1][1][1][2][1]",
+        "project[6][8][1][8][7][6][7][5][6][9][5][1][1][1][3][1]",
+        "project[6][8][1][8][7][6][7][6][7][0][5][0][9][2][1][1]",
+        "project[6][8][1][8][7][6][7][9][6][2][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][6][7][10][6][0][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][6][7][10][6][2][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][6][7][11][6][0][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][6][7][11][7][0][5][0][9][2][1][1]",
+        "project[6][8][1][8][7][8][7][4][6][0][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][8][7][6][6][1][5][1][1][1][1]",
+        "project[6][8][1][8][7][8][7][7][6][1][5][0][1][2][2][1]",
+        "project[6][8][1][8][7][8][7][8][6][0][5][0][1][1][2][2][1]",
+        "project[6][8][1][8][7][8][7][8][7][0][5][0][9][2][1][1]",
+        "project[6][19][1][5][6][0][5][1][1][1]",
+        "project[6][28][1][11][7][1][7][1][6][0][5][0][1][2][2][1]",
+        "project[6][28][1][11][7][1][7][2][6][1][5][0][1][2][2][1]",
+        "project[6][28][1][11][7][1][7][3][6][0][5][0][1][1][2][2][1]",
+        "project[6][28][1][11][7][1][7][3][7][0][5][0][9][2][1][1]",
+        "project[6][28][1][11][7][1][7][5][6][2][5][0][1][2][2][1]",
+        "project[6][28][1][11][7][1][7][6][6][2][5][0][1][1][2][2][1]",
+        "project[6][35][1][10][7][0][7][1][6][1][5][1][1][1][1]",
+        "project[6][35][1][10][7][0][7][1][6][5][5][0][1][1]",
+        "project[6][35][1][12][7][0][7][1][6][0][5][1][1][1][1]",
+        "project[6][35][1][12][7][0][7][1][6][3][5][0][1][1]",
+        "project[6][35][1][15][7][0][6][7][5][0][1][1]",
+        "project[5][17][6][0][14][12][5][1]"
+      ]
+    },
+    {
+      "id": "story_3f61fb195916",
+      "section": "Event Sheet: Boss",
+      "english": "Geemel - Intro",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][4][1][1]",
+        "project[6][8][1][8][7][3][7][4][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_b115992a5b53",
+      "section": "Event Sheet: Boss",
+      "english": "rolling shield max",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][4][7][0][6][3][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][4][7][2][6][2][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][4][7][5][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][4][7][8][6][1][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][4][7][11][6][1][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][4][7][12][6][5][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][6][7][6][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][6][7][11][6][5][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][6][7][18][6][2][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][6][7][22][6][1][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][16][7][16][6][3][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][18][7][20][6][1][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][18][7][24][6][2][5][0][1][0]",
+        "project[6][8][1][8][7][6][7][0][7][0][6][2][5][0][1][0]",
+        "project[6][8][1][8][7][6][7][11][7][2][6][2][5][0][1][0]",
+        "project[6][8][1][8][7][8][7][2][6][8][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_23e9812c8909",
+      "section": "Event Sheet: Boss",
+      "english": "player - land",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][4][7][3][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][3][7][6][7][3][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][3][7][7][7][1][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][3][7][10][7][2][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][4][7][6][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][6][7][7][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][6][7][13][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][8][7][20][6][1][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][14][7][5][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][14][7][9][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][6][7][3][6][0][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_02d62479d706",
+      "section": "Event Sheet: Boss",
+      "english": "geemel laugh",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][4][7][3][6][1][5][0][1][0]",
+        "project[6][8][1][8][7][3][7][6][7][3][6][1][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][4][7][6][6][1][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][4][7][19][6][1][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][6][7][7][6][1][5][0][1][0]",
+        "project[6][8][1][8][7][6][7][3][6][1][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_12a0b2c382da",
+      "section": "Event Sheet: Boss",
+      "english": "Geemel",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][4][7][4][7][0][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][3][7][4][7][5][6][2][5][0][1][1]",
+        "project[6][8][1][8][7][5][7][4][1][1]",
+        "project[6][8][1][8][7][5][7][4][5][0][9][0][1][1]",
+        "project[6][35][1][11][7][3][6][3][5][0][1][1]",
+        "project[6][35][1][13][7][1][6][3][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_f0655ca636ff",
+      "section": "Event Sheet: Boss",
+      "english": "Serges - Intro",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][5][1][1]",
+        "project[6][8][1][8][7][3][7][5][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_05222b650732",
+      "section": "Event Sheet: Boss",
+      "english": "Serges",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][5][7][0][7][0][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][3][7][5][7][2][7][0][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][3][7][5][7][3][6][0][5][0][1][1]",
+        "project[6][8][1][8][7][5][7][5][1][1]",
+        "project[6][8][1][8][7][5][7][5][5][0][9][0][1][1]",
+        "project[6][28][1][9][7][8][5][0][9][0][1][1]",
+        "project[6][28][1][9][7][8][6][3][5][1][1][1][1]",
+        "project[6][35][1][13][7][2][6][2][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_c2d9036cb4c8",
+      "section": "Event Sheet: Boss",
+      "english": "Serges Meetup1",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][5][7][0][7][1][6][0][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_ab73c09b0c28",
+      "section": "Event Sheet: Boss",
+      "english": "Serges Meetup2",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][5][7][2][7][1][6][0][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_47ac74ace74a",
+      "section": "Event Sheet: Boss",
+      "english": "ZainGeemel - Intro",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][6][1][1]",
+        "project[6][8][1][8][7][3][7][6][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_4582404d025f",
+      "section": "Event Sheet: Boss",
+      "english": "Chill Penguin - Intro",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][7][1][1]",
+        "project[6][8][1][8][7][3][7][7][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_27b203751902",
+      "section": "Event Sheet: Boss",
+      "english": "Spark Mandrill - Intro",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][8][1][1]",
+        "project[6][8][1][8][7][3][7][8][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][3][7][8][7][2][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_d307292432a0",
+      "section": "Event Sheet: Boss",
+      "english": "strong impact",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][8][7][1][6][3][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][9][7][4][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][9][7][8][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][9][7][15][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][9][7][18][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][9][7][21][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][14][7][14][6][0][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_b9221ffd3dec",
+      "section": "Event Sheet: Boss",
+      "english": "Storm Eagle - Intro",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][9][1][1]",
+        "project[6][8][1][8][7][3][7][9][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][3][7][9][7][4][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_33df60ce1b15",
+      "section": "Event Sheet: Boss",
+      "english": "eagle flap",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][3][7][9][7][5][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][10][7][1][7][0][6][0][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_204cac0cf2a8",
+      "section": "Event Sheet: Boss",
+      "english": "hp refill",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][4][7][1][6][0][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_c83fc42bd3ed",
+      "section": "Event Sheet: Boss",
+      "english": "Storm Eagle",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][10][1][1]",
+        "project[6][8][1][8][7][5][7][10][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_f50842adc9c8",
+      "section": "Event Sheet: Boss",
+      "english": "eagle dive",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][10][7][5][6][0][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_d3a716826719",
+      "section": "Event Sheet: Boss",
+      "english": "Armored Armadillo",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][11][1][1]",
+        "project[6][8][1][8][7][5][7][11][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_18f0322720e9",
+      "section": "Event Sheet: Boss",
+      "english": "player - x shot lv3",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][11][7][6][6][2][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][14][7][6][7][1][7][0][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][16][7][5][6][5][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][18][7][11][6][5][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][18][7][14][7][1][6][12][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][18][7][26][7][1][6][12][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][18][7][27][6][13][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_408018b0fa27",
+      "section": "Event Sheet: Boss",
+      "english": "Wheel Gator",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][12][1][1]",
+        "project[6][8][1][8][7][5][7][12][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_fec63b2f36ed",
+      "section": "Event Sheet: Boss",
+      "english": "hit shield",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][12][7][14][6][0][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_74c3d2fb154a",
+      "section": "Event Sheet: Boss",
+      "english": "Magna Centipede",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][13][1][1]",
+        "project[6][8][1][8][7][5][7][13][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_204791fca2a7",
+      "section": "Event Sheet: Boss",
+      "english": "Flame Stag",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][14][1][1]",
+        "project[6][8][1][8][7][5][7][14][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_718df10c1f2a",
+      "section": "Event Sheet: Boss",
+      "english": "fire shot",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][14][7][3][7][1][6][1][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][14][7][20][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][14][7][22][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][17][7][12][6][1][5][0][1][0]",
+        "project[6][28][1][7][7][3][6][4][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_403211e31ea9",
+      "section": "Event Sheet: Boss",
+      "english": "Morph Moth",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][15][1][1]",
+        "project[6][8][1][8][7][5][7][15][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_bafd514eb3c0",
+      "section": "Event Sheet: Boss",
+      "english": "Moth Phase 1",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][15][7][0][6][3][5][0][1][1]",
+        "project[6][8][1][8][7][5][7][15][7][1][1][1]",
+        "project[6][8][1][8][7][5][7][15][7][1][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][5][7][15][7][2][7][0][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_72a3f1e2aae5",
+      "section": "Event Sheet: Boss",
+      "english": "Moth Phase 2",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][15][7][0][6][4][5][0][1][1]",
+        "project[6][8][1][8][7][5][7][15][7][1][7][30][6][7][5][0][1][1]",
+        "project[6][8][1][8][7][5][7][15][7][2][1][1]",
+        "project[6][8][1][8][7][5][7][15][7][2][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_5f9c07803884",
+      "section": "Event Sheet: Boss",
+      "english": "moth transform",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][15][7][1][7][30][6][8][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_8053ecf8b8fe",
+      "section": "Event Sheet: Boss",
+      "english": "hit damage",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][15][7][2][7][21][7][1][6][1][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_16e73d30b4cb",
+      "section": "Event Sheet: Boss",
+      "english": "Sigma2 Death",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][17][7][21][6][13][5][0][1][1]",
+        "project[6][8][1][8][7][7][1][1]",
+        "project[6][8][1][8][7][7][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][7][7][3][6][1][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_2f0993338306",
+      "section": "Event Sheet: Boss",
+      "english": "CLONE V",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][18][7][0][6][0][5][1][1][1]",
+        "project[6][8][1][8][7][5][7][18][7][2][7][0][6][0][5][1][1][2][1][1]",
+        "project[6][8][1][8][7][5][7][18][7][2][7][2][5][1][9][2][1][1]",
+        "project[6][8][1][8][7][5][7][18][7][2][7][3][6][0][5][1][1][2][0][1]",
+        "project[6][8][1][8][7][5][7][18][7][2][7][4][6][0][5][1][1][2][1][1]",
+        "project[6][8][1][8][7][5][7][18][7][18][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][5][7][18][7][19][5][1][9][2][1][1]"
+      ]
+    },
+    {
+      "id": "story_930ae47a6dfa",
+      "section": "Event Sheet: Boss",
+      "english": "LASER HAND",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][18][7][2][7][0][5][0][9][2][1][1]",
+        "project[6][8][1][8][7][5][7][18][7][2][7][1][6][0][5][1][1][2][2][1]",
+        "project[6][8][1][8][7][5][7][18][7][2][7][2][6][0][5][1][1][2][2][1]",
+        "project[6][8][1][8][7][5][7][18][7][2][7][3][6][0][5][1][1][2][2][1]",
+        "project[6][8][1][8][7][5][7][18][7][2][7][4][6][0][5][1][1][2][2][1]",
+        "project[6][8][1][8][7][5][7][18][7][9][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][5][7][18][7][10][5][0][9][2][1][1]"
+      ]
+    },
+    {
+      "id": "story_ce5deb4a1a1e",
+      "section": "Event Sheet: Boss",
+      "english": "CLONE H",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][18][7][2][7][0][6][0][5][1][1][2][0][1]",
+        "project[6][8][1][8][7][5][7][18][7][2][7][1][5][1][9][2][1][1]",
+        "project[6][8][1][8][7][5][7][18][7][2][7][4][6][0][5][1][1][2][0][1]",
+        "project[6][8][1][8][7][5][7][18][7][22][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][5][7][18][7][23][5][1][9][2][1][1]"
+      ]
+    },
+    {
+      "id": "story_e2f81f51e1eb",
+      "section": "Event Sheet: Boss",
+      "english": "DOUBLE LASER",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][18][7][2][7][1][6][0][5][1][1][2][0][1]",
+        "project[6][8][1][8][7][5][7][18][7][2][7][2][6][0][5][1][1][2][0][1]",
+        "project[6][8][1][8][7][5][7][18][7][2][7][3][6][0][5][1][1][2][1][1]",
+        "project[6][8][1][8][7][5][7][18][7][2][7][4][5][1][9][2][1][1]",
+        "project[6][8][1][8][7][5][7][18][7][25][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][5][7][18][7][26][5][0][9][2][1][1]"
+      ]
+    },
+    {
+      "id": "story_95c0759d8d3b",
+      "section": "Event Sheet: Boss",
+      "english": "LASER V",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][18][7][2][7][1][6][0][5][1][1][2][1][1]",
+        "project[6][8][1][8][7][5][7][18][7][2][7][2][6][0][5][1][1][2][1][1]",
+        "project[6][8][1][8][7][5][7][18][7][2][7][3][5][1][9][2][1][1]",
+        "project[6][8][1][8][7][5][7][18][7][13][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][5][7][18][7][14][5][0][9][2][1][1]"
+      ]
+    },
+    {
+      "id": "story_666a482d64d1",
+      "section": "Event Sheet: Boss",
+      "english": "Techno Death",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][18][7][8][6][6][5][0][1][1]",
+        "project[6][8][1][8][7][8][1][1]",
+        "project[6][8][1][8][7][8][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][8][7][8][7][2][6][5][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_cedb02ffcfe2",
+      "section": "Event Sheet: Boss",
+      "english": "Vile",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][2][1][1]",
+        "project[6][8][1][8][7][5][7][2][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][5][7][2][7][11][6][3][5][0][1][1]",
+        "project[6][28][1][1][7][6][6][1][5][1][1][1][1]",
+        "project[6][28][1][9][7][6][6][0][5][0][1][1]",
+        "project[6][34][1][7][7][0][5][3][9][0][1][1]",
+        "project[6][35][1][15][7][3][7][0][5][2][9][0][1][1]",
+        "project[5][17][6][1][14][1][3][1][0]"
+      ]
+    },
+    {
+      "id": "story_d6b97f9e721d",
+      "section": "Event Sheet: Boss",
+      "english": "player - x shot lv1",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][2][7][1][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][5][7][4][7][2][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][7][7][5][6][1][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][12][7][9][7][2][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][16][7][19][7][0][6][2][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][17][7][5][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][17][7][9][6][0][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_90c18a319893",
+      "section": "Event Sheet: Boss",
+      "english": "player - x shot lv2",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][5][7][2][7][1][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][5][7][4][7][1][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][11][7][8][7][0][7][0][6][6][5][0][1][0]",
+        "project[6][8][1][8][7][6][7][11][7][0][6][3][5][0][1][0]",
+        "project[6][8][1][8][7][8][7][8][7][0][6][2][5][0][1][0]",
+        "project[6][28][1][11][7][1][7][3][7][0][6][2][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_f5b57ceae09a",
+      "section": "Event Sheet: Boss",
+      "english": "electric spark",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][5][7][4][7][3][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][9][7][4][6][1][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][9][7][21][7][0][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][17][7][7][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][17][7][17][6][0][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_abd161d1a130",
+      "section": "Event Sheet: Boss",
+      "english": "ZainGeemel Death",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][6][7][24][7][0][6][1][5][0][1][1]",
+        "project[6][8][1][8][7][6][1][1]",
+        "project[6][8][1][8][7][6][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][6][7][13][6][5][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_70db8ac75104",
+      "section": "Event Sheet: Boss",
+      "english": "fire blast",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][7][7][10][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][14][7][11][7][1][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][15][7][2][7][21][7][0][6][2][5][0][1][0]",
+        "project[6][28][1][7][7][13][7][0][6][0][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_b5c287015d3c",
+      "section": "Event Sheet: Boss",
+      "english": "player - dash",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][7][7][15][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][8][7][22][6][4][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][13][7][28][6][1][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][16][7][8][6][3][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_ca6481732e61",
+      "section": "Event Sheet: Boss",
+      "english": "End Dash",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][7][7][16][7][0][7][0][6][1][5][0][1][1]",
+        "project[6][8][1][8][7][5][7][7][7][17][6][0][5][0][1][1]",
+        "project[6][8][1][8][7][5][7][7][7][19][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_7937cfb7c1ff",
+      "section": "Event Sheet: Boss",
+      "english": "Chill Penguin",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][8][1][1]",
+        "project[6][8][1][8][7][5][7][8][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_5ddb5f0ad38f",
+      "section": "Event Sheet: Boss",
+      "english": "player - x shot lv0",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][8][7][12][7][1][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][6][7][6][7][1][6][2][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_c09e76fb40f9",
+      "section": "Event Sheet: Boss",
+      "english": "ice break small",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][8][7][14][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][8][7][15][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][6][7][7][6][1][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_0155524d5a25",
+      "section": "Event Sheet: Boss",
+      "english": "ice blow",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][8][7][25][6][1][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_fc2d41e8b89a",
+      "section": "Event Sheet: Boss",
+      "english": "ice break big",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][8][7][28][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][8][7][29][6][0][5][0][1][0]",
+        "project[6][8][1][8][7][5][7][9][7][24][7][0][6][5][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_b3cdad7ef8ca",
+      "section": "Event Sheet: Boss",
+      "english": "strong wind",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][8][7][4][6][4][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_69c9388aa633",
+      "section": "Event Sheet: Boss",
+      "english": "ice break medium",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][8][7][6][6][1][5][0][1][0]",
+        "project[6][28][1][3][7][4][6][0][5][0][1][0]",
+        "project[6][28][1][3][7][5][7][0][6][0][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_fc8be26494a4",
+      "section": "Event Sheet: Boss",
+      "english": "Spark Mandrill",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][9][1][1]",
+        "project[6][8][1][8][7][5][7][9][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_b82705d9de69",
+      "section": "Event Sheet: Boss",
+      "english": "Stop Swing",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][5][7][9][7][13][6][0][5][0][1][1]",
+        "project[6][8][1][8][7][5][7][9][7][14][5][0][9][0][1][1]",
+        "project[6][8][1][8][7][5][7][9][7][24][7][1][7][1][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_adb7bd50873e",
+      "section": "Event Sheet: Boss",
+      "english": "Idle Slash",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][6][7][11][7][1][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_afc6c45769ec",
+      "section": "Event Sheet: Boss",
+      "english": "Zero",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][6][7][5][6][9][5][1][1][1][2][1]",
+        "project[5][7][6][1][14][32][5][1]"
+      ]
+    },
+    {
+      "id": "story_c80e0e7f760f",
+      "section": "Event Sheet: Boss",
+      "english": "Sigma Defeat",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][7][7][0][7][2][7][0][6][0][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_437f4cef0fbb",
+      "section": "Event Sheet: Boss",
+      "english": "Save File",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][8][7][0][6][3][5][0][1][1]",
+        "project[6][28][1][9][7][6][6][5][5][0][1][1]",
+        "project[6][35][1][12][7][0][6][0][5][0][1][1]",
+        "project[6][35][1][15][7][0][7][0][6][1][5][0][1][1]",
+        "project[6][36][1][2][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_c6b6c81be46d",
+      "section": "Event Sheet: Boss",
+      "english": "Techno Defeat-1",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][8][7][1][6][3][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_3bdd88609eb0",
+      "section": "Event Sheet: Boss",
+      "english": "Techno Defeat-2",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][8][7][3][6][1][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_176d6cd546eb",
+      "section": "Event Sheet: Boss",
+      "english": "Techno Defeat-3",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][8][7][7][6][2][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_72ef8b6a8200",
+      "section": "Event Sheet: Boss",
+      "english": "Open Door",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][9][7][5][7][3][7][3][5][0][9][2][1][1]"
+      ]
+    },
+    {
+      "id": "story_7065e62a4bad",
+      "section": "Event Sheet: Boss",
+      "english": "player - victory",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][8][1][8][7][9][7][6][6][2][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_6ed1c58e1670",
+      "section": "Event Sheet: Boss Intro Events",
+      "english": "boss intro",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][14][1][4][6][0][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_c4c63adbff4b",
+      "section": "Event Sheet: Credits Events",
+      "english": "Credits Events",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][34][0]"
+      ]
+    },
+    {
+      "id": "story_80f9d27d7f28",
+      "section": "Event Sheet: Credits Events",
+      "english": "<C #f8f8f8>Mega Man DXtreme \n\n\nStaff :\n\n<C #00cae8>Director-Programmer-Writing: \n<C #f8f8f8>Tomycase\n\n<C #00cae8>Level Design: \n<C #f8f8f8>Kennen'B', GiaTheRose, SolrenSun, Tomycase\n\n<C #00cae8>Additional Sprite Work: \n<C #f8f8f8>Kennen'B', SolrenSun, Tomycase\n\n<C #00cae8>Additional Music Work: \n<C #f8f8f8>mega sfc, kuwata, SolrenSun\n\n<C #00cae8>Testers: \n<C #f8f8f8>GiaTheRose, SolrenSun, Kennen'B', OmegaZeeZ, TioVoctor, Nautical Nova, Cat Yard, RED1, SlickNickArts\n\n\n\nMega Man Xtreme Original Staff :\n\n<C #00cae8>Director: \n<C #f8f8f8>Ohko13Caz\n\n<C #00cae8>Planner: \n<C #f8f8f8>Shino Okamura\n\n<C #00cae8>Programmer:\n<C #f8f8f8>Hana Yoshimura, Asagiri, Wada, Kenoh (Kubori-Na)\n\n<C #00cae8>Background Designer: \n<C #f8f8f8>Ryutaro's Mama, Yoshio Misaki\n\n<C #00cae8>Character Designer: \n<C #f8f8f8>K23-7219-Toda, Kenichi Miyahara, Ueda & Ando\n\n<C #00cae8>Original Design: \n<C #f8f8f8>Sensei\n\n<C #00cae8>Sound: \n<C #f8f8f8>Toshio Kajino, Saori Maeda\n\n<C #00cae8>Bug Checker: \n<C #f8f8f8>Nabe Hashimoto and Robayan 75\n\n<C #00cae8>Special Thanks: \n<C #f8f8f8>Sadamoto, Inafking, Niida, Komiya, Roy Ozaki\n\n<C #00cae8>Producer: \n<C #f8f8f8>Tatsuya Minami\n\n<C #00cae8>Executive Producer: \n<C #f8f8f8>Yoshiki Okamoto\n\n\n\nThank you for playing!",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][34][1][2][6][2][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_b45c6a5835f8",
+      "section": "Event Sheet: Credits Events",
+      "english": "End Credits",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][34][1][5][6][1][5][0][1][1]",
+        "project[6][34][1][6][7][0][6][1][5][0][1][1]",
+        "project[6][34][1][7][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_5a16dd5cd6e5",
+      "section": "Event Sheet: Cutscenes Events",
+      "english": "Cutscenes Events",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][35][0]"
+      ]
+    },
+    {
+      "id": "story_29c3c85c62be",
+      "section": "Event Sheet: Cutscenes Events",
+      "english": "Cutscene 1",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][35][1][10][1][1]",
+        "project[6][35][1][10][5][0][9][0][1][1]",
+        "project[6][35][1][10][7][0][7][0][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_0c254970dc8a",
+      "section": "Event Sheet: Cutscenes Events",
+      "english": "Cutscene 2",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][35][1][11][1][1]",
+        "project[6][35][1][11][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_cabfc3841c28",
+      "section": "Event Sheet: Cutscenes Events",
+      "english": "Cutscene 3",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][35][1][12][1][1]",
+        "project[6][35][1][12][5][0][9][0][1][1]",
+        "project[6][35][1][12][7][0][7][0][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_c743ba253b6e",
+      "section": "Event Sheet: Cutscenes Events",
+      "english": "Cutscene 4",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][35][1][13][1][1]",
+        "project[6][35][1][13][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_5ba2879619d6",
+      "section": "Event Sheet: Cutscenes Events",
+      "english": "Cutscene 5",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][35][1][14][1][1]",
+        "project[6][35][1][14][5][0][9][0][1][1]",
+        "project[6][35][1][14][7][0][7][0][6][0][5][0][1][1]",
+        "project[6][35][1][14][7][3][6][1][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_c26b86da6ed2",
+      "section": "Event Sheet: Cutscenes Events",
+      "english": "Cutscene 6",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][35][1][15][1][1]",
+        "project[6][35][1][15][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_17e8c18019db",
+      "section": "Event Sheet: Cutscenes Events",
+      "english": "Secret Ending-1",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][35][1][15][7][4][6][1][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_1cc333b225f9",
+      "section": "Event Sheet: Cutscenes Events",
+      "english": "Secret Ending-2",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][35][1][15][7][5][6][5][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_1a5da8b1da31",
+      "section": "Event Sheet: Cutscenes Events",
+      "english": "Cutscene 7",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][35][1][16][1][1]",
+        "project[6][35][1][16][5][0][9][0][1][1]",
+        "project[6][35][1][16][7][2][6][3][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_6704a827092c",
+      "section": "Event Sheet: Cutscenes Events",
+      "english": "Sigma Ending-1",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][35][1][16][7][0][6][3][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_2678753fd902",
+      "section": "Event Sheet: Cutscenes Events",
+      "english": "Sigma Ending-2",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][35][1][16][7][1][6][2][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_a4f004e362a4",
+      "section": "Event Sheet: Cutscenes Events",
+      "english": "Save System",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][35][1][5][1]",
+        "project[6][36][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_189d826b2da6",
+      "section": "Event Sheet: Cutscenes Events",
+      "english": "Cutscene 0",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][35][1][9][1][1]",
+        "project[6][35][1][9][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_b2c3247578c6",
+      "section": "Event Sheet: Dialog System",
+      "english": "/D/Dialogue[@id='",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][15][1][2][6][3][5][1][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_0c29a601c8aa",
+      "section": "Event Sheet: Dialog System",
+      "english": "/TextLine[@id='",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][15][1][6][6][0][5][1][1][5][0][1][1][2][1]",
+        "project[6][15][1][6][6][2][5][1][1][5][0][1][1][2][1]",
+        "project[6][15][1][6][6][3][5][1][1][5][0][1][1][2][1]",
+        "project[6][15][1][6][6][4][5][1][1][5][0][1][1][2][1]",
+        "project[6][15][1][6][7][2][5][0][9][0][1][5][0][1][1][2][1]",
+        "project[6][15][1][6][7][2][6][0][5][0][1][5][0][1][1][2][1]"
+      ]
+    },
+    {
+      "id": "story_8f281fdc7556",
+      "section": "Event Sheet: Dialog System",
+      "english": "']/text()",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][15][1][6][6][0][5][1][1][5][0][2][1]"
+      ]
+    },
+    {
+      "id": "story_391fd4f867ed",
+      "section": "Event Sheet: Dialog System",
+      "english": "']/@name",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][15][1][6][6][2][5][1][1][5][0][2][1]"
+      ]
+    },
+    {
+      "id": "story_2a1a87144dc3",
+      "section": "Event Sheet: Dialog System",
+      "english": "']/@mug1",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][15][1][6][6][3][5][1][1][5][0][2][1]"
+      ]
+    },
+    {
+      "id": "story_d329b26c7108",
+      "section": "Event Sheet: Dialog System",
+      "english": "']/@mug2",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][15][1][6][6][4][5][1][1][5][0][2][1]"
+      ]
+    },
+    {
+      "id": "story_31be77e3898a",
+      "section": "Event Sheet: Dialog System",
+      "english": "<C None>",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][15][1][6][7][0][6][1][5][1][1][2][2][1]"
+      ]
+    },
+    {
+      "id": "story_9abb54a167ce",
+      "section": "Event Sheet: Dialog System",
+      "english": "']/@function",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][15][1][6][7][2][5][0][9][0][1][5][0][2][1]",
+        "project[6][15][1][6][7][2][6][0][5][0][1][5][0][2][1]"
+      ]
+    },
+    {
+      "id": "story_1a7f889049a3",
+      "section": "Event Sheet: Stage Specific",
+      "english": "Auto Save",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][28][1][1][7][0][6][0][5][0][1]",
+        "project[6][35][1][10][7][0][7][0][6][2][5][0][1]",
+        "project[6][35][1][14][7][0][7][0][6][2][5][0][1]",
+        "project[6][36][1][2][5][1][9][2][1][1]"
+      ]
+    },
+    {
+      "id": "story_479c91113669",
+      "section": "Event Sheet: Stage Specific",
+      "english": "Event - Confronts Techno",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][28][1][11][7][1][1][1]",
+        "project[6][28][1][11][7][1][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_7612dc2f2e58",
+      "section": "Event Sheet: Stage Specific",
+      "english": "Confronts Techno",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][28][1][11][7][1][7][0][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_1d4b0ab2948c",
+      "section": "Event Sheet: Stage Specific",
+      "english": "Confronts Techno-1",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][28][1][11][7][1][7][0][6][4][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_6d4bbdcf2db9",
+      "section": "Event Sheet: Stage Specific",
+      "english": "Confronts Techno-2",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][28][1][11][7][1][7][2][6][2][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_aed5658fef93",
+      "section": "Event Sheet: Stage Specific",
+      "english": "Set Shoot",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][28][1][11][7][1][7][3][7][0][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_cf1f8dc72127",
+      "section": "Event Sheet: Stage Specific",
+      "english": "Confronts Techno-3",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][28][1][11][7][1][7][5][6][3][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_927d1fc3dab6",
+      "section": "Event Sheet: Stage Specific",
+      "english": "Confronts Techno-4",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][28][1][11][7][1][7][6][6][3][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_b00534882c6e",
+      "section": "Event Sheet: Stage Specific",
+      "english": "Exit Stage",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][28][1][14][7][3][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_b170853fa997",
+      "section": "Event Sheet: Stage Specific",
+      "english": "Minecart Behavior",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][28][1][4][7][1][1][1]",
+        "project[6][28][1][4][7][1][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_ff16726cc422",
+      "section": "Event Sheet: Stage Specific",
+      "english": "minecart bounce",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][28][1][4][7][1][7][2][7][4][6][4][5][0][1][0]",
+        "project[6][28][1][4][7][1][7][5][6][3][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_472730133316",
+      "section": "Event Sheet: Stage Specific",
+      "english": "Shift BG",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][28][1][5][7][1][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_2c32c69e14f6",
+      "section": "Event Sheet: Stage Specific",
+      "english": "Shift BG2",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][28][1][5][7][2][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_0fd0b8952080",
+      "section": "Event Sheet: Stage Specific",
+      "english": "Lab Radar",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][28][1][6][7][10][1][1]",
+        "project[6][28][1][6][7][10][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_29ea75f81874",
+      "section": "Event Sheet: Stage Specific",
+      "english": "Tetris System",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][28][1][6][7][11][1][1]",
+        "project[6][28][1][6][7][11][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_4eaeb68401fa",
+      "section": "Event Sheet: Stage Specific",
+      "english": "Spotlight Alarm",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][28][1][6][7][9][1][1]",
+        "project[6][28][1][6][7][9][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_2ddb006baacb",
+      "section": "Event Sheet: Stage Specific",
+      "english": "Magnetized Scraps",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][28][1][8][7][2][1][1]",
+        "project[6][28][1][8][7][2][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_ff448889f62f",
+      "section": "Event Sheet: Stage Specific",
+      "english": "Rematch Setup",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][28][1][9][7][0][7][0][7][0][6][1][5][0][1][1]",
+        "project[6][28][1][9][7][0][7][1][6][0][5][0][1][1]",
+        "project[6][28][1][10][7][0][6][0][5][0][1][1]",
+        "project[6][28][1][14][1][1]",
+        "project[6][28][1][14][5][0][9][0][1][1]",
+        "project[6][28][1][14][7][2][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_25f9ba7caba6",
+      "section": "Event Sheet: Startup Events",
+      "english": "Startup Events",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][19][0]",
+        "project[5][4][4]",
+        "project[5][5][4]"
+      ]
+    },
+    {
+      "id": "story_8efeaef95a2b",
+      "section": "Event Sheet: Startup Events",
+      "english": "This project is a non-profit fangame, and is not endorsed by nor affiliated with CAPCOM.\n\nAll MegaMan/Rockman material including but not limited to game, characters, images, names, and music are \n©CAPCOM Co., Ltd.",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][19][1][1][7][2][6][0][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_509455913b82",
+      "section": "Event Sheet: Startup Events",
+      "english": "title theme_gb",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][19][1][1][7][2][7][0][6][1][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_3b4063eef790",
+      "section": "Event Sheet: Startup Events",
+      "english": "title theme_snes",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][19][1][1][7][2][7][0][6][2][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_720ff6444b77",
+      "section": "Event Sheet: Startup Events",
+      "english": "stage select_gb",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][19][1][1][7][2][7][0][6][5][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_8aee3e4bc604",
+      "section": "Event Sheet: Startup Events",
+      "english": "stage select_snes",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][19][1][1][7][2][7][0][6][6][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_2807c7e4824e",
+      "section": "Event Sheet: Startup Events",
+      "english": "Remap Prompt",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][19][1][6][6][1][5][0][1][1]",
+        "project[6][19][1][7][5][0][9][0][1][1]",
+        "project[6][19][1][7][6][0][5][0][1][1]",
+        "project[6][19][1][8][5][0][9][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_ac79a5b38d04",
+      "section": "Event Sheet: Startup Events",
+      "english": "Title Screen",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][19][1][8][6][0][5][0][1]",
+        "project[5][6][0]"
+      ]
+    },
+    {
+      "id": "story_31de776eb402",
+      "section": "Event Sheet: Weapon Get Events",
+      "english": "Weapon Get Events",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][13][0]",
+        "project[5][19][4]"
+      ]
+    },
+    {
+      "id": "story_0849cb201dc5",
+      "section": "Event Sheet: Weapon Get Events",
+      "english": "<C None>!",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][13][1][11][7][1][6][1][5][0][1][2][1]"
+      ]
+    },
+    {
+      "id": "story_ae54fddc79f3",
+      "section": "Event Sheet: Weapon Get Events",
+      "english": "menu - confirm",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][13][1][12][7][1][6][1][5][0][1][0]"
+      ]
+    },
+    {
+      "id": "story_689d3ac657cb",
+      "section": "Event Sheet: Weapon Get Events",
+      "english": "Cursor Select",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][13][1][12][7][1][6][1][5][7][1][1]"
+      ]
+    },
+    {
+      "id": "story_93f67744ba0a",
+      "section": "Event Sheet: Weapon Get Events",
+      "english": "Screen Events",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][13][1][4][1]"
+      ]
+    },
+    {
+      "id": "story_06b4ece7c8e1",
+      "section": "Event Sheet: Weapon Get Events",
+      "english": "Got Weapon",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][13][1][9][6][0][5][1][1][1][1]"
+      ]
+    },
+    {
+      "id": "story_2fff979a9428",
+      "section": "Event Sheet: Weapon Get Events",
+      "english": "Menu Global Inputs",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][13][1][9][6][4][5][0][1][1]",
+        "project[6][13][1][12][7][1][6][3][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_cb1dd3959c2e",
+      "section": "Event Sheet: Weapon Get Events",
+      "english": "Set Palette",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[6][13][1][9][6][6][5][0][1][1]"
+      ]
+    },
+    {
+      "id": "story_e3c455b87480",
+      "section": "Layout: Dialog",
+      "english": "ABCDEFGHIJKLMNOPQRSTUVWXYZ?",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][16][6][0][14][6][5][2]"
+      ]
+    },
+    {
+      "id": "story_bc30b0e51284",
+      "section": "Layout: Disclaimer",
+      "english": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.,:\"'?!-0123456789()/©",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][4][6][0][14][0][5][2]"
+      ]
+    },
+    {
+      "id": "story_115ef6d01640",
+      "section": "Layout: Disclaimer",
+      "english": "This project is a non-profit fangame,",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][4][6][0][14][0][5][3]"
+      ]
+    },
+    {
+      "id": "story_85832ab1a2b4",
+      "section": "Layout: Files Menu",
+      "english": "Files Menu",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][7][0]"
+      ]
+    },
+    {
+      "id": "story_3e811caeac02",
+      "section": "Layout: Files Menu",
+      "english": "Files Menu Events",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][7][4]"
+      ]
+    },
+    {
+      "id": "story_399888a655aa",
+      "section": "Layout: Files Menu",
+      "english": "File will be overwritten, continue?",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][7][6][1][14][42][5][3]"
+      ]
+    },
+    {
+      "id": "story_57f57f461893",
+      "section": "Layout: Stage Select",
+      "english": "PenguinHeart; Capsule239",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][17][6][0][14][1][3][3][0]"
+      ]
+    },
+    {
+      "id": "story_422f7f776105",
+      "section": "Layout: Stage Select",
+      "english": "MandrillHeart; MandrillTank; Capsule690",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][17][6][0][14][2][3][3][0]"
+      ]
+    },
+    {
+      "id": "story_e98df8261295",
+      "section": "Layout: Stage Select",
+      "english": "EagleHeart; EagleTank; Capsule863",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][17][6][0][14][3][3][3][0]"
+      ]
+    },
+    {
+      "id": "story_fb198f57deb0",
+      "section": "Layout: Stage Select",
+      "english": "StagHeart; Capsule1202",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][17][6][0][14][4][3][3][0]"
+      ]
+    },
+    {
+      "id": "story_2e640f384c37",
+      "section": "Layout: Stage Select",
+      "english": "GatorHeart; Capsule522",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][17][6][0][14][5][3][3][0]"
+      ]
+    },
+    {
+      "id": "story_34f1e1942adf",
+      "section": "Layout: Stage Select",
+      "english": "CentipedeHeart; Capsule1401; CentipedeTank",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][17][6][0][14][6][3][3][0]"
+      ]
+    },
+    {
+      "id": "story_38c20a0805b9",
+      "section": "Layout: Stage Select",
+      "english": "Capsule1082; ArmadilloHeart; ArmadilloTank",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][17][6][0][14][7][3][3][0]"
+      ]
+    },
+    {
+      "id": "story_d2880568c50a",
+      "section": "Layout: Stage Select",
+      "english": "MothHeart; Capsule1653",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][17][6][0][14][8][3][3][0]"
+      ]
+    },
+    {
+      "id": "story_bfd9bf1b6a6c",
+      "section": "Layout: Stage Select",
+      "english": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.,:\"'?!-0123456789()/",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][17][6][1][14][4][5][2]"
+      ]
+    },
+    {
+      "id": "story_455207573db5",
+      "section": "Layout: Startup",
+      "english": "6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][5][6][1][14][1][0][13][2]"
+      ]
+    },
+    {
+      "id": "story_633aeb4a73fb",
+      "section": "Layout: Title Screen",
+      "english": "Title Screen Events",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][6][4]"
+      ]
+    },
+    {
+      "id": "story_5d416ff50252",
+      "section": "Layout: Title Screen",
+      "english": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.,:\"'?!-0123456789",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][6][6][1][14][7][5][2]",
+        "project[5][6][6][1][14][9][5][2]",
+        "project[5][7][6][1][14][42][5][2]",
+        "project[5][16][6][0][14][1][5][2]",
+        "project[5][19][6][2][14][3][5][2]"
+      ]
+    },
+    {
+      "id": "story_d6db52a54ba5",
+      "section": "Layout: Title Screen",
+      "english": "CX2Team.2025-26",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][6][6][1][14][9][5][3]"
+      ]
+    },
+    {
+      "id": "story_5b8f4ffe2741",
+      "section": "Layout: Weapon Get",
+      "english": "Weapon Get",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][19][0]"
+      ]
+    },
+    {
+      "id": "story_6aa00a9f74eb",
+      "section": "Layout: Weapon Get",
+      "english": "17x0,256x-1,0,272x-1,0,272x-1,0,272x-1,0,272x-1,0,272x-1,0,272x-1,0,272x-1,0,272x-1,0,272x-1,0,272x-1,0,272x-1,17x0,6262x-1",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][19][6][1][14][0][0][13][2]"
+      ]
+    },
+    {
+      "id": "story_4f8e73119bf4",
+      "section": "Layout: Weapon Get",
+      "english": "You got the X Buster!",
+      "portuguese": "",
+      "notes": "",
+      "references": [
+        "project[5][19][6][2][14][3][5][3]"
+      ]
+    }
+  ]
+}

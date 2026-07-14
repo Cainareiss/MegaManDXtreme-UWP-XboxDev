@@ -1,0 +1,36 @@
+# Visual Studio / UWP build output
+.vs/
+bin/
+obj/
+AppPackages/
+BundleArtifacts/
+TestResults/
+
+# Local tooling and virtual environments
+.tools/
+.venv/
+.agents/
+
+# Generated packages and temporary signing/export artifacts
+*.appx
+*.appxbundle
+*.appxsym
+*.msix
+*.msixbundle
+*.cer
+*.p7x
+
+# Logs and local user state
+*.log
+*.log.txt
+*.tmp
+*.cache
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Intermediate backups kept outside the source snapshot
+DataBackups/
+EncodedAudioBackup/
+OggAudioBackup/

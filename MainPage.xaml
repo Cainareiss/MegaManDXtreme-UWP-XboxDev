@@ -1,0 +1,48 @@
+<Page
+    x:Class="MegaManDXtreme.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="Black"
+    IsTabStop="True">
+
+    <Grid x:Name="RootGrid">
+
+        <!-- WebView nativo do UWP (EdgeHTML) — ocupa toda a tela. Sem WebView2. -->
+        <WebView x:Name="GameWebView"
+                 HorizontalAlignment="Stretch"
+                 VerticalAlignment="Stretch"
+                 IsHitTestVisible="False"
+                 ScriptNotify="OnScriptNotify"
+                 NavigationCompleted="OnNavigationCompleted"
+                 NavigationFailed="OnNavigationFailed" />
+
+        <!-- Overlay de Carregamento -->
+        <Grid x:Name="LoadingOverlay" Background="Black" Visibility="Visible">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                <ProgressRing x:Name="LoadingRing" IsActive="True"
+                              Width="60" Height="60" Foreground="White" Margin="0,0,0,20"/>
+                <TextBlock x:Name="LoadingText"
+                           Text="CARREGANDO MEGA MAN DXTREME..."
+                           Foreground="White" FontSize="18" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Overlay de Erro -->
+        <Grid x:Name="ErrorOverlay" Background="#AA0000" Visibility="Collapsed">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" MaxWidth="600">
+                <TextBlock x:Name="ErrorTitle" Text="ERRO"
+                           Foreground="White" FontSize="24" FontWeight="Bold" Margin="0,0,0,10"/>
+                <TextBlock x:Name="ErrorMessage" Text="Detalhes do erro aqui..."
+                           Foreground="White" FontSize="16" TextWrapping="Wrap" Margin="0,0,0,10"/>
+                <TextBlock x:Name="ErrorLogHint" Text=""
+                           Foreground="#CCCCCC" FontSize="12" TextWrapping="Wrap" Margin="0,0,0,20"/>
+                <TextBlock Text="Pressione (A) para recarregar ou (B) para sair."
+                           Foreground="#CCCCCC" FontSize="14" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Page>

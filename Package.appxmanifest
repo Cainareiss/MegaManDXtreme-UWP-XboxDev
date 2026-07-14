@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  IgnorableNamespaces="uap mp">
+
+  <Identity
+    Name="MegaManDXtreme.XboxDev.Locale9"
+    Publisher="CN=MegaManDXtreme"
+    Version="1.0.5.0" />
+
+  <mp:PhoneIdentity
+    PhoneProductId="8336244d-8b79-41e7-ab71-6a974aa8fc3c"
+    PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+
+  <Properties>
+    <DisplayName>Mega Man DXtreme</DisplayName>
+    <PublisherDisplayName>Fan Port</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+
+  <Dependencies>
+    <!-- MinVersion 17763 = Redstone 5 (mínimo suportado pelo Xbox Dev Mode moderno) -->
+    <!-- MaxVersionTested 22000 = Windows 11 / Xbox Series -->
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22000.0" />
+    <TargetDeviceFamily Name="Windows.Xbox"      MinVersion="10.0.17763.0" MaxVersionTested="10.0.22000.0" />
+  </Dependencies>
+
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+
+  <Applications>
+    <Application Id="App"
+      Executable="$targetnametoken$.exe"
+      EntryPoint="MegaManDXtreme.App">
+      <uap:VisualElements
+        DisplayName="Mega Man DXtreme"
+        Description="Mega Man DXtreme UWP for Xbox Dev Mode"
+        BackgroundColor="transparent"
+        Square150x150Logo="Assets\Logo.png"
+        Square44x44Logo="Assets\SmallTile.png">
+        <uap:DefaultTile Wide310x150Logo="Assets\WideTile.png" />
+        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#000000" />
+      </uap:VisualElements>
+      <uap:ApplicationContentUriRules>
+        <uap:Rule Match="ms-appx-web:///GameFiles/index.html"
+                  Type="include"
+                  WindowsRuntimeAccess="all" />
+      </uap:ApplicationContentUriRules>
+    </Application>
+  </Applications>
+
+  <Capabilities>
+    <!-- internetClient: necessário para o WebView carregar recursos locais -->
+    <Capability Name="internetClient" />
+  </Capabilities>
+
+</Package>

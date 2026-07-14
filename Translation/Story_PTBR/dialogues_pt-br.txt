@@ -1,0 +1,2536 @@
+[dialogue_9d99b80419c2] Prologue / linha 1 / ocorrencia 1 / ????
+<C #d848d8>I made it in.
+
+PT-BR:
+Consegui entrar.
+
+========================================================================
+[dialogue_e51971412046] Prologue / linha 2 / ocorrencia 1 / ????
+<C #7050e0>Do you see him?
+
+PT-BR:
+Você o vê?
+
+========================================================================
+[dialogue_aae1562c4715] Prologue / linha 3 / ocorrencia 1 / ????
+<C #d848d8>Not yet...
+
+PT-BR:
+Ainda não...
+
+========================================================================
+[dialogue_c29b8510125b] Prologue / linha 4 / ocorrencia 1 / ????
+<C #d848d8>....Ah!<TW wait 0.5> Here he is!
+
+PT-BR:
+....Ah!<TW wait 0.5> Aqui está ele!
+
+========================================================================
+[dialogue_60983a8735ce] Prologue / linha 5 / ocorrencia 1 / ????
+<C #7050e0>Let's begin the operation then.
+
+PT-BR:
+Então vamos começar a operação.
+
+========================================================================
+[dialogue_8f5a012efa79] Prologue / linha 6 / ocorrencia 1 / ????
+<C #7050e0>Bring him in now.
+
+PT-BR:
+Tragam-no agora.
+
+========================================================================
+[dialogue_50f0513a8267] Prologue / linha 7 / ocorrencia 1 / ????
+<C #d848d8>Commencing transfer...
+
+PT-BR:
+Iniciando transferência...
+
+========================================================================
+[dialogue_9ac87da9ef5b] Intro1 / linha 1 / ocorrencia 1 / X
+........
+
+PT-BR:
+........
+
+========================================================================
+[dialogue_eb8e496e2eaf] Intro1 / linha 2 / ocorrencia 1 / X
+This place is familiar...
+
+PT-BR:
+Este lugar é familiar...
+
+========================================================================
+[dialogue_cfa736c7b8f3] Intro1 / linha 3 / ocorrencia 1 / X
+Why am I here!?
+
+PT-BR:
+Por que estou aqui!?
+
+========================================================================
+[dialogue_86095f20a721] Vile Intro / linha 1 / ocorrencia 1 / X
+...Vile?<TW wait 0.5>  Why are you...?
+
+PT-BR:
+...Vile?<TW wait 0.5>  Por que você está...?
+
+========================================================================
+[dialogue_58864f1a2683] Vile Intro / linha 2 / ocorrencia 1 / X
+It can't be,<TW wait 0.2>  I crushed you!
+
+PT-BR:
+Não pode ser,<TW wait 0.2>  eu te esmaguei!
+
+========================================================================
+[dialogue_038ebc3d482b] Vile Intro / linha 3 / ocorrencia 1 / VILE
+Hahaha!<TW wait 0.5>  Be ready to die, X!
+
+PT-BR:
+Hahaha!<TW wait 0.5>  Prepare-se para morrer, X!
+
+========================================================================
+[dialogue_b8e7614cc760] Vile Intro / linha 4 / ocorrencia 1 / X
+...!
+
+PT-BR:
+...!
+
+========================================================================
+[dialogue_26a735cdf89a] Intro2 / linha 1 / ocorrencia 1 / ????
+<C #58f898>Zero! I think I found him!
+
+PT-BR:
+Zero! Acho que o encontrei!
+
+========================================================================
+[dialogue_65877c8a9d6c] Intro2 / linha 2 / ocorrencia 1 / X
+Huh? Who's there?
+
+PT-BR:
+Hã? Quem está aí?
+
+========================================================================
+[dialogue_e71bda8f1b76] Intro2 / linha 3 / ocorrencia 1 / ZERO
+<C #e84000>X! Do you hear me?
+
+PT-BR:
+X! Você me escuta?
+
+========================================================================
+[dialogue_f4c00e3faf51] Intro2 / linha 4 / ocorrencia 1 / X
+Zero? Where are you?
+
+PT-BR:
+Zero? Onde você está?
+
+========================================================================
+[dialogue_e612e90b1ad4] Intro2 / linha 5 / ocorrencia 1 / ZERO
+<C #e84000>It's him!<TW wait 0.5> Transfer him back!
+
+PT-BR:
+É ele!<TW wait 0.5> Transfiram ele de volta!
+
+========================================================================
+[dialogue_1b1c8d9a4e4d] Intro2 / linha 6 / ocorrencia 1 / ????
+<C #58f898>On it!
+
+PT-BR:
+Pode deixar!
+
+========================================================================
+[dialogue_0df48822cd96] Cutscene1-1 / linha 1 / ocorrencia 1 / ????
+Transfer complete!
+
+PT-BR:
+Transferência completa!
+
+========================================================================
+[dialogue_f6fba122b726] Cutscene1-1 / linha 2 / ocorrencia 1 / ZERO
+Welcome back X.
+
+PT-BR:
+Bem-vindo de volta, X.
+
+========================================================================
+[dialogue_aa110025e791] Cutscene1-1 / linha 3 / ocorrencia 1 / X
+Zero!<TW wait 0.5> What happened just now?
+
+PT-BR:
+Zero!<TW wait 0.5> O que aconteceu agora?
+
+========================================================================
+[dialogue_6c3f42fe87c7] Cutscene1-1 / linha 4 / ocorrencia 1 / ZERO
+While you were in stasis,<TW wait 0.2> your mind got dragged inside that machine you see there.
+
+PT-BR:
+Enquanto você estava em estase,<TW wait 0.2> sua mente foi arrastada para dentro daquela máquina que você vê ali.
+
+========================================================================
+[dialogue_6cfb5832ae60] Cutscene1-1 / linha 5 / ocorrencia 1 / ZERO
+This is the person you have to thanks for bringing you back.
+
+PT-BR:
+Esta é a pessoa a quem você deve agradecer por te trazer de volta.
+
+========================================================================
+[dialogue_0f08cd60489e] Cutscene1-1 / linha 6 / ocorrencia 1 / ZERO
+His name is Middy,<TW wait 0.2> he is a computer genius,<TW wait 0.2> the best in his domain.
+
+PT-BR:
+O nome dele é Middy,<TW wait 0.2> ele é um gênio da computação,<TW wait 0.2> o melhor em sua área.
+
+========================================================================
+[dialogue_f31279fe4fa1] Cutscene1-2 / linha 1 / ocorrencia 1 / MIDDY
+Hello!<TW wait 0.5> My name is Middy,<TW wait 0.2> glad to meet you X!
+
+PT-BR:
+Olá!<TW wait 0.5> Meu nome é Middy,<TW wait 0.2> prazer em conhecê-lo, X!
+
+========================================================================
+[dialogue_478394d11ede] Cutscene1-2 / linha 2 / ocorrencia 1 / MIDDY
+I'm sorry that we met in such circumstances.
+
+PT-BR:
+Sinto muito que tenhamos nos conhecido nessas circunstâncias.
+
+========================================================================
+[dialogue_02955f499d7e] Cutscene1-2 / linha 3 / ocorrencia 1 / X
+Don't worry.<TW wait 0.5> Glad to meet you too!
+
+PT-BR:
+Não se preocupe.<TW wait 0.5> Também é um prazer conhecê-lo!
+
+========================================================================
+[dialogue_93c6d8a75505] Cutscene1-3 / linha 1 / ocorrencia 1 / X
+But tell me, what's going on exactly?
+
+PT-BR:
+Mas me diga, o que está acontecendo exatamente?
+
+========================================================================
+[dialogue_8fe4b867ec0e] Cutscene1-3 / linha 2 / ocorrencia 1 / MIDDY
+This is the Mother Computer.
+
+PT-BR:
+Este é o Computador Mãe.
+
+========================================================================
+[dialogue_df5ee14d83b9] Cutscene1-3 / linha 3 / ocorrencia 1 / MIDDY
+It has been in development at the Hunter HQ for a while now,
+
+PT-BR:
+Ele vem sendo desenvolvido na Base dos Hunters há um tempo,
+
+========================================================================
+[dialogue_4d03bc09bfd5] Cutscene1-3 / linha 4 / ocorrencia 1 / MIDDY
+as part of the Augmented-Training program.
+
+PT-BR:
+como parte do programa de Treinamento Aumentado.
+
+========================================================================
+[dialogue_10a8c106b700] Cutscene1-3 / linha 5 / ocorrencia 1 / MIDDY
+It is able to create life-like simulations based on past data.
+
+PT-BR:
+Ele é capaz de criar simulações realistas baseadas em dados do passado.
+
+========================================================================
+[dialogue_44ad3c9ae60b] Cutscene1-4 / linha 1 / ocorrencia 1 / MIDDY
+I believe someone managed to hack its core and dragged you inside while you were asleep.
+
+PT-BR:
+Acredito que alguém conseguiu invadir o núcleo dele e te arrastou para dentro enquanto você dormia.
+
+========================================================================
+[dialogue_328276e910a8] Cutscene1-4 / linha 2 / ocorrencia 1 / MIDDY
+Now all sort of simulations are happening simultaneously inside the computer.
+
+PT-BR:
+Agora todo tipo de simulação está acontecendo simultaneamente dentro do computador.
+
+========================================================================
+[dialogue_9edf3c94539c] Cutscene1-4 / linha 3 / ocorrencia 1 / ZERO
+From what Middy showed me,<TW wait 0.2> these look like recreations of your past battles, X.
+
+PT-BR:
+Pelo que Middy me mostrou,<TW wait 0.2> isso parece ser recriações das suas batalhas passadas, X.
+
+========================================================================
+[dialogue_1af9068883a8] Cutscene1-4 / linha 4 / ocorrencia 1 / X
+My past battles?
+
+PT-BR:
+Minhas batalhas passadas?
+
+========================================================================
+[dialogue_aa181c32e147] Cutscene1-4 / linha 5 / ocorrencia 1 / MIDDY
+Not only that,<TW wait 0.2>  but the bosses data seem to act as a shield against my tracking attempts.
+
+PT-BR:
+Não só isso,<TW wait 0.2>  mas os dados dos chefes parecem agir como um escudo contra minhas tentativas de rastreamento.
+
+========================================================================
+[dialogue_67f582b185f1] Cutscene1-4 / linha 6 / ocorrencia 1 / MIDDY
+This hacker is certainly skillful.
+
+PT-BR:
+Esse hacker é certamente habilidoso.
+
+========================================================================
+[dialogue_9fc2c1467a90] Cutscene1-4 / linha 7 / ocorrencia 1 / X
+What can we do then?
+
+PT-BR:
+O que podemos fazer então?
+
+========================================================================
+[dialogue_961dbebc1ab6] Cutscene1-4 / linha 8 / ocorrencia 1 / MIDDY
+You need to go back inside the Mother Computer as data form.
+
+PT-BR:
+Você precisa voltar para dentro do Computador Mãe em forma de dados.
+
+========================================================================
+[dialogue_7cd27bd880af] Cutscene1-4 / linha 9 / ocorrencia 1 / MIDDY
+If you manage to destroy the shields,<TW wait 0.2>  I'll be able to track the hacker's signal.
+
+PT-BR:
+Se você conseguir destruir os escudos,<TW wait 0.2>  eu poderei rastrear o sinal do hacker.
+
+========================================================================
+[dialogue_b1723d793848] Cutscene1-4 / linha 10 / ocorrencia 1 / MIDDY
+But you'll have to be careful,<TW wait 0.2> these recreations might be as dangerous as the originals.
+
+PT-BR:
+Mas você vai precisar ter cuidado,<TW wait 0.2> essas recriações podem ser tão perigosas quanto as originais.
+
+========================================================================
+[dialogue_14a647629d02] Cutscene1-4 / linha 11 / ocorrencia 1 / X
+Understood.<TW wait 0.5>  Will you join me Zero?
+
+PT-BR:
+Entendido.<TW wait 0.5>  Você vai comigo, Zero?
+
+========================================================================
+[dialogue_fac5f8da8fbd] Cutscene1-4 / linha 12 / ocorrencia 1 / ZERO
+I wish I could, but the hacking has ripple effects on the real world,
+
+PT-BR:
+Eu queria poder, mas a invasão está causando efeitos no mundo real,
+
+========================================================================
+[dialogue_65f20390afa6] Cutscene1-4 / linha 13 / ocorrencia 1 / ZERO
+a lot of reploids are now acting rogue outside.
+
+PT-BR:
+muitos reploids estão agindo como renegados lá fora.
+
+========================================================================
+[dialogue_b541d6f29040] Cutscene1-4 / linha 14 / ocorrencia 1 / ZERO
+Someone needs to take care of this issue.
+
+PT-BR:
+Alguém precisa cuidar desse problema.
+
+========================================================================
+[dialogue_9c5598bb8eab] Cutscene1-4 / linha 15 / ocorrencia 1 / X
+Alright,<TW wait 0.2>  best of luck to you then Zero!
+
+PT-BR:
+Certo,<TW wait 0.2>  boa sorte para você então, Zero!
+
+========================================================================
+[dialogue_6e1cdf0b4250] Cutscene1-4 / linha 16 / ocorrencia 1 / ZERO
+Same goes to you,<TW wait 0.2>  be careful in there.
+
+PT-BR:
+O mesmo para você,<TW wait 0.2>  tenha cuidado aí dentro.
+
+========================================================================
+[dialogue_4745c40234cc] Cutscene1-4 / linha 17 / ocorrencia 1 / X
+Send me now Middy!
+
+PT-BR:
+Me envie agora, Middy!
+
+========================================================================
+[dialogue_241cce91176e] Cutscene1-5 / linha 1 / ocorrencia 1 / MIDDY
+Energy charge...<TW wait 0.5>  Setup complete,<TW wait 0.5>  ready for transfer!
+
+PT-BR:
+Carga de energia...<TW wait 0.5>  Configuração completa,<TW wait 0.5>  pronto para transferência!
+
+========================================================================
+[dialogue_0f0984b72d52] Cutscene1-5 / linha 2 / ocorrencia 1 / MIDDY
+Good luck X!
+
+PT-BR:
+Boa sorte, X!
+
+========================================================================
+[dialogue_7a3b59c8d241] Cutscene2-1 / linha 1 / ocorrencia 1 / ????
+<C #7050e0>They made their move.
+
+PT-BR:
+Eles fizeram sua jogada.
+
+========================================================================
+[dialogue_b66878e3b46f] Cutscene2-2 / linha 1 / ocorrencia 1 / ????
+Huh,<TW wait 0.5> I didn't expect the past data to be destroyed that easily.
+
+PT-BR:
+Hã,<TW wait 0.5> não esperava que os dados do passado fossem destruídos tão facilmente.
+
+========================================================================
+[dialogue_82d9411ae3ae] Cutscene2-2 / linha 2 / ocorrencia 1 / ????
+We would get into trouble if the computer protections are broken...
+
+PT-BR:
+Teríamos problemas se as proteções do computador fossem quebradas...
+
+========================================================================
+[dialogue_e13a8a0ed4dd] Cutscene2-3 / linha 1 / ocorrencia 1 / ????
+Kekeke!<TW wait 0.5> Take it easy Techno!<TW wait 0.5> Let's relax and see his action from here.
+
+PT-BR:
+Kekeke!<TW wait 0.5> Relaxa, Techno!<TW wait 0.5> Vamos relaxar e ver a ação dele daqui.
+
+========================================================================
+[dialogue_a086c27fa21c] Cutscene2-3 / linha 2 / ocorrencia 1 / ????
+<C #7050e0>He is not to be underestimated.
+
+PT-BR:
+Ele não deve ser subestimado.
+
+========================================================================
+[dialogue_fd9beb3c5cee] Cutscene2-3 / linha 3 / ocorrencia 1 / ????
+<C #7050e0>Zain,<TW wait 0.5> Geemel,<TW wait 0.5> get in position.
+
+PT-BR:
+Zain,<TW wait 0.5> Geemel,<TW wait 0.5> entrem em posição.
+
+========================================================================
+[dialogue_6361b8bc7496] Cutscene2-3 / linha 4 / ocorrencia 1 / ZAIN
+Understood. I will crush him.
+
+PT-BR:
+Entendido. Eu vou esmagá-lo.
+
+========================================================================
+[dialogue_082831e9e599] Cutscene2-3 / linha 5 / ocorrencia 1 / GEEMEL
+Kekeke!<TW wait 0.2> No way!<TW wait 0.2> I'd rather live!
+
+PT-BR:
+Kekeke!<TW wait 0.2> De jeito nenhum!<TW wait 0.2> Prefiro viver!
+
+========================================================================
+[dialogue_5c2a22964c98] Cutscene2-3 / linha 6 / ocorrencia 1 / ????
+<C #7050e0>Then you're useless to me.
+
+PT-BR:
+Então você não me serve para nada.
+
+========================================================================
+[dialogue_0da832c1e006] Cutscene2-3 / linha 7 / ocorrencia 1 / ????
+<C #7050e0>I shall put you back to rust in the gutter where I found you.
+
+PT-BR:
+Vou te devolver à ferrugem da sarjeta de onde eu te tirei.
+
+========================================================================
+[dialogue_7a5775d32821] Cutscene2-3 / linha 8 / ocorrencia 1 / GEEMEL
+Ke!! Not fair...!
+
+PT-BR:
+Ke!! Isso não é justo...!
+
+========================================================================
+[dialogue_3beaee82ebe0] Cutscene2-3 / linha 9 / ocorrencia 1 / ZAIN
+Don't worry Geemel,<TW wait 0.2> against us, he can't win.
+
+PT-BR:
+Não se preocupe, Geemel,<TW wait 0.2> contra nós, ele não pode ganhar.
+
+========================================================================
+[dialogue_9b8d4d402837] Cutscene2-3 / linha 10 / ocorrencia 1 / TECHNO
+If we succeed, we'll be free to do anything we want,<TW wait 0.2> don't forget that!
+
+PT-BR:
+Se tivermos sucesso, seremos livres para fazer o que quisermos,<TW wait 0.2> não se esqueça disso!
+
+========================================================================
+[dialogue_f6a9ab72c638] Cutscene2-3 / linha 11 / ocorrencia 1 / GEEMEL
+Kekeke!<TW wait 0.2> You're right, let's dispose of that piece of junk!
+
+PT-BR:
+Kekeke!<TW wait 0.2> Você tem razão, vamos nos livrar dessa peça de sucata!
+
+========================================================================
+[dialogue_f5aca48ee443] Cutscene2-3 / linha 12 / ocorrencia 1 / ZAIN
+That's the spirit.<TW wait 0.5> Transfer us Techno.
+
+PT-BR:
+Esse é o espírito.<TW wait 0.5> Nos transfira, Techno.
+
+========================================================================
+[dialogue_c33431879a3b] Cutscene2-3 / linha 13 / ocorrencia 1 / TECHNO
+On it.
+
+PT-BR:
+Pode deixar.
+
+========================================================================
+[dialogue_c309e170a84a] Cutscene2-4 / linha 1 / ocorrencia 1 / ????
+<C #7050e0>Did you find it?
+
+PT-BR:
+Você encontrou?
+
+========================================================================
+[dialogue_118826e13823] Cutscene2-4 / linha 2 / ocorrencia 1 / TECHNO
+Yes,<TW wait 0.3> but it will take some time to fully reconstruct it.
+
+PT-BR:
+Sim,<TW wait 0.3> mas vai demorar um pouco para reconstruí-lo completamente.
+
+========================================================================
+[dialogue_b33d90aaae0a] Cutscene2-4 / linha 3 / ocorrencia 1 / ????
+<C #7050e0>Keep it going.<TW wait 0.5> We'll soon see how your comrades perform.
+
+PT-BR:
+Continue assim.<TW wait 0.5> Em breve veremos como seus companheiros se saem.
+
+========================================================================
+[dialogue_b4daeba49399] Cutscene2-4 / linha 4 / ocorrencia 1 / TECHNO
+Understood.
+
+PT-BR:
+Entendido.
+
+========================================================================
+[dialogue_0862ec656d3b] Armor Foot / linha 1 / ocorrencia 1 / LIGHT
+Enter this capsule, X.<TW wait 0.5> NEWLINE Take this Leg Upgrade.
+
+PT-BR:
+Entre nesta cápsula, X.<TW wait 0.5> NEWLINE Receba este Upgrade de Perna.
+
+========================================================================
+[dialogue_a2a09f79245e] Armor Foot / linha 2 / ocorrencia 1 / 
+The Upgrade will enhance your dash speed...
+
+PT-BR:
+O Upgrade vai aumentar a velocidade do seu dash...
+
+========================================================================
+[dialogue_d29ed86be071] Armor Foot / linha 3 / ocorrencia 1 / 
+This Upgrade will also allow you to crush certain blocks.
+
+PT-BR:
+Este Upgrade também vai permitir que você destrua certos blocos.
+
+========================================================================
+[dialogue_6fa5d9be4007] Armor Foot / linha 4 / ocorrencia 1 / 
+Your field of activities have now been expanded.<TW wait 0.5> NEWLINE Go destroy the evil, X!
+
+PT-BR:
+Seu campo de atividades foi expandido agora.<TW wait 0.5> NEWLINE Vá destruir o mal, X!
+
+========================================================================
+[dialogue_0f950950d448] Armor Head / linha 1 / ocorrencia 1 / LIGHT
+Enter this capsule, X.
+
+PT-BR:
+Entre nesta cápsula, X.
+
+========================================================================
+[dialogue_1d12708470d3] Armor Head / linha 2 / ocorrencia 1 / 
+This Head Upgrade will give you the ability of the Head Crush,
+
+PT-BR:
+Este Upgrade de Cabeça vai te dar a habilidade do Head Crush,
+
+========================================================================
+[dialogue_5b8f1eca3f91] Armor Head / linha 3 / ocorrencia 1 / 
+and allow you to crush certain blocks...
+
+PT-BR:
+e permitir que você destrua certos blocos...
+
+========================================================================
+[dialogue_38bce114ca4a] Armor Head / linha 4 / ocorrencia 1 / 
+Don't hold back!<TW wait 0.5> Crush them all!
+
+PT-BR:
+Não se contenha!<TW wait 0.5> Destrua todos eles!
+
+========================================================================
+[dialogue_55c35e19f15c] Armor Arm / linha 1 / ocorrencia 1 / LIGHT
+Enter this capsule, X.<TW wait 0.5> NEWLINE Take this Arm Upgrade.
+
+PT-BR:
+Entre nesta cápsula, X.<TW wait 0.5> NEWLINE Receba este Upgrade de Braço.
+
+========================================================================
+[dialogue_3df091ab5f92] Armor Arm / linha 2 / ocorrencia 1 / 
+The Upgrade will increase the strength of your charged shots.
+
+PT-BR:
+O Upgrade vai aumentar a força dos seus tiros carregados.
+
+========================================================================
+[dialogue_c1a0c8ec7305] Armor Arm / linha 3 / ocorrencia 1 / 
+This Upgrade will also allow you to charge any of your special weapons.
+
+PT-BR:
+Este Upgrade também vai permitir que você carregue qualquer uma das suas armas especiais.
+
+========================================================================
+[dialogue_7f31dbef1b55] Armor Arm / linha 4 / ocorrencia 1 / 
+Defeat the enemy there, X!
+
+PT-BR:
+Derrote o inimigo lá, X!
+
+========================================================================
+[dialogue_2b46cc3e9d27] Armor Body / linha 1 / ocorrencia 1 / LIGHT
+Enter this capsule, X.<TW wait 0.5> NEWLINE Take this Body Upgrade.
+
+PT-BR:
+Entre nesta cápsula, X.<TW wait 0.5> NEWLINE Receba este Upgrade de Corpo.
+
+========================================================================
+[dialogue_4301e4ba16dd] Armor Body / linha 2 / ocorrencia 1 / 
+This Upgrade will increase your defensive ability and you'll receive less damage...
+
+PT-BR:
+Este Upgrade vai aumentar sua capacidade defensiva e você vai receber menos dano...
+
+========================================================================
+[dialogue_28a9d7c35771] Armor Body / linha 3 / ocorrencia 1 / 
+It will also extend the durability of your shield weapon.
+
+PT-BR:
+Também vai estender a durabilidade da sua arma de escudo.
+
+========================================================================
+[dialogue_06446bd1987c] Armor Body / linha 4 / ocorrencia 1 / 
+It can only absord a limited quantity of damage,
+
+PT-BR:
+Ela só pode absorver uma quantidade limitada de dano,
+
+========================================================================
+[dialogue_335f53b2eb84] Armor Body / linha 5 / ocorrencia 1 / 
+So be sure to let it recharge between missions.
+
+PT-BR:
+então certifique-se de deixá-la recarregar entre missões.
+
+========================================================================
+[dialogue_6d00610d849f] Armor Body / linha 6 / ocorrencia 1 / 
+Protect peace and our future!
+
+PT-BR:
+Proteja a paz e nosso futuro!
+
+========================================================================
+[dialogue_35a377971eb3] Armor Hado / linha 1 / ocorrencia 1 / LIGHT
+Enter this capsule, X.<TW wait 0.5> NEWLINE I'll give you the Shotokan moves...
+
+PT-BR:
+Entre nesta cápsula, X.<TW wait 0.5> NEWLINE Vou te dar os golpes Shotokan...
+
+========================================================================
+[dialogue_a24deb5a590d] Armor Hado / linha 2 / ocorrencia 1 / 
+"Hadou-ken" and "Shouryu-ken"!
+
+PT-BR:
+"Hadou-ken" e "Shouryu-ken"!
+
+========================================================================
+[dialogue_cbc145d8c31a] Armor Hado / linha 3 / ocorrencia 1 / 
+First,<TW wait 0.3> fully charge your buster with the arm part.
+
+PT-BR:
+Primeiro,<TW wait 0.3> carregue totalmente seu buster com a parte do braço.
+
+========================================================================
+[dialogue_2d63b4a3fdcf] Armor Hado / linha 4 / ocorrencia 1 / 
+Then hold the UP button and release the charge...
+
+PT-BR:
+Depois segure o botão PARA CIMA e solte a carga...
+
+========================================================================
+[dialogue_ad64486cbdc9] Armor Hado / linha 5 / ocorrencia 1 / 
+You'll perform the famous Shouryu-ken!
+
+PT-BR:
+Você vai executar o famoso Shouryu-ken!
+
+========================================================================
+[dialogue_66fb7101489f] Armor Hado / linha 6 / ocorrencia 1 / 
+If you hold the DOWN button...<TW wait 0.3> You'll perform powerful Hadou-ken!
+
+PT-BR:
+Se você segurar o botão PARA BAIXO...<TW wait 0.3> Você vai executar o poderoso Hadou-ken!
+
+========================================================================
+[dialogue_645f57311a06] Armor Hado / linha 7 / ocorrencia 1 / 
+Remember that you can only perform these moves when you are on the ground.
+
+PT-BR:
+Lembre-se que você só pode executar esses golpes quando estiver no chão.
+
+========================================================================
+[dialogue_2a83d2841560] Armor Hado / linha 8 / ocorrencia 1 / 
+You'll also need to have all your armor parts equipped.
+
+PT-BR:
+Você também vai precisar ter todas as partes da armadura equipadas.
+
+========================================================================
+[dialogue_ec53c11d9d98] Armor Hado / linha 9 / ocorrencia 1 / 
+Beat em' up, X!
+
+PT-BR:
+Acaba com eles, X!
+
+========================================================================
+[dialogue_16eb9b5c1252] Black Zero / linha 1 / ocorrencia 1 / LIGHT
+Zero?<TW wait 0.5> I wasn't expecting you....
+
+PT-BR:
+Zero?<TW wait 0.5> Eu não esperava por você....
+
+========================================================================
+[dialogue_06b426e2520f] Black Zero / linha 2 / ocorrencia 1 / 
+This upgrade is meant for X,<TW wait 0.3> I'm sorry...
+
+PT-BR:
+Este upgrade é destinado ao X,<TW wait 0.3> me desculpe...
+
+========================================================================
+[dialogue_eb0c713d55a8] Black Zero / linha 3 / ocorrencia 1 / 
+Here's a secret however :<TW wait 0.3> NEWLINE If you hold TAB or SELECT when selecting a stage,
+
+PT-BR:
+Mas aqui vai um segredo:<TW wait 0.3> NEWLINE Se você segurar TAB ou SELECT ao selecionar uma fase,
+
+========================================================================
+[dialogue_7397f015b116] Black Zero / linha 4 / ocorrencia 1 / 
+You will activate your BLACK ZERO form!
+
+PT-BR:
+Você vai ativar sua forma BLACK ZERO!
+
+========================================================================
+[dialogue_d8b256deec09] Black Zero / linha 5 / ocorrencia 1 / 
+Hold TAB or SELECT again when selecting a stage to deactivate it.
+
+PT-BR:
+Segure TAB ou SELECT novamente ao selecionar uma fase para desativá-la.
+
+========================================================================
+[dialogue_4efce101e8be] Black Zero / linha 6 / ocorrencia 1 / 
+What does it do?<TW wait 0.3> Nothing,<TW wait 0.3> but it looks cool!
+
+PT-BR:
+O que ela faz?<TW wait 0.3> Nada,<TW wait 0.3> mas parece incrível!
+
+========================================================================
+[dialogue_aa33d49c998e] Black Zero / linha 7 / ocorrencia 1 / 
+Also,<TW wait 0.3> please deliver this upgrade to X, we will need it.
+
+PT-BR:
+Além disso,<TW wait 0.3> por favor entregue esse upgrade ao X, vamos precisar dele.
+
+========================================================================
+[dialogue_9f2dad8e99cd] Black Zero / linha 8 / ocorrencia 1 / 
+I'm counting on you Zero.
+
+PT-BR:
+Estou contando com você, Zero.
+
+========================================================================
+[dialogue_a3a6a6c53124] ZeroChip1 / linha 1 / ocorrencia 1 / ????
+...I successfully completed the first chip...
+
+PT-BR:
+...Consegui completar o primeiro chip...
+
+========================================================================
+[dialogue_fc7b487d0321] ZeroChip1 / linha 2 / ocorrencia 1 / 
+But there's still a lot left to be done.
+
+PT-BR:
+Mas ainda há muito o que fazer.
+
+========================================================================
+[dialogue_53d45eaa3880] ZeroChip1 / linha 3 / ocorrencia 1 / 
+I have to complete the other 3 parts before it's too late.
+
+PT-BR:
+Tenho que completar as outras 3 partes antes que seja tarde demais.
+
+========================================================================
+[dialogue_39a8ce473b64] ZeroChip1 / linha 4 / ocorrencia 1 / 
+This data will serve as a backup in case something unexpected happens...
+
+PT-BR:
+Estes dados vão servir como backup caso algo inesperado aconteça...
+
+========================================================================
+[dialogue_0bb029928c09] ZeroChip2 / linha 1 / ocorrencia 1 / ????
+...The second chip has been completed...
+
+PT-BR:
+...O segundo chip foi completado...
+
+========================================================================
+[dialogue_705c959eca73] ZeroChip2 / linha 2 / ocorrencia 1 / 
+We're running out of time, the enemy is getting near.
+
+PT-BR:
+Estamos ficando sem tempo, o inimigo está se aproximando.
+
+========================================================================
+[dialogue_5678c8536785] ZeroChip2 / linha 3 / ocorrencia 1 / 
+But,<TW wait 0.5> if I succeed,<TW wait 0.5> no one will be able to get in our way.
+
+PT-BR:
+Mas,<TW wait 0.5> se eu tiver sucesso,<TW wait 0.5> ninguém vai conseguir ficar no nosso caminho.
+
+========================================================================
+[dialogue_1b69e667c464] ZeroChip3 / linha 1 / ocorrencia 1 / ????
+The third chip has been completed.
+
+PT-BR:
+O terceiro chip foi completado.
+
+========================================================================
+[dialogue_b8a242fcd7b6] ZeroChip3 / linha 2 / ocorrencia 1 / 
+Ultimate power is at our hands.
+
+PT-BR:
+O poder supremo está em nossas mãos.
+
+========================================================================
+[dialogue_259cd1d1d64d] ZeroChip3 / linha 3 / ocorrencia 1 / 
+Soon, our most powerful ally will finally awake...
+
+PT-BR:
+Em breve, nosso aliado mais poderoso finalmente vai despertar...
+
+========================================================================
+[dialogue_a5215e5d9487] ZeroChip3 / linha 4 / ocorrencia 1 / 
+...then not even Sigma will stand a chance.
+
+PT-BR:
+...então nem mesmo Sigma vai ter chance.
+
+========================================================================
+[dialogue_e6822c58112a] ZeroChip4 / linha 1 / ocorrencia 1 / ????
+...I don't understand...
+
+PT-BR:
+...Eu não entendo...
+
+========================================================================
+[dialogue_b6346f1fc241] ZeroChip4 / linha 2 / ocorrencia 1 / 
+All my calculations are correct, yet...
+
+PT-BR:
+Todos os meus cálculos estão corretos, mesmo assim...
+
+========================================================================
+[dialogue_65c0b9bf0aea] ZeroChip4 / linha 3 / ocorrencia 1 / 
+For some reason, you keep fighting against us,<TW wait 0.5> against me...
+
+PT-BR:
+Por algum motivo, você continua lutando contra nós,<TW wait 0.5> contra mim...
+
+========================================================================
+[dialogue_c3ffa28215e2] ZeroChip4 / linha 4 / ocorrencia 1 / 
+Was it your destiny to destroy the Mavericks?
+
+PT-BR:
+Era seu destino destruir os Mavericks?
+
+========================================================================
+[dialogue_642fb5bd7991] ZeroChip4 / linha 5 / ocorrencia 1 / 
+...The enemy is now at our door.
+
+PT-BR:
+...O inimigo agora está à nossa porta.
+
+========================================================================
+[dialogue_f7837ddbb794] ZeroChip4 / linha 6 / ocorrencia 1 / 
+I will salvage what I can from the data,<TW wait 0.5> in the hope to put a last stand.
+
+PT-BR:
+Vou salvar o que eu puder dos dados,<TW wait 0.5> na esperança de dar um último combate.
+
+========================================================================
+[dialogue_00f17065ae47] ZeroChip4 / linha 7 / ocorrencia 1 / 
+This will be the last recording.<TW wait 0.5> Signing off.
+
+PT-BR:
+Esta será a última gravação.<TW wait 0.5> Encerrando.
+
+========================================================================
+[dialogue_db6eded60e27] Techno-Intro / linha 1 / ocorrencia 1 / X
+Huh? Who is that?
+
+PT-BR:
+Hã? Quem é aquele?
+
+========================================================================
+[dialogue_358d18a7f00c] Techno-Intro / linha 2 / ocorrencia 1 / 
+They look like....
+
+PT-BR:
+Eles parecem....
+
+========================================================================
+[dialogue_38471caf8314] Techno-Intro / linha 3 / ocorrencia 1 / TECHNO
+My name is Techno.<TW wait 0.3> I've been monitoring you for some time X.
+
+PT-BR:
+Meu nome é Techno.<TW wait 0.3> Estou te monitorando há um tempo, X.
+
+========================================================================
+[dialogue_dea22cfb83a2] Techno-Intro / linha 4 / ocorrencia 1 / 
+This place has all the tools to analyse your abilities.
+
+PT-BR:
+Este lugar tem todas as ferramentas para analisar suas habilidades.
+
+========================================================================
+[dialogue_5fc353a4b04e] Techno-Intro / linha 5 / ocorrencia 1 / 
+With that data,<TW wait 0.3> I will find the perfect counter to stop you.
+
+PT-BR:
+Com esses dados,<TW wait 0.3> vou encontrar a contramedida perfeita para te parar.
+
+========================================================================
+[dialogue_4f63d8d5a0d1] Techno-Intro / linha 6 / ocorrencia 1 / 
+Let's start the testing.
+
+PT-BR:
+Vamos começar os testes.
+
+========================================================================
+[dialogue_33186a5cec5b] Geemel-Intro / linha 1 / ocorrencia 1 / GEEMEL
+Kekeke!<TW wait 0.3> I've been waiting for you X!
+
+PT-BR:
+Kekeke!<TW wait 0.3> Estava esperando por você, X!
+
+========================================================================
+[dialogue_6706ae49b2cb] Geemel-Intro / linha 2 / ocorrencia 1 / X
+Who are you?
+
+PT-BR:
+Quem é você?
+
+========================================================================
+[dialogue_1b63e380ce33] Geemel-Intro / linha 3 / ocorrencia 1 / GEEMEL
+I'm Geemel!<TW wait 0.3> And I'll be the last problem you'll be dealing with!
+
+PT-BR:
+Sou o Geemel!<TW wait 0.3> E serei o último problema com o qual você vai lidar!
+
+========================================================================
+[dialogue_61a0475ebc2c] Geemel-Defeat / linha 1 / ocorrencia 1 / GEEMEL
+Kyee!<TW wait 0.3> I knew I should have stayed at the base.
+
+PT-BR:
+Kyee!<TW wait 0.3> Eu sabia que devia ter ficado na base.
+
+========================================================================
+[dialogue_25a703e10b89] Geemel-Defeat / linha 2 / ocorrencia 1 / GEEMEL
+I'll make you pay later, kekeke!
+
+PT-BR:
+Vou te fazer pagar depois, kekeke!
+
+========================================================================
+[dialogue_1a6e92fbca57] Zain-Intro / linha 1 / ocorrencia 1 / ZAIN
+You must be X...<TW wait 0.5> I was waiting for this fight.
+
+PT-BR:
+Você deve ser o X...<TW wait 0.5> Eu estava esperando por essa luta.
+
+========================================================================
+[dialogue_5a4c56967f27] Zain-Intro / linha 2 / ocorrencia 1 / ZAIN
+My name is Zain!<TW wait 0.3> You have no chance of beating me!
+
+PT-BR:
+Meu nome é Zain!<TW wait 0.3> Você não tem chance de me vencer!
+
+========================================================================
+[dialogue_87d82566c011] Zain-Defeat / linha 1 / ocorrencia 1 / ZAIN
+I underestimated you....
+
+PT-BR:
+Eu te subestimei....
+
+========================================================================
+[dialogue_50f6ef59db84] Zain-Defeat / linha 2 / ocorrencia 1 / ZAIN
+You got lucky,<TW wait 0.3> but it won't be enough to save you next time...
+
+PT-BR:
+Você teve sorte,<TW wait 0.3> mas não vai ser suficiente para te salvar na próxima vez...
+
+========================================================================
+[dialogue_15bcb14aaeb6] Cutscene3 / linha 1 / ocorrencia 1 / MIDDY
+Welcome back X!
+
+PT-BR:
+Bem-vindo de volta, X!
+
+========================================================================
+[dialogue_15a3388be27c] Cutscene3 / linha 2 / ocorrencia 1 / 
+Now that you destroyed the past bosses,<TW wait 0.2> I'm able to locate the hacker signal.
+
+PT-BR:
+Agora que você destruiu os chefes do passado,<TW wait 0.2> eu consigo localizar o sinal do hacker.
+
+========================================================================
+[dialogue_8e7d133304af] Cutscene3 / linha 3 / ocorrencia 1 / 
+It seems to emit from that fortress,<TW wait 0.3> but I don't see any direct access.
+
+PT-BR:
+Parece vir daquela fortaleza,<TW wait 0.3> mas não vejo nenhum acesso direto.
+
+========================================================================
+[dialogue_081a2609eb1d] Cutscene3 / linha 4 / ocorrencia 1 / 
+There is probably a transporter access inside.
+
+PT-BR:
+Provavelmente há um acesso de transportador lá dentro.
+
+========================================================================
+[dialogue_2fbb72dbc94a] Cutscene3 / linha 5 / ocorrencia 1 / X
+I'll make a path then,<TW wait 0.3> can you send me there?
+
+PT-BR:
+Então vou abrir um caminho,<TW wait 0.3> você pode me enviar até lá?
+
+========================================================================
+[dialogue_c5b8d229eac1] Cutscene3 / linha 6 / ocorrencia 1 / MIDDY
+Yes, I will send you to the entrance.
+
+PT-BR:
+Sim, vou te enviar até a entrada.
+
+========================================================================
+[dialogue_23ab0da6bb33] Cutscene3 / linha 7 / ocorrencia 1 / 
+....<TW wait 0.5>I'm sorry X...
+
+PT-BR:
+....<TW wait 0.5>Me desculpe, X...
+
+========================================================================
+[dialogue_24f8a7a7e241] Cutscene3 / linha 8 / ocorrencia 1 / X
+What do you mean?
+
+PT-BR:
+O que você quer dizer?
+
+========================================================================
+[dialogue_3bd41aa07445] Cutscene3 / linha 9 / ocorrencia 1 / MIDDY
+I wish I could help more...
+
+PT-BR:
+Eu queria poder ajudar mais...
+
+========================================================================
+[dialogue_5d462e8ee4b6] Cutscene3 / linha 10 / ocorrencia 1 / 
+While you're taking all the risks,<TW wait 0.3> I sit here watching,<TW wait 0.5> I feel useless...
+
+PT-BR:
+Enquanto você corre todos os riscos,<TW wait 0.3> eu fico aqui sentado assistindo,<TW wait 0.5> me sinto inútil...
+
+========================================================================
+[dialogue_5a58980156a5] Cutscene3 / linha 11 / ocorrencia 1 / X
+Don't say that.
+
+PT-BR:
+Não diga isso.
+
+========================================================================
+[dialogue_0fcc5154af0f] Cutscene3 / linha 12 / ocorrencia 1 / 
+If it wasn't for you,<TW wait 0.2> I would still be stuck inside the Mother Computer.
+
+PT-BR:
+Se não fosse por você,<TW wait 0.2> eu ainda estaria presa dentro do Computador Mãe.
+
+========================================================================
+[dialogue_c36416422139] Cutscene3 / linha 13 / ocorrencia 1 / 
+And we wouldn't have been able to track our enemy.
+
+PT-BR:
+E não teríamos conseguido rastrear nosso inimigo.
+
+========================================================================
+[dialogue_64727572f4f3] Cutscene3 / linha 14 / ocorrencia 1 / 
+As Maverick Hunters, we're all doing our part,<TW wait 0.3> and you've been doing yours great.
+
+PT-BR:
+Como Maverick Hunters, todos nós fazemos nossa parte,<TW wait 0.3> e você tem feito a sua muito bem.
+
+========================================================================
+[dialogue_b9228a6eedfb] Cutscene3 / linha 15 / ocorrencia 1 / 
+Don't undervalue yourself Middy.
+
+PT-BR:
+Não se subestime, Middy.
+
+========================================================================
+[dialogue_479eddbc427e] Cutscene3 / linha 16 / ocorrencia 1 / MIDDY
+...<TW wait 0.3>you're right,<TW wait 0.3> thanks X!
+
+PT-BR:
+...<TW wait 0.3>você tem razão,<TW wait 0.3> obrigado, X!
+
+========================================================================
+[dialogue_fbea5f0c2cb4] Cutscene3 / linha 17 / ocorrencia 1 / 
+I'll keep doing my best.
+
+PT-BR:
+Vou continuar dando o meu melhor.
+
+========================================================================
+[dialogue_09a7f51a14a6] Cutscene3 / linha 18 / ocorrencia 1 / 
+Preparing the coordinates!
+
+PT-BR:
+Preparando as coordenadas!
+
+========================================================================
+[dialogue_d81784c1fec8] Cutscene4-1 / linha 1 / ocorrencia 1 / TECHNO
+They located our position,<TW wait 0.3> this is bad!
+
+PT-BR:
+Eles localizaram nossa posição,<TW wait 0.3> isso é ruim!
+
+========================================================================
+[dialogue_355f92bcab2a] Cutscene4-1 / linha 2 / ocorrencia 1 / GEEMEL
+Kyee!<TW wait 0.3> This guy really is unstoppable!
+
+PT-BR:
+Kyee!<TW wait 0.3> Esse cara realmente é imparável!
+
+========================================================================
+[dialogue_6b28bceccb23] Cutscene4-1 / linha 3 / ocorrencia 1 / ZAIN
+Hmph.
+
+PT-BR:
+Hmph.
+
+========================================================================
+[dialogue_02f2592a514f] Cutscene4-1 / linha 4 / ocorrencia 1 / ????
+<C #7050e0>How much time before it is complete?
+
+PT-BR:
+Quanto tempo até que esteja completo?
+
+========================================================================
+[dialogue_adb20fd428c7] Cutscene4-1 / linha 5 / ocorrencia 1 / TECHNO
+More than we have if he gets through our defenses.
+
+PT-BR:
+Mais do que temos se ele passar por nossas defesas.
+
+========================================================================
+[dialogue_cd8136550eb5] Cutscene4-1 / linha 6 / ocorrencia 1 / ????
+<C #7050e0>We need to take action then.
+
+PT-BR:
+Precisamos agir então.
+
+========================================================================
+[dialogue_d45cb893bcb8] Cutscene4-1 / linha 7 / ocorrencia 1 / 
+<C #7050e0>You two,<TW wait 0.3> go and protect the transporter.
+
+PT-BR:
+Vocês dois,<TW wait 0.3> vão proteger o transportador.
+
+========================================================================
+[dialogue_75b05ea58d6f] Cutscene4-1 / linha 8 / ocorrencia 1 / 
+<C #7050e0>I'll buy us some time.
+
+PT-BR:
+Vou ganhar um tempo para nós.
+
+========================================================================
+[dialogue_bb85b8c3ba97] Cutscene4-1 / linha 9 / ocorrencia 1 / ZAIN
+You're going to face him?
+
+PT-BR:
+Você vai enfrentá-lo?
+
+========================================================================
+[dialogue_37e9fca6eb54] Cutscene4-1 / linha 10 / ocorrencia 1 / GEEMEL
+Keke!<TW wait 0.3> He will tear you to pieces!
+
+PT-BR:
+Keke!<TW wait 0.3> Ele vai te fazer em pedaços!
+
+========================================================================
+[dialogue_4d24c23612ba] Cutscene4-1 / linha 11 / ocorrencia 1 / ????
+<C #7050e0>Death is the least of my concern.
+
+PT-BR:
+A morte é a menor das minhas preocupações.
+
+========================================================================
+[dialogue_c363f54b30e9] Cutscene4-1 / linha 12 / ocorrencia 1 / 
+<C #7050e0>Now GO!
+
+PT-BR:
+Agora VÃO!
+
+========================================================================
+[dialogue_9a1a06925b41] Cutscene4-1 / linha 13 / ocorrencia 1 / GEEMEL
+Kyeh...!
+
+PT-BR:
+Kyeh...!
+
+========================================================================
+[dialogue_ddb944d83ba4] Cutscene4-2 / linha 1 / ocorrencia 1 / ????
+<C #7050e0>You,<TW wait 0.3> do whatever it takes to have it completed in time.
+
+PT-BR:
+Você,<TW wait 0.3> faça o que for preciso para tê-lo completo a tempo.
+
+========================================================================
+[dialogue_59c1beafb415] Cutscene4-2 / linha 2 / ocorrencia 1 / 
+<C #7050e0>We cannot fail now.<TW wait 0.5> Do not disappoint me.
+
+PT-BR:
+Não podemos falhar agora.<TW wait 0.5> Não me desaponte.
+
+========================================================================
+[dialogue_6cbd8ec63ada] Cutscene4-3 / linha 1 / ocorrencia 1 / TECHNO
+....Don't worry,<TW wait 0.3> you can count on me.
+
+PT-BR:
+....Não se preocupe,<TW wait 0.3> pode contar comigo.
+
+========================================================================
+[dialogue_fae756720c81] Serges Meetup1 / linha 1 / ocorrencia 1 / ????
+<C #7050e0>You finally arrived, X.
+
+PT-BR:
+Você finalmente chegou, X.
+
+========================================================================
+[dialogue_272ae05850b1] Serges Meetup1 / linha 2 / ocorrencia 1 / X
+Who is there?<TW wait 0.5> Show yourself!
+
+PT-BR:
+Quem está aí?<TW wait 0.5> Se mostre!
+
+========================================================================
+[dialogue_8dab3e7b5762] Serges Meetup2 / linha 1 / ocorrencia 1 / X
+You!
+
+PT-BR:
+Você!
+
+========================================================================
+[dialogue_6da018e858e7] Serges Meetup2 / linha 2 / ocorrencia 1 / SERGES
+Indeed.
+
+PT-BR:
+De fato.
+
+========================================================================
+[dialogue_40eb6ffed869] Serges Meetup2 / linha 3 / ocorrencia 1 / 
+Back then,<TW wait 0.5> Sigma saw potential in my genius abilities.
+
+PT-BR:
+Naquela época,<TW wait 0.5> Sigma viu potencial nas minhas habilidades geniais.
+
+========================================================================
+[dialogue_b8307b9cc549] Serges Meetup2 / linha 4 / ocorrencia 1 / 
+He made a backup of my data,<TW wait 0.5> in case things would take a bad turn.
+
+PT-BR:
+Ele fez um backup dos meus dados,<TW wait 0.5> caso as coisas dessem uma virada ruim.
+
+========================================================================
+[dialogue_50e0cf41f54d] Serges Meetup2 / linha 5 / ocorrencia 1 / 
+I was therefore able to retain my memories,
+
+PT-BR:
+Por isso, consegui manter minhas memórias,
+
+========================================================================
+[dialogue_af9f97981aab] Serges Meetup2 / linha 6 / ocorrencia 1 / 
+unlike the empty husks you've been fighting up to this point.
+
+PT-BR:
+diferente das cascas vazias com as quais você tem lutado até agora.
+
+========================================================================
+[dialogue_12f7e40052c0] Serges Meetup2 / linha 7 / ocorrencia 1 / 
+I then spent some time gathering new allies,
+
+PT-BR:
+Depois passei um tempo reunindo novos aliados,
+
+========================================================================
+[dialogue_9e526997e09b] Serges Meetup2 / linha 8 / ocorrencia 1 / 
+waiting for the perfect moment to strike.
+
+PT-BR:
+esperando o momento perfeito para atacar.
+
+========================================================================
+[dialogue_3313351af44a] Serges Meetup2 / linha 9 / ocorrencia 1 / 
+Now the plan is in motion once again!
+
+PT-BR:
+Agora o plano está em movimento novamente!
+
+========================================================================
+[dialogue_3d93d5748908] Serges Meetup2 / linha 10 / ocorrencia 1 / X
+I won't let that happen!
+
+PT-BR:
+Eu não vou deixar isso acontecer!
+
+========================================================================
+[dialogue_8f65d3d0abc8] Serges Meetup2 / linha 11 / ocorrencia 1 / 
+I stopped you once,<TW wait 0.5> NEWLINE this time I'll make sure you won't come back!
+
+PT-BR:
+Eu te parei uma vez,<TW wait 0.5> NEWLINE dessa vez vou garantir que você não vai voltar!
+
+========================================================================
+[dialogue_afa0a285e5dc] Serges Meetup2 / linha 12 / ocorrencia 1 / SERGES
+Hahaha!<TW wait 0.2> Are you so sure?
+
+PT-BR:
+Hahaha!<TW wait 0.2> Tem tanta certeza assim?
+
+========================================================================
+[dialogue_fde34f1a314c] Serges Meetup2 / linha 13 / ocorrencia 1 / 
+You can't stop progress, X!<TW wait 0.5> Only delay it!
+
+PT-BR:
+Você não pode impedir o progresso, X!<TW wait 0.5> Só atrasá-lo!
+
+========================================================================
+[dialogue_50fa23fbd185] Serges Meetup2 / linha 14 / ocorrencia 1 / 
+I'll watch you despair from the other side!
+
+PT-BR:
+Vou observar seu desespero do outro lado!
+
+========================================================================
+[dialogue_fa923db68ebc] ZainGeemel1 / linha 1 / ocorrencia 1 / ZAIN
+End of the road for you X.<TW wait 0.2> This time you won't get away.
+
+PT-BR:
+Fim da linha para você, X.<TW wait 0.2> Dessa vez você não vai escapar.
+
+========================================================================
+[dialogue_7c4f7883b75e] ZainGeemel1 / linha 2 / ocorrencia 1 / X
+Out of my way!
+
+PT-BR:
+Saia do meu caminho!
+
+========================================================================
+[dialogue_1ed7b0d4ef6e] ZainGeemel2 / linha 1 / ocorrencia 1 / GEEMEL
+Kekeke!<TW wait 0.2> We're not taking any chance this time!
+
+PT-BR:
+Kekeke!<TW wait 0.2> Não vamos correr nenhum risco dessa vez!
+
+========================================================================
+[dialogue_bfd947b6397f] ZainGeemel2 / linha 2 / ocorrencia 1 / 
+Two on one,<TW wait 0.2> our success is guaranteed!
+
+PT-BR:
+Dois contra um,<TW wait 0.2> nosso sucesso é garantido!
+
+========================================================================
+[dialogue_a6bb16d59975] ZainGeemel2 / linha 3 / ocorrencia 1 / ZAIN
+Bring it on!
+
+PT-BR:
+Pode vir!
+
+========================================================================
+[dialogue_4620c9bc446e] ZainGeemel3 / linha 1 / ocorrencia 1 / GEEMEL
+Kekeke!<TW wait 0.2> He is cornered!<TW wait 0.2> Get him Zain!
+
+PT-BR:
+Kekeke!<TW wait 0.2> Ele está encurralado!<TW wait 0.2> Pega ele, Zain!
+
+========================================================================
+[dialogue_b3b0eae43674] ZainGeemel3 / linha 2 / ocorrencia 1 / X
+Ah!
+
+PT-BR:
+Ah!
+
+========================================================================
+[dialogue_7fddc01f225d] ZainGeemel3 / linha 3 / ocorrencia 1 / ZAIN
+Die!
+
+PT-BR:
+Morra!
+
+========================================================================
+[dialogue_d7425c642d8e] ZainGeemel4 / linha 1 / ocorrencia 1 / ZAIN
+GAAAAAH!!
+
+PT-BR:
+GAAAAAH!!
+
+========================================================================
+[dialogue_a7a4aba204ca] ZainGeemel5 / linha 1 / ocorrencia 1 / GEEMEL
+K-Ke!<TW wait 0.5> No!<TW wait 0.5> Zain!!<TW wait 0.5> Why you...!!
+
+PT-BR:
+K-Ke!<TW wait 0.5> Não!<TW wait 0.5> Zain!!<TW wait 0.5> Por que você...!!
+
+========================================================================
+[dialogue_06e39b8afcb7] ZainGeemel5 / linha 2 / ocorrencia 1 / ZERO
+X!<TW wait 0.5> Don't let him escape!<TW wait 0.2> Take him down now!
+
+PT-BR:
+X!<TW wait 0.5> Não deixe ele escapar!<TW wait 0.2> Derrube ele agora!
+
+========================================================================
+[dialogue_9e25666e28b3] ZainGeemel5 / linha 3 / ocorrencia 1 / GEEMEL
+Ke!!
+
+PT-BR:
+Ke!!
+
+========================================================================
+[dialogue_83e54824981c] ZainGeemel6 / linha 1 / ocorrencia 1 / X
+Zero!<TW wait 0.2> You're here?
+
+PT-BR:
+Zero!<TW wait 0.2> Você está aqui?
+
+========================================================================
+[dialogue_20725b6c42bd] ZainGeemel6 / linha 2 / ocorrencia 1 / ZERO
+Middy was tracking their position and noticed they were both coming your way.
+
+PT-BR:
+Middy estava rastreando a posição deles e notou que os dois estavam vindo na sua direção.
+
+========================================================================
+[dialogue_65ba19f541ff] ZainGeemel6 / linha 3 / ocorrencia 1 / 
+He dispatched me as fast he could,<TW wait 0.2> sorry I couldn't make it here sooner.
+
+PT-BR:
+Ele me despachou o mais rápido que pôde,<TW wait 0.2> desculpe não ter chegado aqui mais rápido.
+
+========================================================================
+[dialogue_b79d7539619a] ZainGeemel6 / linha 4 / ocorrencia 1 / 
+I'll take care of Geemel,<TW wait 0.2> you go to the computer elevator.
+
+PT-BR:
+Vou cuidar do Geemel,<TW wait 0.2> vá até o elevador do computador.
+
+========================================================================
+[dialogue_239e7f35db08] ZainGeemel6 / linha 5 / ocorrencia 1 / 
+Be careful, X.
+
+PT-BR:
+Tenha cuidado, X.
+
+========================================================================
+[dialogue_07887a20b923] ZainGeemel6 / linha 6 / ocorrencia 1 / X
+You too Zero, on my way!
+
+PT-BR:
+Você também, Zero, estou indo!
+
+========================================================================
+[dialogue_0f8c3b3cf631] Cutscene5-1 / linha 1 / ocorrencia 1 / X
+<C #00cae8>Middy,<TW wait 0.3>  I found the transporter.<TW wait 0.3>  The panel is locked however.
+
+PT-BR:
+Middy,<TW wait 0.3>  eu encontrei o transportador.<TW wait 0.3>  O painel está trancado porém.
+
+========================================================================
+[dialogue_4b4d195dd765] Cutscene5-1 / linha 2 / ocorrencia 1 / MIDDY
+Alright, give me a second.
+
+PT-BR:
+Certo, me dá um segundo.
+
+========================================================================
+[dialogue_44f141c8aea8] Cutscene5-1 / linha 3 / ocorrencia 1 / 
+Authorization granted!
+
+PT-BR:
+Autorização concedida!
+
+========================================================================
+[dialogue_74d430caec21] Cutscene5-1 / linha 4 / ocorrencia 1 / X
+<C #00cae8>Thanks, I'm going now!
+
+PT-BR:
+Obrigado, estou indo agora!
+
+========================================================================
+[dialogue_8b595f9f471f] Cutscene5-2 / linha 1 / ocorrencia 1 / MIDDY
+X,<TW wait 0.3> before you go....
+
+PT-BR:
+X,<TW wait 0.3> antes de você ir....
+
+========================================================================
+[dialogue_c2bc3ab50b17] Cutscene5-2 / linha 2 / ocorrencia 1 / X
+<C #00cae8>What is it?
+
+PT-BR:
+O que é?
+
+========================================================================
+[dialogue_0548ff41a897] Cutscene5-2 / linha 3 / ocorrencia 1 / MIDDY
+...<TW wait 0.5>Nothing.<TW wait 0.3> I'm sure you will do fine.
+
+PT-BR:
+...<TW wait 0.5>Nada.<TW wait 0.3> Tenho certeza que você vai se sair bem.
+
+========================================================================
+[dialogue_608ffdb83666] Cutscene5-2 / linha 4 / ocorrencia 1 / 
+Good luck!
+
+PT-BR:
+Boa sorte!
+
+========================================================================
+[dialogue_fbf351bb87fd] Confronts Techno-1 / linha 1 / ocorrencia 1 / X
+This is the Hacker Computer?
+
+PT-BR:
+Este é o Computador do Hacker?
+
+========================================================================
+[dialogue_90c83f2ae841] Confronts Techno-2 / linha 1 / ocorrencia 1 / TECHNO
+You're arriving too late X,<TW wait 0.2> I uploaded the computer program inside my CPU.
+
+PT-BR:
+Você chegou tarde demais, X,<TW wait 0.2> eu enviei o programa do computador para dentro da minha CPU.
+
+========================================================================
+[dialogue_a56307452cf3] Confronts Techno-2 / linha 2 / ocorrencia 1 / 
+Even if you destroy it,<TW wait 0.2> the program will continue to run from inside my body
+
+PT-BR:
+Mesmo que você o destrua,<TW wait 0.2> o programa vai continuar rodando de dentro do meu corpo
+
+========================================================================
+[dialogue_5ed17bd0e319] Confronts Techno-2 / linha 3 / ocorrencia 1 / 
+until I build a new one.
+
+PT-BR:
+até eu construir um novo.
+
+========================================================================
+[dialogue_29f3cde444e9] Confronts Techno-2 / linha 4 / ocorrencia 1 / X
+I just need to take you down then!
+
+PT-BR:
+Então só preciso derrubar você!
+
+========================================================================
+[dialogue_39a2f7bdfea3] Confronts Techno-2 / linha 5 / ocorrencia 1 / TECHNO
+Ah-ah!<TW wait 0.2> It seems that my brother didn't tell you everything.
+
+PT-BR:
+Ah-ah!<TW wait 0.2> Parece que meu irmão não te contou tudo.
+
+========================================================================
+[dialogue_7e6aefdc09d5] Confronts Techno-2 / linha 6 / ocorrencia 1 / X
+Your brother?<TW wait 0.2> Wait, you're not talking about...!
+
+PT-BR:
+Seu irmão?<TW wait 0.2> Espera, você não está falando sobre...!
+
+========================================================================
+[dialogue_90ffdf9d306d] Confronts Techno-2 / linha 7 / ocorrencia 1 / TECHNO
+That's right.<TW wait 0.2> Middy and I are made of the same CPU.
+
+PT-BR:
+Exatamente.<TW wait 0.2> Middy e eu somos feitos da mesma CPU.
+
+========================================================================
+[dialogue_56ed228b6921] Confronts Techno-2 / linha 8 / ocorrencia 1 / 
+If you destroy me,<TW wait 0.2> Middy will die as well.
+
+PT-BR:
+Se você me destruir,<TW wait 0.2> Middy vai morrer também.
+
+========================================================================
+[dialogue_0fd87d3e70bb] Confronts Techno-2 / linha 9 / ocorrencia 1 / X
+Middy,<TW wait 0.2> is that true?
+
+PT-BR:
+Middy,<TW wait 0.2> isso é verdade?
+
+========================================================================
+[dialogue_6081fe3c4677] Confronts Techno-2 / linha 10 / ocorrencia 1 / MIDDY
+<C #58f898>...
+
+PT-BR:
+...
+
+========================================================================
+[dialogue_c774ad9ae103] Confronts Techno-2 / linha 11 / ocorrencia 1 / X
+Middy!<TW wait 0.2> Answer me!
+
+PT-BR:
+Middy!<TW wait 0.2> Responda!
+
+========================================================================
+[dialogue_258013fbd209] Confronts Techno-2 / linha 12 / ocorrencia 1 / MIDDY
+<C #58f898>...Yes,<TW wait 0.2> he is saying the truth...
+
+PT-BR:
+...Sim,<TW wait 0.2> ele está dizendo a verdade...
+
+========================================================================
+[dialogue_db1b2728eaf3] Confronts Techno-2 / linha 13 / ocorrencia 1 / 
+<C #58f898>But it doesn't matter,<TW wait 0.2> you need to take him down!
+
+PT-BR:
+Mas isso não importa,<TW wait 0.2> você precisa derrubá-lo!
+
+========================================================================
+[dialogue_72ff1bbb7fda] Confronts Techno-2 / linha 1 / ocorrencia 2 / 
+<C #58f898>Otherwise this nightmare will continue!
+
+PT-BR:
+Senão esse pesadelo vai continuar!
+
+========================================================================
+[dialogue_979352dd9bc0] Confronts Techno-2 / linha 14 / ocorrencia 1 / X
+Middy,<TW wait 0.2> why...?
+
+PT-BR:
+Middy,<TW wait 0.2> por quê...?
+
+========================================================================
+[dialogue_583ffe01efd8] Confronts Techno-2 / linha 15 / ocorrencia 1 / TECHNO
+Haha! What will you do now?<TW wait 0.2> I guess it's time for me to go to a safer place.
+
+PT-BR:
+Haha! O que você vai fazer agora?<TW wait 0.2> Acho que é hora de eu ir para um lugar mais seguro.
+
+========================================================================
+[dialogue_5c1f93208862] Confronts Techno-2 / linha 16 / ocorrencia 1 / MIDDY
+<C #58f898>X! Don't let him escape!<TW wait 0.2> I'll be fine!<TW wait 0.2> Stop him! NOW!
+
+PT-BR:
+X! Não deixe ele escapar!<TW wait 0.2> Eu vou ficar bem!<TW wait 0.2> Pare ele! AGORA!
+
+========================================================================
+[dialogue_66354753e27c] Confronts Techno-2 / linha 17 / ocorrencia 1 / X
+Damn it...!
+
+PT-BR:
+Droga...!
+
+========================================================================
+[dialogue_e1e3c020346f] Confronts Techno-3 / linha 1 / ocorrencia 1 / TECHNO
+Ha...ha...<TW wait 0.2> it's too late...<TW wait 0.2> I already brought him back.<TW wait 0.5>
+The plan...<TW wait 0.5> is...<TW wait 0.5> complete.
+
+PT-BR:
+Ha...ha...<TW wait 0.2> é tarde demais...<TW wait 0.2> eu já o trouxe de volta.<TW wait 0.5>
+O plano...<TW wait 0.5> está...<TW wait 0.5> completo.
+
+========================================================================
+[dialogue_e9e152d840c0] Confronts Techno-3 / linha 2 / ocorrencia 1 / X
+Him?<TW wait 0.5> No... you didn't...!
+
+PT-BR:
+Ele?<TW wait 0.5> Não... você não fez isso...!
+
+========================================================================
+[dialogue_dbc1ede3f27c] Confronts Techno-3 / linha 3 / ocorrencia 1 / TECHNO
+K-....!!
+
+PT-BR:
+K-....!!
+
+========================================================================
+[dialogue_564dfa5a5754] Confronts Techno-4 / linha 1 / ocorrencia 1 / X
+Middy?<TW wait 0.5> Do you copy?<TW wait 0.5> Are you alright?!<TW wait 0.5> Middy!!
+
+PT-BR:
+Middy?<TW wait 0.5> Você me escuta?<TW wait 0.5> Você está bem?!<TW wait 0.5> Middy!!
+
+========================================================================
+[dialogue_fd2cf9899f1c] Confronts Techno-4 / linha 2 / ocorrencia 1 / RADIO
+<C #707070>..................
+
+PT-BR:
+..................
+
+========================================================================
+[dialogue_b7a17ae5afa3] Confronts Techno-4 / linha 3 / ocorrencia 1 / X
+......
+
+PT-BR:
+......
+
+========================================================================
+[dialogue_77be0c26004a] Confronts Techno-4 / linha 4 / ocorrencia 1 / X
+You're going to pay for this,<TW wait 0.5> Sigma.
+
+PT-BR:
+Você vai pagar por isso,<TW wait 0.5> Sigma.
+
+========================================================================
+[dialogue_2b71081ca98b] Confronts Sigma-1 / linha 1 / ocorrencia 1 / X
+I know you're here,<TW wait 0.5> there's no point in hiding Sigma!
+
+PT-BR:
+Eu sei que você está aqui,<TW wait 0.5> não há sentido em se esconder, Sigma!
+
+========================================================================
+[dialogue_85b449281db2] Confronts Sigma-2 / linha 1 / ocorrencia 1 / SIGMA
+So we meet once again.
+
+PT-BR:
+Então nos encontramos novamente.
+
+========================================================================
+[dialogue_f8f5779a64bd] Confronts Sigma-2 / linha 2 / ocorrencia 1 / 
+The old man did a great job,<TW wait 0.5> same goes for my new allies.
+
+PT-BR:
+O velho fez um ótimo trabalho,<TW wait 0.5> o mesmo vale para os meus novos aliados.
+
+========================================================================
+[dialogue_3ff4488f7901] Confronts Sigma-2 / linha 3 / ocorrencia 1 / 
+But it wouldn't have been possible without you, X!
+
+PT-BR:
+Mas nada disso seria possível sem você, X!
+
+========================================================================
+[dialogue_c02e7ec9ceab] Confronts Sigma-2 / linha 4 / ocorrencia 1 / X
+What do you mean?
+
+PT-BR:
+O que você quer dizer?
+
+========================================================================
+[dialogue_767c3c67ac28] Confronts Sigma-2 / linha 5 / ocorrencia 1 / SIGMA
+When analysing reploids,<TW wait 0.2> computers only see data.
+
+PT-BR:
+Ao analisar reploids,<TW wait 0.2> computadores só veem dados.
+
+========================================================================
+[dialogue_15ec28ecc0ce] Confronts Sigma-2 / linha 6 / ocorrencia 1 / 
+They cannot comprehend emotions.
+
+PT-BR:
+Eles não conseguem compreender emoções.
+
+========================================================================
+[dialogue_3532590a7f7d] Confronts Sigma-2 / linha 7 / ocorrencia 1 / 
+Sorrow,<TW wait 0.5> anger,<TW wait 0.5> hatred!
+
+PT-BR:
+Tristeza,<TW wait 0.5> ira,<TW wait 0.5> ódio!
+
+========================================================================
+[dialogue_95334e43d687] Confronts Sigma-2 / linha 8 / ocorrencia 1 / 
+When you were dragged inside the Mother Computer,<TW wait 0.2> it is that gift of yours,
+
+PT-BR:
+Quando você foi arrastado para dentro do Computador Mãe,<TW wait 0.2> foi esse seu dom,
+
+========================================================================
+[dialogue_65372023d659] Confronts Sigma-2 / linha 9 / ocorrencia 1 / 
+those emotions,<TW wait 0.2> those memories,<TW wait 0.2> that brought me back!
+
+PT-BR:
+essas emoções,<TW wait 0.2> essas memórias,<TW wait 0.2> que me trouxeram de volta!
+
+========================================================================
+[dialogue_f613a202b592] Confronts Sigma-2 / linha 10 / ocorrencia 1 / X
+That-<TW wait 0.5> That can't be!
+
+PT-BR:
+Isso-<TW wait 0.5> Isso não pode ser!
+
+========================================================================
+[dialogue_d39042ec9bac] Confronts Sigma-2 / linha 11 / ocorrencia 1 / 
+If what you say is true...<TW wait 0.5> then I'll fix my mistake right here and now!
+
+PT-BR:
+Se o que você diz é verdade...<TW wait 0.5> então vou corrigir meu erro agora mesmo!
+
+========================================================================
+[dialogue_24d99a3aca4e] Confronts Sigma-2 / linha 12 / ocorrencia 1 / SIGMA
+Bwahahaha!<TW wait 0.2> You can try, but for how long?
+
+PT-BR:
+Bwahahaha!<TW wait 0.2> Você pode tentar, mas por quanto tempo?
+
+========================================================================
+[dialogue_5292dea07c96] Confronts Sigma-2 / linha 13 / ocorrencia 1 / 
+As long as anger and hatred exists in the heart of reploids and humans,
+
+PT-BR:
+Enquanto ira e ódio existirem no coração de reploids e humanos,
+
+========================================================================
+[dialogue_e1de9a815edd] Confronts Sigma-2 / linha 14 / ocorrencia 1 / 
+Mavericks will never cease to exist!
+
+PT-BR:
+Mavericks nunca vão deixar de existir!
+
+========================================================================
+[dialogue_94cb431e4013] Confronts Sigma-2 / linha 15 / ocorrencia 1 / 
+Our battle will continue over and over!
+
+PT-BR:
+Nossa batalha vai continuar sem fim!
+
+========================================================================
+[dialogue_7220d4c0b44b] Confronts Sigma-2 / linha 16 / ocorrencia 1 / 
+And this time...<TW wait 0.5> I will emerge victorious!
+
+PT-BR:
+E dessa vez...<TW wait 0.5> eu vou sair vitorioso!
+
+========================================================================
+[dialogue_99f5b9739bdd] Sigma Defeat / linha 1 / ocorrencia 1 / SIGMA
+This isn't over yet, X!
+
+PT-BR:
+Isso ainda não acabou, X!
+
+========================================================================
+[dialogue_ffe22e581fbc] Sigma Defeat / linha 2 / ocorrencia 1 / 
+As long as that hatred persists in your heart,<TW wait 0.2> I'll keep coming back!
+
+PT-BR:
+Enquanto esse ódio persistir no seu coração,<TW wait 0.2> eu vou continuar voltando!
+
+========================================================================
+[dialogue_cb0106ed373d] Sigma Defeat / linha 3 / ocorrencia 1 / 
+Bwahahaha!
+
+PT-BR:
+Bwahahaha!
+
+========================================================================
+[dialogue_7aadabe84c16] After Sigma Death / linha 1 / ocorrencia 1 / X
+It is over...<TW wait 0.5> at last...
+
+PT-BR:
+Acabou...<TW wait 0.5> finalmente...
+
+========================================================================
+[dialogue_b2bc172e5fb2] Middy Alert / linha 1 / ocorrencia 1 / RADIO
+<C #58f898>...........<TW wait 0.3>X.....<TW wait 0.3>X!....<TW wait 0.3>Do y......<TW wait 0.3>hear m....
+
+PT-BR:
+...........<TW wait 0.3>X.....<TW wait 0.3>X!....<TW wait 0.3>Você me ou......<TW wait 0.3>escuta....
+
+========================================================================
+[dialogue_1e729757029a] Middy Alert / linha 2 / ocorrencia 1 / X
+Huh?<TW wait 0.5> That voice,<TW wait 0.3> it can't be...?
+
+PT-BR:
+Hã?<TW wait 0.5> Essa voz,<TW wait 0.3> não pode ser...?
+
+========================================================================
+[dialogue_064accc06242] Middy Alert / linha 3 / ocorrencia 1 / RADIO
+<C #58f898>.......X!<TW wait 0.5> You need to get out of there now!!<TW wait 0.3> It's a tr-
+
+PT-BR:
+.......X!<TW wait 0.5> Você precisa sair daí agora!!<TW wait 0.3> É uma arm-
+
+========================================================================
+[dialogue_c9e9010a6ce3] Middy Alert / linha 4 / ocorrencia 1 / X
+Middy!?<TW wait 0.5> Is that you?!
+
+PT-BR:
+Middy!?<TW wait 0.5> É você?!
+
+========================================================================
+[dialogue_9bc9895a8027] Middy Alert / linha 5 / ocorrencia 1 / X
+But,<TW wait 0.5> if you're alive,<TW wait 0.5> then...!
+
+PT-BR:
+Mas,<TW wait 0.5> se você está viva,<TW wait 0.5> então...!
+
+========================================================================
+[dialogue_18f8316a62ba] Techno Return-1 / linha 1 / ocorrencia 1 / TECHNO
+Good job X!<TW wait 0.5> Sigma really didn't stand a chance against you.
+
+PT-BR:
+Bom trabalho, X!<TW wait 0.5> Sigma realmente não teve chance contra você.
+
+========================================================================
+[dialogue_b4ffa6963bd8] Techno Return-1 / linha 2 / ocorrencia 1 / 
+It wasn't without troubles,<TW wait 0.2> but in the end, the plan unfolded as expected.
+
+PT-BR:
+Não foi sem dificuldades,<TW wait 0.2> mas no final, o plano se desenrolou como esperado.
+
+========================================================================
+[dialogue_5719e304dba6] Techno Return-1 / linha 3 / ocorrencia 1 / X
+Techno!<TW wait 0.5> That can't be, I defeated you!
+
+PT-BR:
+Techno!<TW wait 0.5> Não pode ser, eu te derrotei!
+
+========================================================================
+[dialogue_ece72452ddba] Techno Return-1 / linha 4 / ocorrencia 1 / TECHNO
+Oh,<TW wait 0.2> you're talking about him?
+
+PT-BR:
+Ah,<TW wait 0.2> você está falando dele?
+
+========================================================================
+[dialogue_46eb7de2f168] Techno Return-2 / linha 1 / ocorrencia 1 / GEEMEL
+.......
+
+PT-BR:
+.......
+
+========================================================================
+[dialogue_68249140866e] Techno Return-2 / linha 2 / ocorrencia 1 / X
+That's...!
+
+PT-BR:
+Isso é...!
+
+========================================================================
+[dialogue_e61692aef3a0] Techno Return-2 / linha 3 / ocorrencia 1 / TECHNO
+That coward was about to run away,<TW wait 0.2> so instead, I made him useful for a change.
+
+PT-BR:
+Aquele covarde estava prestes a fugir,<TW wait 0.2> então em vez disso, eu o tornei útil para variar.
+
+========================================================================
+[dialogue_afb4cb0ef680] Techno Return-2 / linha 4 / ocorrencia 1 / 
+I had to make sure that you were determined enough to destroy Sigma,
+
+PT-BR:
+Eu precisava ter certeza de que você estava determinado o suficiente para destruir o Sigma,
+
+========================================================================
+[dialogue_0a0c707cbead] Techno Return-2 / linha 5 / ocorrencia 1 / 
+without risking my own life in the process.
+
+PT-BR:
+sem arriscar minha própria vida no processo.
+
+========================================================================
+[dialogue_e3a929e3287c] Techno Return-2 / linha 6 / ocorrencia 1 / GEEMEL
+...<TW wait 0.2>Ke...<TW wait 0.2>Ke...<TW wait 0.2>Help....
+
+PT-BR:
+...<TW wait 0.2>Ke...<TW wait 0.2>Ke...<TW wait 0.2>Ajuda....
+
+========================================================================
+[dialogue_67babb45e80f] Techno Return-2 / linha 7 / ocorrencia 1 / TECHNO
+You were a good puppet,<TW wait 0.2> I don't need you anymore now.<TW wait 0.2> Disappear.
+
+PT-BR:
+Você foi um bom fantoche,<TW wait 0.2> não preciso mais de você agora.<TW wait 0.2> Desapareça.
+
+========================================================================
+[dialogue_4ec2d25f4cf8] Techno Return-3 / linha 1 / ocorrencia 1 / X
+What is going on?<TW wait 0.2> What is this place!?
+
+PT-BR:
+O que está acontecendo?<TW wait 0.2> Que lugar é esse!?
+
+========================================================================
+[dialogue_7ed3f89de358] Techno Return-3 / linha 2 / ocorrencia 1 / TECHNO
+This,<TW wait 0.5> is the Mother Computer core.
+
+PT-BR:
+Isto,<TW wait 0.5> é o núcleo do Computador Mãe.
+
+========================================================================
+[dialogue_1a0fccd787ab] Techno Return-3 / linha 3 / ocorrencia 1 / 
+After I linked my CPU to the Hacker Computer,<TW wait 0.2> I saw everything it has to offer.
+
+PT-BR:
+Depois que liguei minha CPU ao Computador do Hacker,<TW wait 0.2> eu vi tudo o que ele tinha a oferecer.
+
+========================================================================
+[dialogue_b942b01aefde] Techno Return-3 / linha 4 / ocorrencia 1 / 
+That's where I saw it,<TW wait 0.2> the power to shape the world the way I wanted.
+
+PT-BR:
+Foi ali que eu vi,<TW wait 0.2> o poder de moldar o mundo do jeito que eu quisesse.
+
+========================================================================
+[dialogue_9ec00b5ff50e] Techno Return-3 / linha 5 / ocorrencia 1 / 
+But I can't harness such a power by myself,<TW wait 0.2> I need the power of someone else.
+
+PT-BR:
+Mas eu não consigo controlar um poder assim por conta própria,<TW wait 0.2> preciso do poder de outra pessoa.
+
+========================================================================
+[dialogue_c97db9e6b9c5] Techno Return-3 / linha 6 / ocorrencia 1 / 
+I hijacked the transporter so it would take you here,
+
+PT-BR:
+Eu sequestrei o transportador para que ele te trouxesse até aqui,
+
+========================================================================
+[dialogue_2de2104d0b6b] Techno Return-3 / linha 7 / ocorrencia 1 / 
+a perfect copy of the Hacker Facility,<TW wait 0.2> recreated inside the core of the Mother Computer.
+
+PT-BR:
+uma cópia perfeita da Instalação do Hacker,<TW wait 0.2> recriada dentro do núcleo do Computador Mãe.
+
+========================================================================
+[dialogue_e8220f08803f] Techno Return-3 / linha 8 / ocorrencia 1 / 
+It even managed to trick Sigma!
+
+PT-BR:
+Ela até conseguiu enganar o Sigma!
+
+========================================================================
+[dialogue_29dcfcf12374] Techno Return-3 / linha 9 / ocorrencia 1 / 
+And now that you disposed of him...
+
+PT-BR:
+E agora que você se livrou dele...
+
+========================================================================
+[dialogue_11198c1f5ed5] Techno Return-3 / linha 10 / ocorrencia 1 / 
+His data is mine!
+
+PT-BR:
+Os dados dele são meus!
+
+========================================================================
+[dialogue_451282fc0027] Techno Return-4 / linha 1 / ocorrencia 1 / X
+You...<TW wait 0.2> What have you done!?
+
+PT-BR:
+Você...<TW wait 0.2> O que você fez!?
+
+========================================================================
+[dialogue_811b2df6a597] Techno Return-4 / linha 2 / ocorrencia 1 / TECHNO
+Hahahaha!
+
+PT-BR:
+Hahahaha!
+
+========================================================================
+[dialogue_c31a3b00b407] Techno Return-4 / linha 3 / ocorrencia 1 / 
+Now that Sigma's power is in my control....
+
+PT-BR:
+Agora que o poder do Sigma está sob meu controle....
+
+========================================================================
+[dialogue_f6c290b66ff8] Techno Return-4 / linha 4 / ocorrencia 1 / 
+There's only one thing that will make me truly unstoppable...
+
+PT-BR:
+Só há uma coisa que vai me tornar verdadeiramente imparável...
+
+========================================================================
+[dialogue_4b580f84dbc1] Techno Return-4 / linha 5 / ocorrencia 1 / 
+Your power, X!!
+
+PT-BR:
+Seu poder, X!!
+
+========================================================================
+[dialogue_3a2f5ff06a26] Techno Defeat-1 / linha 1 / ocorrencia 1 / X
+It's over,<TW wait 0.3> surrender now!
+
+PT-BR:
+Acabou,<TW wait 0.3> se entregue agora!
+
+========================================================================
+[dialogue_abb506c02c96] Techno Defeat-1 / linha 2 / ocorrencia 1 / TECHNO
+Guhhh....<TW wait 0.5> No....<TW wait 0.5> I won't...!
+
+PT-BR:
+Guhhh....<TW wait 0.5> Não....<TW wait 0.5> Eu não vou...!
+
+========================================================================
+[dialogue_1ef4df2047be] Techno Defeat-2 / linha 1 / ocorrencia 1 / X
+Ah!!
+
+PT-BR:
+Ah!!
+
+========================================================================
+[dialogue_ae7828fafe52] Techno Defeat-2 / linha 2 / ocorrencia 1 / TECHNO
+Your data will be mine!
+
+PT-BR:
+Seus dados serão meus!
+
+========================================================================
+[dialogue_2b1aaba3b581] Techno Defeat-2 / linha 3 / ocorrencia 1 / 
+And then...<TW wait 0.5> no one...<TW wait 0.5> will be able to get in my way!!
+
+PT-BR:
+E então...<TW wait 0.5> ninguém...<TW wait 0.5> vai conseguir ficar no meu caminho!!
+
+========================================================================
+[dialogue_47bdc02cf1ee] Techno Defeat-3 / linha 1 / ocorrencia 1 / MIDDY
+Enough!
+
+PT-BR:
+Já basta!
+
+========================================================================
+[dialogue_9573dbecd21e] Techno Defeat-3 / linha 2 / ocorrencia 1 / TECHNO
+Gyaah!<TW wait 0.3> What's happening..!?
+
+PT-BR:
+Gyaah!<TW wait 0.3> O que está acontecendo..!?
+
+========================================================================
+[dialogue_3fafcabc8338] Techno Defeat-3 / linha 3 / ocorrencia 1 / 
+Middy?!<TW wait 0.5> How can you...!
+
+PT-BR:
+Middy?!<TW wait 0.5> Como você pode...!
+
+========================================================================
+[dialogue_78246709d8e4] Techno Defeat-3 / linha 4 / ocorrencia 1 / MIDDY
+We're made of the same parts, brother.<TW wait 0.3> I know you from inside out.
+
+PT-BR:
+Somos feitos das mesmas partes, irmão.<TW wait 0.3> Eu te conheço por dentro e por fora.
+
+========================================================================
+[dialogue_da90a9c49817] Techno Defeat-3 / linha 5 / ocorrencia 1 / 
+What you can do,<TW wait 0.3>  I can do it as well!
+
+PT-BR:
+O que você pode fazer,<TW wait 0.3>  eu também posso fazer!
+
+========================================================================
+[dialogue_5308bca8d0b3] Techno Defeat-3 / linha 6 / ocorrencia 1 / X
+Middy!!
+
+PT-BR:
+Middy!!
+
+========================================================================
+[dialogue_dea665df7225] Techno Defeat-3 / linha 7 / ocorrencia 1 / MIDDY
+X!<TW wait 0.3> I sent Zero back to the Hunter Base!<TW wait 0.3> Once my signal fades,<TW wait 0.3> he will send you back.
+
+PT-BR:
+X!<TW wait 0.3> Eu enviei o Zero de volta para a Base dos Hunters!<TW wait 0.3> Quando meu sinal se apagar,<TW wait 0.3> ele vai te enviar de volta.
+
+========================================================================
+[dialogue_64c705487998] Techno Defeat-3 / linha 8 / ocorrencia 1 / 
+Now take Techno down!
+
+PT-BR:
+Agora derrube o Techno!
+
+========================================================================
+[dialogue_dca89abea298] Techno Defeat-3 / linha 9 / ocorrencia 1 / TECHNO
+Let me go!<TW wait 0.3> Without X data,<TW wait 0.3> Sigma will-
+
+PT-BR:
+Me deixa ir!<TW wait 0.3> Sem os dados do X,<TW wait 0.3> Sigma vai-
+
+========================================================================
+[dialogue_a590f12d6cf2] Techno Defeat-3 / linha 10 / ocorrencia 1 / SIGMA
+You miserable pest!<TW wait 0.3> You think a bug like you can control my power?!
+
+PT-BR:
+Sua praga miserável!<TW wait 0.3> Você pensa que uma coisinha como você pode controlar meu poder?!
+
+========================================================================
+[dialogue_de0cc195b16d] Techno Defeat-3 / linha 11 / ocorrencia 1 / 
+I'll just escape with your body and use the Mother Computer for myself!
+
+PT-BR:
+Vou apenas escapar com seu corpo e usar o Computador Mãe para mim mesmo!
+
+========================================================================
+[dialogue_bb4fe7e61004] Techno Defeat-3 / linha 12 / ocorrencia 1 / 
+Bwahahaha!
+
+PT-BR:
+Bwahahaha!
+
+========================================================================
+[dialogue_cb0446d88e5f] Techno Defeat-3 / linha 13 / ocorrencia 1 / TECHNO
+GAAAAH!!
+
+PT-BR:
+GAAAAH!!
+
+========================================================================
+[dialogue_fc9825530edc] Techno Defeat-3 / linha 14 / ocorrencia 1 / MIDDY
+X!<TW wait 0.3> Sigma influence is getting stronger!<TW wait 0.3> I won't be able to hold him much longer!
+
+PT-BR:
+X!<TW wait 0.3> A influência do Sigma está ficando mais forte!<TW wait 0.3> Não vou conseguir contê-lo por muito mais tempo!
+
+========================================================================
+[dialogue_444ece94a43b] Techno Defeat-3 / linha 15 / ocorrencia 1 / 
+Please destroy him!
+
+PT-BR:
+Por favor, destrua ele!
+
+========================================================================
+[dialogue_3f0a4c97fb6a] Techno Defeat-3 / linha 16 / ocorrencia 1 / TECHNO
+Idiot!!<TW wait 0.3> If he kills me, you die too!
+
+PT-BR:
+Idiota!!<TW wait 0.3> Se ele me matar, você morre também!
+
+========================================================================
+[dialogue_48754236a53f] Techno Defeat-3 / linha 17 / ocorrencia 1 / MIDDY
+...I know that very well.
+
+PT-BR:
+...Eu sei muito bem disso.
+
+========================================================================
+[dialogue_a69b2a0a3bed] Techno Defeat-3 / linha 18 / ocorrencia 1 / X
+...!<TW wait 0.3> NEWLINE So it is true!
+
+PT-BR:
+...!<TW wait 0.3> NEWLINE Então é verdade!
+
+========================================================================
+[dialogue_66516d23316e] Techno Defeat-3 / linha 19 / ocorrencia 1 / TECHNO
+Guh!<TW wait 0.3> Think about it! With all that power,<TW wait 0.3> we can create a world for ourselves!
+
+PT-BR:
+Guh!<TW wait 0.3> Pense bem! Com todo esse poder,<TW wait 0.3> podemos criar um mundo para nós mesmos!
+
+========================================================================
+[dialogue_c2f6fc4d0bf4] Techno Defeat-3 / linha 20 / ocorrencia 1 / 
+We wouldn't have to worry about the Mavericks,<TW wait 0.3> about Sigma,<TW wait 0.3> about anything!
+
+PT-BR:
+Não teríamos que nos preocupar com os Mavericks,<TW wait 0.3> com o Sigma,<TW wait 0.3> com nada!
+
+========================================================================
+[dialogue_8f65f0c0a94d] Techno Defeat-3 / linha 21 / ocorrencia 1 / 
+This world would be for us to command!
+
+PT-BR:
+Esse mundo seria nosso para comandar!
+
+========================================================================
+[dialogue_c327cbab7b8a] Techno Defeat-3 / linha 22 / ocorrencia 1 / MIDDY
+Always thinking about yourself first...<TW wait 0.5> your lust for power has drove you mad.
+
+PT-BR:
+Sempre pensando em si mesmo primeiro...<TW wait 0.5> sua sede de poder te enlouqueceu.
+
+========================================================================
+[dialogue_e05a91e0978c] Techno Defeat-3 / linha 23 / ocorrencia 1 / 
+You are no longer different from Sigma!
+
+PT-BR:
+Você não é mais diferente do Sigma!
+
+========================================================================
+[dialogue_a537e2443b13] Techno Defeat-3 / linha 24 / ocorrencia 1 / TECHNO
+I-<TW wait 0.3>I...!
+
+PT-BR:
+E-<TW wait 0.3>Eu...!
+
+========================================================================
+[dialogue_abcb2279d50b] Techno Defeat-3 / linha 25 / ocorrencia 1 / MIDDY
+I fight for the others!<TW wait 0.3> To bring them a brighter future!
+
+PT-BR:
+Eu luto pelos outros!<TW wait 0.3> Para trazer a eles um futuro melhor!
+
+========================================================================
+[dialogue_6922e2f734ff] Techno Defeat-3 / linha 26 / ocorrencia 1 / 
+That is why I'm a Maverick Hunter!
+
+PT-BR:
+É por isso que sou uma Maverick Hunter!
+
+========================================================================
+[dialogue_9ff11ef9ab54] Techno Defeat-3 / linha 27 / ocorrencia 1 / 
+And as a Maverick Hunter...
+
+PT-BR:
+E como uma Maverick Hunter...
+
+========================================================================
+[dialogue_f8d8194912f3] Techno Defeat-3 / linha 28 / ocorrencia 1 / 
+I will do my part!
+
+PT-BR:
+Eu vou fazer minha parte!
+
+========================================================================
+[dialogue_a404189f717c] Techno Defeat-3 / linha 29 / ocorrencia 1 / X
+!!
+
+PT-BR:
+!!
+
+========================================================================
+[dialogue_6568177027bb] Techno Defeat-3 / linha 30 / ocorrencia 1 / MIDDY
+Now,<TW wait 0.3> X!
+
+PT-BR:
+Agora,<TW wait 0.3> X!
+
+========================================================================
+[dialogue_7c708e7ae2a2] Techno Defeat-3 / linha 31 / ocorrencia 1 / X
+.....<TW wait 0.5> NEWLINE Forgive me,<TW wait 0.3> Middy!!
+
+PT-BR:
+.....<TW wait 0.5> NEWLINE Me perdoe,<TW wait 0.3> Middy!!
+
+========================================================================
+[dialogue_c443e29c96bb] Epilogue / linha 1 / ocorrencia 1 / ZERO
+Welcome back, X.
+
+PT-BR:
+Bem-vindo de volta, X.
+
+========================================================================
+[dialogue_010eb3a3e7fc] Epilogue / linha 2 / ocorrencia 1 / 
+The Mother Computer has turned back to normal.
+
+PT-BR:
+O Computador Mãe voltou ao normal.
+
+========================================================================
+[dialogue_3c94b3c981a9] Epilogue / linha 3 / ocorrencia 1 / 
+The Maverick activity it caused outside has also stopped.
+
+PT-BR:
+A atividade Maverick que ele causou lá fora também parou.
+
+========================================================================
+[dialogue_3501898ae8cb] Epilogue / linha 4 / ocorrencia 1 / 
+Dr. Cain will soon decommission the project as it proved itself too risky.
+
+PT-BR:
+Dr. Cain vai descontinuar o projeto em breve, já que ele se mostrou muito arriscado.
+
+========================================================================
+[dialogue_57972178f884] Epilogue / linha 5 / ocorrencia 1 / 
+You did it.
+
+PT-BR:
+Você conseguiu.
+
+========================================================================
+[dialogue_82b4455677b7] Epilogue / linha 6 / ocorrencia 1 / X
+....
+
+PT-BR:
+....
+
+========================================================================
+[dialogue_5da100c26f55] Epilogue / linha 7 / ocorrencia 1 / ZERO
+Are you alright?
+
+PT-BR:
+Você está bem?
+
+========================================================================
+[dialogue_be120b730ed9] Epilogue / linha 8 / ocorrencia 1 / X
+I couldn't save Middy...
+
+PT-BR:
+Eu não consegui salvar a Middy...
+
+========================================================================
+[dialogue_0b8941901f0f] Epilogue / linha 9 / ocorrencia 1 / 
+Is it worth fighting if more people have to die to achieve peace?
+
+PT-BR:
+Vale a pena lutar se mais pessoas precisam morrer para alcançar a paz?
+
+========================================================================
+[dialogue_d606b0dbd640] Epilogue / linha 10 / ocorrencia 1 / ZERO
+Hey,<TW wait 0.5> don't say that.
+
+PT-BR:
+Ei,<TW wait 0.5> não diga isso.
+
+========================================================================
+[dialogue_a6192005dfe4] Epilogue / linha 11 / ocorrencia 1 / 
+It is our role as Maverick Hunters,<TW wait 0.3> to put the greater good above our own lives.
+
+PT-BR:
+É o nosso papel como Maverick Hunters,<TW wait 0.3> colocar o bem maior acima de nossas próprias vidas.
+
+========================================================================
+[dialogue_798daad3de24] Epilogue / linha 12 / ocorrencia 1 / 
+Middy knew it well,<TW wait 0.3> his sacrifice wasn't in vain.
+
+PT-BR:
+Middy sabia disso muito bem,<TW wait 0.3> o sacrifício dela não foi em vão.
+
+========================================================================
+[dialogue_3d9bd09685a6] Epilogue / linha 13 / ocorrencia 1 / 
+He gave his best to save us all,<TW wait 0.3> and so should we.
+
+PT-BR:
+Ela deu o seu melhor para nos salvar,<TW wait 0.3> e nós devemos fazer o mesmo.
+
+========================================================================
+[dialogue_3e8617a17cca] Epilogue / linha 14 / ocorrencia 1 / X
+...You're right,<TW wait 0.3> thank you Zero.
+
+PT-BR:
+...Você tem razão,<TW wait 0.3> obrigado, Zero.
+
+========================================================================
+[dialogue_7bfaa56207a2] Epilogue / linha 15 / ocorrencia 1 / 
+I must keep fighting!<TW wait 0.5> I promise I won't give up!
+
+PT-BR:
+Eu preciso continuar lutando!<TW wait 0.5> Prometo que não vou desistir!
+
+========================================================================
+[dialogue_6df8678244b4] Epilogue / linha 16 / ocorrencia 1 / ZERO
+And I'll be by your side until the end.
+
+PT-BR:
+E eu vou estar ao seu lado até o fim.
+
+========================================================================
+[dialogue_1364d7763c69] Epilogue / linha 17 / ocorrencia 1 / 
+Now follow me,<TW wait 0.3> we have a mess to clean outside.
+
+PT-BR:
+Agora me siga,<TW wait 0.3> temos uma bagunça para limpar lá fora.
+
+========================================================================
+[dialogue_5b8f4c43664d] Epilogue / linha 18 / ocorrencia 1 / X
+Right,<TW wait 0.3> let's go!
+
+PT-BR:
+Certo,<TW wait 0.3> vamos lá!
+
+========================================================================
+[dialogue_bc2c7030f0d0] Secret Ending-1 / linha 1 / ocorrencia 1 / 
+<C #58f898>....Thank you,<TW wait 0.3> X...
+
+PT-BR:
+....Obrigada,<TW wait 0.3> X...
+
+========================================================================
+[dialogue_fd5fccf160b1] Secret Ending-1 / linha 2 / ocorrencia 1 / 
+<C #58f898>....Thank you for trusting me....
+
+PT-BR:
+....Obrigada por confiar em mim....
+
+========================================================================
+[dialogue_4d5ab8105020] Secret Ending-2 / linha 1 / ocorrencia 1 / TECHNO
+Uuuuh...<TW wait 0.5> brother...<TW wait 0.5> is that you....
+
+PT-BR:
+Uuuuh...<TW wait 0.5> irmã...<TW wait 0.5> é você....
+
+========================================================================
+[dialogue_598347b0f213] Secret Ending-2 / linha 2 / ocorrencia 1 / MIDDY
+Yes.<TW wait 0.5> Everything is alright now.
+
+PT-BR:
+Sim.<TW wait 0.5> Tudo está bem agora.
+
+========================================================================
+[dialogue_d013c50d75cc] Secret Ending-2 / linha 3 / ocorrencia 1 / TECHNO
+I'm sorry...<TW wait 0.5> I wanted a safer world just for us...
+
+PT-BR:
+Me desculpe...<TW wait 0.5> eu queria um mundo mais seguro só para nós...
+
+========================================================================
+[dialogue_b331fbdabd0e] Secret Ending-2 / linha 4 / ocorrencia 1 / TECHNO
+I didn't mean to....
+
+PT-BR:
+Eu não tive a intenção....
+
+========================================================================
+[dialogue_976de9b04f53] Secret Ending-2 / linha 5 / ocorrencia 1 / MIDDY
+It's ok,<TW wait 0.5> the world is in good hands,<TW wait 0.5> I know it.
+
+PT-BR:
+Está tudo bem,<TW wait 0.5> o mundo está em boas mãos,<TW wait 0.5> eu sei disso.
+
+========================================================================
+[dialogue_d1dccf681ef8] Secret Ending-2 / linha 6 / ocorrencia 1 / MIDDY
+You can rest now....
+
+PT-BR:
+Você pode descansar agora....
+
+========================================================================
+[dialogue_b2262aff04e8] Sigma Ending-1 / linha 1 / ocorrencia 1 / 
+That was close...
+
+PT-BR:
+Essa foi por pouco...
+
+========================================================================
+[dialogue_197823e2cfa5] Sigma Ending-2 / linha 1 / ocorrencia 1 / 
+That little reploid was really skillful,<TW wait 0.3> tricking me like that...
+
+PT-BR:
+Aquele reploid pequeno foi realmente habilidoso,<TW wait 0.3> me enganando desse jeito...
+
+========================================================================
+[dialogue_b737ece272f8] Sigma Ending-2 / linha 2 / ocorrencia 1 / 
+I need to stay low for now...
+
+PT-BR:
+Preciso ficar na surdina por agora...
+
+========================================================================
+[dialogue_ffa58cb9382a] Sigma Ending-2 / linha 3 / ocorrencia 1 / 
+However,<TW wait 0.3> that ability to blur the lines between the real world and the cyber space...
+
+PT-BR:
+Porém,<TW wait 0.3> essa habilidade de borrar as linhas entre o mundo real e o ciberespaço...
+
+========================================================================
+[dialogue_0edfcff274ef] Sigma Ending-2 / linha 4 / ocorrencia 1 / 
+I wonder...<TW wait 0.6> NEWLINE How far could I take it....
+
+PT-BR:
+Eu me pergunto...<TW wait 0.6> NEWLINE Até onde eu poderia levar isso....
+
+========================================================================

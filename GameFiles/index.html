@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Mega Man DXtreme</title>
+
+    <style type="text/css">
+        /* ── Reset obrigatório para o canvas do C2 preencher a tela ── */
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            background: #000;
+            color: #fff;
+            overflow: hidden;
+            touch-action: none;
+            -ms-touch-action: none;
+            /* Cursor invisível — sem mouse no Xbox */
+            cursor: none;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        /*
+         * O jogo foi projetado em 240×160 (GBA resolution).
+         * Escalamos o canvas via CSS para preencher a tela inteira do Xbox
+         * mantendo a proporção 3:2 com pixel-perfect rendering.
+         * A lógica interna do C2 continua rodando em 240×160.
+         */
+        #c2canvasdiv {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #000;
+        }
+
+        #c2canvas {
+            /* C2 define width/height via JS; CSS escala para tela cheia */
+            display: block;
+            max-width: 96vw;
+            max-height: 96vh;
+            /* Pixels nítidos sem blur — estilo pixel art */
+            image-rendering: pixelated;
+            image-rendering: crisp-edges;
+            -ms-interpolation-mode: nearest-neighbor;
+            touch-action: none;
+            cursor: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="c2canvasdiv">
+        <canvas id="c2canvas" width="240" height="160"></canvas>
+    </div>
+
+    <!--
+        NW.js file dialogs — mantidos mas nunca usados no Xbox.
+        Remover causaria erro no c2runtime se ele tentar acessar os IDs.
+    -->
+    <input style="display:none;" id="c2nwOpenFileDialog"    type="file" />
+    <input style="display:none;" id="c2nwChooseFolderDialog" type="file" />
+    <input style="display:none;" id="c2nwSaveDialog"         type="file" />
+
+    <!-- jQuery — exigido pelo c2runtime do Construct 2 -->
+    <script src="jquery-3.4.1.min.js"></script>
+
+    <script>
+    // Deve existir antes do c2runtime para capturar falhas de carregamento.
+    window.__gameReady = false;
+    window.__gameInitError = '';
+    window.__gameResourceError = '';
+    window.__uwpFullscreen = false;
+    (function() {
+        var originalConsoleError = window.console && window.console.error;
+        if (window.console) {
+            window.console.error = function() {
+                var parts = [];
+                for (var i = 0; i < arguments.length; i++) {
+                    try { parts.push(String(arguments[i])); } catch (e) {}
+                }
+                window.__gameResourceError = parts.join(' ');
+                if (originalConsoleError) {
+                    originalConsoleError.apply(window.console, arguments);
+                }
+            };
+        }
+        window.addEventListener('error', function(event) {
+            var target = event.target || event.srcElement;
+            if (target && target !== window) {
+                var url = target.src || target.href || target.currentSrc || target.tagName;
+                window.__gameResourceError = 'Falha ao carregar recurso: ' + String(url);
+            }
+        }, true);
+    })();
+    window.onerror = function(message, source, line, column, error) {
+        var details = String(message || 'Erro JavaScript desconhecido') +
+            ' @ ' + String(source || '?') + ':' + String(line || 0) +
+            ':' + String(column || 0);
+        window.__gameInitError = details;
+        try {
+            if (window.external && window.external.notify) {
+                window.external.notify('GAME_INIT_ERROR:' + details);
+            }
+        } catch (notifyError) {}
+        return false;
+    };
+    </script>
+
+    <!--
+        SHIM NW.JS → UWP
+        ─────────────────────────────────────────────────────────────────
+        O index.html original usa window.nw / nwgui para:
+          1. Mostrar a janela após inicializar  → no-op no WebView
+          2. Fechar a janela ao clicar X        → no-op no WebView
+          3. Acessar sistema de arquivos        → não usado em gameplay
+
+        Criamos stubs vazios para que o c2runtime não quebre ao chamar
+        window['nwgui'].Window.get().show() e afins.
+        ─────────────────────────────────────────────────────────────────
+    -->
+    <script>
+    (function() {
+        'use strict';
+
+        // ── Stub completo do nwgui para neutralizar todas as chamadas NW.js ──
+        var nwWindowStub = {
+            show:         function() {},
+            hide:         function() {},
+            close:        function() {},
+            maximize:     function() {},
+            minimize:     function() {},
+            restore:      function() {},
+            focus:        function() {},
+            showDevTools: function() {},
+            on:           function(evt, fn) {
+                // Registra 'close' handler mas nunca dispara (UWP controla o ciclo)
+                if (evt === 'close') { window.__nwCloseHandler = fn; }
+            },
+            get:          function() { return nwWindowStub; }
+        };
+
+        var nwAppStub = {
+            quit:          function() {
+                // No Xbox, notifica o C# para fechar o app via postMessage.
+                try {
+                    if (window.external && window.external.notify) {
+                        window.external.notify('APP_QUIT');
+                    } else if (window.chrome && window.chrome.webview) {
+                        window.chrome.webview.postMessage('APP_QUIT');
+                    }
+                } catch(e) {}
+            },
+            getDataPath:   function() { return ''; },
+            clearCache:    function() {},
+            closeAllWindows: function() {}
+        };
+
+        var nwGuiStub = {
+            Window: nwWindowStub,
+            App:    nwAppStub,
+            Shell:  { openExternal: function() {}, openItem: function() {} },
+            require: function() { return {}; }
+        };
+
+        // Nao exponha nwgui, nw, require, process, c2nodewebkit ou c2nwjs.
+        // A presenca desses globais faz o Construct 2 entrar no caminho Node.
+        console.log('[UWP-Shim] modo navegador UWP instalado');
+    })();
+    </script>
+
+    <script src="ptbr-text.js"></script>
+    <script src="localization.js"></script>
+    <script src="xbox-bridge-uwp.js"></script>
+
+    <!-- Runtime do Construct 2 -->
+    <script src="c2runtime.js"></script>
+
+    <!--
+        O bridge do UWP clássico é injetado pelo host C# via WebView.InvokeScriptAsync.
+        Neste modo, a comunicação com o host é feita por window.external.notify.
+    -->
+    <script>
+    (function() {
+        window.__uwpBridgeHost = true;
+        console.log('[UWP] host bridge pronto para window.external.notify');
+    })();
+    </script>
+
+    <!--
+        INICIALIZAÇÃO DO JOGO + INTEGRAÇÃO UWP
+        ─────────────────────────────────────────────────────────────────
+    -->
+    <script>
+    (function() {
+        'use strict';
+
+        // ── Escala o canvas para preencher a tela mantendo proporção 3:2 ──
+        function getTvViewport() {
+            var doc = document.documentElement || {};
+            var body = document.body || {};
+            var raw = [
+                [window.innerWidth, window.innerHeight],
+                [doc.clientWidth, doc.clientHeight],
+                [body.clientWidth, body.clientHeight],
+                [screen && screen.availWidth, screen && screen.availHeight],
+                [screen && screen.width, screen && screen.height]
+            ];
+            for (var i = 0; i < raw.length; i++) {
+                var w = Number(raw[i][0]) || 0;
+                var h = Number(raw[i][1]) || 0;
+                if (w >= 240 && h >= 160) return { w: w, h: h };
+            }
+            return { w: 1280, h: 720 };
+        }
+
+        function scaleCanvas() {
+            var canvas = document.getElementById('c2canvas');
+            if (!canvas) return;
+
+            var viewport = getTvViewport();
+            var screenW = viewport.w;
+            var screenH = viewport.h;
+
+            // Proporção original: 240/160 = 1.5 (3:2)
+            // UWP: preenche o WebView em vez de preservar bordas 3:2.
+            var gameW = screenW, gameH = screenH;
+            var ratio = 240 / 160;
+
+            var newW, newH;
+            if (window.__uwpFullscreen === true) {
+                newW = screenW;
+                newH = screenH;
+            } else if (screenW / screenH > ratio) {
+                // Tela mais larga que o jogo: limita pela altura
+                newH = screenH;
+                newW = Math.floor(newH * ratio);
+            } else {
+                // Tela mais alta que o jogo: limita pela largura
+                newW = screenW;
+                newH = Math.floor(newW / ratio);
+            }
+
+            // Escala via CSS — não altera a resolução interna do C2
+            canvas.style.setProperty('width', newW + 'px', 'important');
+            canvas.style.setProperty('height', newH + 'px', 'important');
+            canvas.style.setProperty('max-width',
+                window.__uwpFullscreen === true ? 'none' : screenW + 'px',
+                'important');
+            canvas.style.setProperty('max-height',
+                window.__uwpFullscreen === true ? 'none' : screenH + 'px',
+                'important');
+            canvas.style.setProperty('image-rendering', 'pixelated',
+                'important');
+        }
+
+        // Rescala sempre que a janela mudar (rotação, snapping, etc.)
+        window.addEventListener('resize', scaleCanvas);
+
+        // ── Inicializa o jogo após o DOM estar pronto ──
+        jQuery(document).ready(function() {
+            var runtimeStarted = false;
+
+            function startRuntime() {
+                if (runtimeStarted) return;
+                runtimeStarted = true;
+
+            // Cria o runtime do Construct 2 no canvas #c2canvas
+            try {
+                cr_createRuntime('c2canvas');
+            } catch (e) {
+                var details = (e && (e.stack || e.message)) ?
+                    String(e.stack || e.message) : String(e);
+                window.__gameInitError = details;
+                try {
+                    if (window.external && window.external.notify) {
+                        window.external.notify('GAME_INIT_ERROR:' + details);
+                    }
+                } catch (notifyError) {}
+                return;
+            }
+
+            // Aplica escala inicial após o runtime criar o canvas
+            setTimeout(scaleCanvas, 0);
+            setTimeout(scaleCanvas, 50);
+            setTimeout(scaleCanvas, 100);
+            setTimeout(scaleCanvas, 500); // segundo passo por segurança
+
+            setTimeout(scaleCanvas, 1000);
+            setTimeout(scaleCanvas, 2000);
+
+            console.log('[UWP] Construct 2 runtime iniciado');
+            // O host confirma quando os assets e o primeiro layout terminarem.
+
+            // Notifica o C# que o jogo está pronto via WebView clássico
+            try {
+                if (window.external && window.external.notify) {
+                    window.external.notify('GAME_READY');
+                } else if (window.chrome && window.chrome.webview && window.chrome.webview.postMessage) {
+                    window.chrome.webview.postMessage('GAME_READY');
+                }
+            } catch(e) {}
+            }
+
+            if (window.__uwpBridgeHost && !window.__uwpSaveRestored) {
+                document.addEventListener('uwpSaveRestored', startRuntime, false);
+                setTimeout(startRuntime, 1500);
+            } else {
+                startRuntime();
+            }
+        });
+
+        // ── Suspend/Resume via eventos UWP (disparados pelo C#) ──
+        document.addEventListener('uwpSuspend', function() {
+            try {
+                if (typeof cr_setSuspended === 'function') {
+                    cr_setSuspended(true);
+                } else if (window.cr_singletons && window.cr_singletons[0]) {
+                    var rt = window.cr_singletons[0];
+                    if (typeof rt.setSuspended === 'function' && rt.pauseCount === 0)
+                        rt.setSuspended(true);
+                }
+                console.log('[UWP] Jogo suspenso');
+            } catch(e) { console.error('[UWP] suspend error', e); }
+        });
+
+        document.addEventListener('uwpResume', function() {
+            try {
+                if (typeof cr_setSuspended === 'function') {
+                    cr_setSuspended(false);
+                } else if (window.cr_singletons && window.cr_singletons[0]) {
+                    var rt = window.cr_singletons[0];
+                    if (typeof rt.setSuspended === 'function' && rt.pauseCount > 0)
+                        rt.setSuspended(false);
+                }
+                console.log('[UWP] Jogo retomado');
+            } catch(e) { console.error('[UWP] resume error', e); }
+        });
+
+        // ── Pause quando a página perde foco (Guide overlay, etc.) ──
+        document.addEventListener('visibilitychange', function() {
+            var hidden = document.hidden || document.msHidden || document.webkitHidden;
+            try {
+                if (typeof cr_setSuspended === 'function') {
+                    cr_setSuspended(hidden);
+                }
+            } catch(e) {}
+        });
+
+        // ── Limpa teclas presas quando a janela perde foco ──
+        // Isso evita que o personagem fique "correndo" quando o Guide abre
+        window.addEventListener('blur', function() {
+            // O C2 keyboard plugin tem onWindowBlur mas às vezes não é chamado
+            // Disparamos um evento sintético para garantir a limpeza
+            var keys = [37, 38, 39, 40, 90, 88, 65, 83, 81, 69, 32, 13, 27]; // z x a s q e Space Enter Esc arrows
+            keys.forEach(function(code) {
+                var key = String.fromCharCode(code).toLowerCase();
+                document.dispatchEvent(new KeyboardEvent('keyup', {
+                    keyCode: code, which: code,
+                    key: key, code: 'Key' + String.fromCharCode(code),
+                    bubbles: true, cancelable: true
+                }));
+            });
+        });
+
+        console.log('[UWP] index.html inicializado (UWP mode)');
+
+        // ── Desbloqueia AudioContext após primeiro gesto do usuário ──────
+        // Chrome/Edge bloqueiam AudioContext criado antes de interação.
+        // Isso resolve o aviso "AudioContext was not allowed to start".
+        function unlockAudio() {
+            try {
+                // Tenta resumir qualquer AudioContext que o C2 tenha criado.
+                if (window.AudioContext || window.webkitAudioContext) {
+                    var AC = window.AudioContext || window.webkitAudioContext;
+                    var rt = typeof window.cr_getC2Runtime === 'function'
+                        ? window.cr_getC2Runtime() : null;
+                    var ctx = (rt && rt.audio_context) || null;
+                    if (ctx && ctx.state === 'suspended') {
+                        var resumed = ctx.resume();
+                        if (resumed && resumed.then) {
+                            resumed.then(function() {
+                                console.log('[UWP] AudioContext desbloqueado pelo gesto do usuário.');
+                            });
+                        }
+                    }
+                    if (!ctx || ctx.state !== 'running') {
+                        return;
+                    }
+                }
+            } catch(e) {}
+            // Remove os listeners depois do primeiro gesto — já não precisamos mais.
+            ['click','pointerup','keydown','touchstart','gamepadconnected'].forEach(function(ev) {
+                document.removeEventListener(ev, unlockAudio, true);
+            });
+        }
+        ['click','pointerup','keydown','touchstart','gamepadconnected'].forEach(function(ev) {
+            document.addEventListener(ev, unlockAudio, true);
+        });
+    })();
+    </script>
+</body>
+</html>

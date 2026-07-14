@@ -1,0 +1,259 @@
+﻿"id","section","english","portuguese","notes"
+"story_64b8697db7ba","Event Sheet: Auto Save Events","Auto Save Events","",""
+"story_6a4386ca66d8","Event Sheet: Auto Save Events","This game uses an AUTO-SAVE system.
+
+Do not close the game when the AUTO-SAVE icon is on-screen.","",""
+"story_1cda5b37d3df","Event Sheet: Auto Save Events","Collected items will not be saved until the boss stage is cleared.
+
+Collecting an item inside a cleared boss stage will activate AUTO-SAVE.","",""
+"story_1e5a0dee7dbc","Event Sheet: Auto Save Events","You can map your weapons to the gamepad Right Stick and the 1-8 top number keys in the pause menu.
+
+Pressing Right Stick or 9 will reset to the X-Buster.","",""
+"story_68e71eebb941","Event Sheet: Auto Save Events","Once a stage is cleared, hold UP when selecting the stage to skip to the boss room.","",""
+"story_e7f4fe0a4cd9","Event Sheet: Auto Save Events","Story events contained in stages will replay on revisit.
+
+It's like reading a book's chapter again!","",""
+"story_18039127933e","Event Sheet: Auto Save Events","Extra lives will reset everytime you enter a stage.
+
+You can choose how much you want to start with in the EXTRA menu.","",""
+"story_69beac10bc7f","Event Sheet: Auto Save Events","Bosses will react differently to certain weapons.
+
+Some of them can be used to counter the boss abilities, so try different combinations!","",""
+"story_50160b7ff767","Event Sheet: Auto Save Events","You can equip or unequip armor parts individually in the Pause Menu.","",""
+"story_42c036a06ffb","Event Sheet: Boss","- Intro","",""
+"story_fcc10c15331f","Event Sheet: Boss","Vile - Intro","",""
+"story_f2ec9040611c","Event Sheet: Boss","Vile Intro","",""
+"story_bfda07af7ac4","Event Sheet: Boss","Armored Armadillo - Intro","",""
+"story_8c196376aa90","Event Sheet: Boss","heavy crash","",""
+"story_9a527fee8b2f","Event Sheet: Boss","Wheel Gator - Intro","",""
+"story_e0945a2987b3","Event Sheet: Boss","Magna Centipede - Intro","",""
+"story_6d6965798807","Event Sheet: Boss","Flame Stag - Intro","",""
+"story_47db5920007f","Event Sheet: Boss","Morph Moth - Intro","",""
+"story_7b4efd1c5df6","Event Sheet: Boss","Sigma - Intro","",""
+"story_c51a7d431211","Event Sheet: Boss","Sigma","",""
+"story_ee53b67a8b0b","Event Sheet: Boss","Confronts Sigma-1","",""
+"story_fbebe432459d","Event Sheet: Boss","Boss Intro 1","",""
+"story_36283f470ec8","Event Sheet: Boss","Confronts Sigma-2","",""
+"story_1510c9352d01","Event Sheet: Boss","Sigma2 - Intro","",""
+"story_7952f0767559","Event Sheet: Boss","Sigma Rebirth","",""
+"story_6088b77311cf","Event Sheet: Boss","Techno - Intro","",""
+"story_04bd1092bd40","Event Sheet: Boss","Techno","",""
+"story_344136ce8fb5","Event Sheet: Boss","After Sigma Death","",""
+"story_2fc91701a25d","Event Sheet: Boss","Techno Return-2","",""
+"story_8bb1c0599542","Event Sheet: Boss","Techno Return-3","",""
+"story_796284fa3a6a","Event Sheet: Boss","Techno Return-4","",""
+"story_6b0c95398e54","Event Sheet: Boss","Boss Fight 6","",""
+"story_3c1db91a6ded","Event Sheet: Boss","Middy Alert","",""
+"story_98e42fc57d91","Event Sheet: Boss","Boss Intro 3","",""
+"story_c48d75cda651","Event Sheet: Boss","Techno Return-1","",""
+"story_a570c90e9622","Event Sheet: Boss","Vile2 - Intro","",""
+"story_6953edeb83f2","Event Sheet: Boss","player - teleportin","",""
+"story_b76d7151b8c5","Event Sheet: Boss","Zain - Intro","",""
+"story_c032adc1ff62","Event Sheet: Boss","X","",""
+"story_3f61fb195916","Event Sheet: Boss","Geemel - Intro","",""
+"story_b115992a5b53","Event Sheet: Boss","rolling shield max","",""
+"story_23e9812c8909","Event Sheet: Boss","player - land","",""
+"story_02d62479d706","Event Sheet: Boss","geemel laugh","",""
+"story_12a0b2c382da","Event Sheet: Boss","Geemel","",""
+"story_f0655ca636ff","Event Sheet: Boss","Serges - Intro","",""
+"story_05222b650732","Event Sheet: Boss","Serges","",""
+"story_c2d9036cb4c8","Event Sheet: Boss","Serges Meetup1","",""
+"story_ab73c09b0c28","Event Sheet: Boss","Serges Meetup2","",""
+"story_47ac74ace74a","Event Sheet: Boss","ZainGeemel - Intro","",""
+"story_4582404d025f","Event Sheet: Boss","Chill Penguin - Intro","",""
+"story_27b203751902","Event Sheet: Boss","Spark Mandrill - Intro","",""
+"story_d307292432a0","Event Sheet: Boss","strong impact","",""
+"story_b9221ffd3dec","Event Sheet: Boss","Storm Eagle - Intro","",""
+"story_33df60ce1b15","Event Sheet: Boss","eagle flap","",""
+"story_204cac0cf2a8","Event Sheet: Boss","hp refill","",""
+"story_c83fc42bd3ed","Event Sheet: Boss","Storm Eagle","",""
+"story_f50842adc9c8","Event Sheet: Boss","eagle dive","",""
+"story_d3a716826719","Event Sheet: Boss","Armored Armadillo","",""
+"story_18f0322720e9","Event Sheet: Boss","player - x shot lv3","",""
+"story_408018b0fa27","Event Sheet: Boss","Wheel Gator","",""
+"story_fec63b2f36ed","Event Sheet: Boss","hit shield","",""
+"story_74c3d2fb154a","Event Sheet: Boss","Magna Centipede","",""
+"story_204791fca2a7","Event Sheet: Boss","Flame Stag","",""
+"story_718df10c1f2a","Event Sheet: Boss","fire shot","",""
+"story_403211e31ea9","Event Sheet: Boss","Morph Moth","",""
+"story_bafd514eb3c0","Event Sheet: Boss","Moth Phase 1","",""
+"story_72a3f1e2aae5","Event Sheet: Boss","Moth Phase 2","",""
+"story_5f9c07803884","Event Sheet: Boss","moth transform","",""
+"story_8053ecf8b8fe","Event Sheet: Boss","hit damage","",""
+"story_16e73d30b4cb","Event Sheet: Boss","Sigma2 Death","",""
+"story_2f0993338306","Event Sheet: Boss","CLONE V","",""
+"story_930ae47a6dfa","Event Sheet: Boss","LASER HAND","",""
+"story_ce5deb4a1a1e","Event Sheet: Boss","CLONE H","",""
+"story_e2f81f51e1eb","Event Sheet: Boss","DOUBLE LASER","",""
+"story_95c0759d8d3b","Event Sheet: Boss","LASER V","",""
+"story_666a482d64d1","Event Sheet: Boss","Techno Death","",""
+"story_cedb02ffcfe2","Event Sheet: Boss","Vile","",""
+"story_d6b97f9e721d","Event Sheet: Boss","player - x shot lv1","",""
+"story_90c18a319893","Event Sheet: Boss","player - x shot lv2","",""
+"story_f5b57ceae09a","Event Sheet: Boss","electric spark","",""
+"story_abd161d1a130","Event Sheet: Boss","ZainGeemel Death","",""
+"story_70db8ac75104","Event Sheet: Boss","fire blast","",""
+"story_b5c287015d3c","Event Sheet: Boss","player - dash","",""
+"story_ca6481732e61","Event Sheet: Boss","End Dash","",""
+"story_7937cfb7c1ff","Event Sheet: Boss","Chill Penguin","",""
+"story_5ddb5f0ad38f","Event Sheet: Boss","player - x shot lv0","",""
+"story_c09e76fb40f9","Event Sheet: Boss","ice break small","",""
+"story_0155524d5a25","Event Sheet: Boss","ice blow","",""
+"story_fc2d41e8b89a","Event Sheet: Boss","ice break big","",""
+"story_b3cdad7ef8ca","Event Sheet: Boss","strong wind","",""
+"story_69c9388aa633","Event Sheet: Boss","ice break medium","",""
+"story_fc8be26494a4","Event Sheet: Boss","Spark Mandrill","",""
+"story_b82705d9de69","Event Sheet: Boss","Stop Swing","",""
+"story_adb7bd50873e","Event Sheet: Boss","Idle Slash","",""
+"story_afc6c45769ec","Event Sheet: Boss","Zero","",""
+"story_c80e0e7f760f","Event Sheet: Boss","Sigma Defeat","",""
+"story_437f4cef0fbb","Event Sheet: Boss","Save File","",""
+"story_c6b6c81be46d","Event Sheet: Boss","Techno Defeat-1","",""
+"story_3bdd88609eb0","Event Sheet: Boss","Techno Defeat-2","",""
+"story_176d6cd546eb","Event Sheet: Boss","Techno Defeat-3","",""
+"story_72ef8b6a8200","Event Sheet: Boss","Open Door","",""
+"story_7065e62a4bad","Event Sheet: Boss","player - victory","",""
+"story_6ed1c58e1670","Event Sheet: Boss Intro Events","boss intro","",""
+"story_c4c63adbff4b","Event Sheet: Credits Events","Credits Events","",""
+"story_80f9d27d7f28","Event Sheet: Credits Events","<C #f8f8f8>Mega Man DXtreme 
+
+
+Staff :
+
+<C #00cae8>Director-Programmer-Writing: 
+<C #f8f8f8>Tomycase
+
+<C #00cae8>Level Design: 
+<C #f8f8f8>Kennen'B', GiaTheRose, SolrenSun, Tomycase
+
+<C #00cae8>Additional Sprite Work: 
+<C #f8f8f8>Kennen'B', SolrenSun, Tomycase
+
+<C #00cae8>Additional Music Work: 
+<C #f8f8f8>mega sfc, kuwata, SolrenSun
+
+<C #00cae8>Testers: 
+<C #f8f8f8>GiaTheRose, SolrenSun, Kennen'B', OmegaZeeZ, TioVoctor, Nautical Nova, Cat Yard, RED1, SlickNickArts
+
+
+
+Mega Man Xtreme Original Staff :
+
+<C #00cae8>Director: 
+<C #f8f8f8>Ohko13Caz
+
+<C #00cae8>Planner: 
+<C #f8f8f8>Shino Okamura
+
+<C #00cae8>Programmer:
+<C #f8f8f8>Hana Yoshimura, Asagiri, Wada, Kenoh (Kubori-Na)
+
+<C #00cae8>Background Designer: 
+<C #f8f8f8>Ryutaro's Mama, Yoshio Misaki
+
+<C #00cae8>Character Designer: 
+<C #f8f8f8>K23-7219-Toda, Kenichi Miyahara, Ueda & Ando
+
+<C #00cae8>Original Design: 
+<C #f8f8f8>Sensei
+
+<C #00cae8>Sound: 
+<C #f8f8f8>Toshio Kajino, Saori Maeda
+
+<C #00cae8>Bug Checker: 
+<C #f8f8f8>Nabe Hashimoto and Robayan 75
+
+<C #00cae8>Special Thanks: 
+<C #f8f8f8>Sadamoto, Inafking, Niida, Komiya, Roy Ozaki
+
+<C #00cae8>Producer: 
+<C #f8f8f8>Tatsuya Minami
+
+<C #00cae8>Executive Producer: 
+<C #f8f8f8>Yoshiki Okamoto
+
+
+
+Thank you for playing!","",""
+"story_b45c6a5835f8","Event Sheet: Credits Events","End Credits","",""
+"story_5a16dd5cd6e5","Event Sheet: Cutscenes Events","Cutscenes Events","",""
+"story_29c3c85c62be","Event Sheet: Cutscenes Events","Cutscene 1","",""
+"story_0c254970dc8a","Event Sheet: Cutscenes Events","Cutscene 2","",""
+"story_cabfc3841c28","Event Sheet: Cutscenes Events","Cutscene 3","",""
+"story_c743ba253b6e","Event Sheet: Cutscenes Events","Cutscene 4","",""
+"story_5ba2879619d6","Event Sheet: Cutscenes Events","Cutscene 5","",""
+"story_c26b86da6ed2","Event Sheet: Cutscenes Events","Cutscene 6","",""
+"story_17e8c18019db","Event Sheet: Cutscenes Events","Secret Ending-1","",""
+"story_1cc333b225f9","Event Sheet: Cutscenes Events","Secret Ending-2","",""
+"story_1a5da8b1da31","Event Sheet: Cutscenes Events","Cutscene 7","",""
+"story_6704a827092c","Event Sheet: Cutscenes Events","Sigma Ending-1","",""
+"story_2678753fd902","Event Sheet: Cutscenes Events","Sigma Ending-2","",""
+"story_a4f004e362a4","Event Sheet: Cutscenes Events","Save System","",""
+"story_189d826b2da6","Event Sheet: Cutscenes Events","Cutscene 0","",""
+"story_b2c3247578c6","Event Sheet: Dialog System","/D/Dialogue[@id='","",""
+"story_0c29a601c8aa","Event Sheet: Dialog System","/TextLine[@id='","",""
+"story_8f281fdc7556","Event Sheet: Dialog System","']/text()","",""
+"story_391fd4f867ed","Event Sheet: Dialog System","']/@name","",""
+"story_2a1a87144dc3","Event Sheet: Dialog System","']/@mug1","",""
+"story_d329b26c7108","Event Sheet: Dialog System","']/@mug2","",""
+"story_31be77e3898a","Event Sheet: Dialog System","<C None>","",""
+"story_9abb54a167ce","Event Sheet: Dialog System","']/@function","",""
+"story_1a7f889049a3","Event Sheet: Stage Specific","Auto Save","",""
+"story_479c91113669","Event Sheet: Stage Specific","Event - Confronts Techno","",""
+"story_7612dc2f2e58","Event Sheet: Stage Specific","Confronts Techno","",""
+"story_1d4b0ab2948c","Event Sheet: Stage Specific","Confronts Techno-1","",""
+"story_6d4bbdcf2db9","Event Sheet: Stage Specific","Confronts Techno-2","",""
+"story_aed5658fef93","Event Sheet: Stage Specific","Set Shoot","",""
+"story_cf1f8dc72127","Event Sheet: Stage Specific","Confronts Techno-3","",""
+"story_927d1fc3dab6","Event Sheet: Stage Specific","Confronts Techno-4","",""
+"story_b00534882c6e","Event Sheet: Stage Specific","Exit Stage","",""
+"story_b170853fa997","Event Sheet: Stage Specific","Minecart Behavior","",""
+"story_ff16726cc422","Event Sheet: Stage Specific","minecart bounce","",""
+"story_472730133316","Event Sheet: Stage Specific","Shift BG","",""
+"story_2c32c69e14f6","Event Sheet: Stage Specific","Shift BG2","",""
+"story_0fd0b8952080","Event Sheet: Stage Specific","Lab Radar","",""
+"story_29ea75f81874","Event Sheet: Stage Specific","Tetris System","",""
+"story_4eaeb68401fa","Event Sheet: Stage Specific","Spotlight Alarm","",""
+"story_2ddb006baacb","Event Sheet: Stage Specific","Magnetized Scraps","",""
+"story_ff448889f62f","Event Sheet: Stage Specific","Rematch Setup","",""
+"story_25f9ba7caba6","Event Sheet: Startup Events","Startup Events","",""
+"story_8efeaef95a2b","Event Sheet: Startup Events","This project is a non-profit fangame, and is not endorsed by nor affiliated with CAPCOM.
+
+All MegaMan/Rockman material including but not limited to game, characters, images, names, and music are 
+©CAPCOM Co., Ltd.","",""
+"story_509455913b82","Event Sheet: Startup Events","title theme_gb","",""
+"story_3b4063eef790","Event Sheet: Startup Events","title theme_snes","",""
+"story_720ff6444b77","Event Sheet: Startup Events","stage select_gb","",""
+"story_8aee3e4bc604","Event Sheet: Startup Events","stage select_snes","",""
+"story_2807c7e4824e","Event Sheet: Startup Events","Remap Prompt","",""
+"story_ac79a5b38d04","Event Sheet: Startup Events","Title Screen","",""
+"story_31de776eb402","Event Sheet: Weapon Get Events","Weapon Get Events","",""
+"story_0849cb201dc5","Event Sheet: Weapon Get Events","<C None>!","",""
+"story_ae54fddc79f3","Event Sheet: Weapon Get Events","menu - confirm","",""
+"story_689d3ac657cb","Event Sheet: Weapon Get Events","Cursor Select","",""
+"story_93f67744ba0a","Event Sheet: Weapon Get Events","Screen Events","",""
+"story_06b4ece7c8e1","Event Sheet: Weapon Get Events","Got Weapon","",""
+"story_2fff979a9428","Event Sheet: Weapon Get Events","Menu Global Inputs","",""
+"story_cb1dd3959c2e","Event Sheet: Weapon Get Events","Set Palette","",""
+"story_e3c455b87480","Layout: Dialog","ABCDEFGHIJKLMNOPQRSTUVWXYZ?","",""
+"story_bc30b0e51284","Layout: Disclaimer","ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.,:""'?!-0123456789()/©","",""
+"story_115ef6d01640","Layout: Disclaimer","This project is a non-profit fangame,","",""
+"story_85832ab1a2b4","Layout: Files Menu","Files Menu","",""
+"story_3e811caeac02","Layout: Files Menu","Files Menu Events","",""
+"story_399888a655aa","Layout: Files Menu","File will be overwritten, continue?","",""
+"story_57f57f461893","Layout: Stage Select","PenguinHeart; Capsule239","",""
+"story_422f7f776105","Layout: Stage Select","MandrillHeart; MandrillTank; Capsule690","",""
+"story_e98df8261295","Layout: Stage Select","EagleHeart; EagleTank; Capsule863","",""
+"story_fb198f57deb0","Layout: Stage Select","StagHeart; Capsule1202","",""
+"story_2e640f384c37","Layout: Stage Select","GatorHeart; Capsule522","",""
+"story_34f1e1942adf","Layout: Stage Select","CentipedeHeart; Capsule1401; CentipedeTank","",""
+"story_38c20a0805b9","Layout: Stage Select","Capsule1082; ArmadilloHeart; ArmadilloTank","",""
+"story_d2880568c50a","Layout: Stage Select","MothHeart; Capsule1653","",""
+"story_bfd9bf1b6a6c","Layout: Stage Select","ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.,:""'?!-0123456789()/","",""
+"story_455207573db5","Layout: Startup","6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1,6x0,6x1,6x2,6x3,34x4,15x-1","",""
+"story_633aeb4a73fb","Layout: Title Screen","Title Screen Events","",""
+"story_5d416ff50252","Layout: Title Screen","ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.,:""'?!-0123456789","",""
+"story_d6db52a54ba5","Layout: Title Screen","CX2Team.2025-26","",""
+"story_5b8f4ffe2741","Layout: Weapon Get","Weapon Get","",""
+"story_6aa00a9f74eb","Layout: Weapon Get","17x0,256x-1,0,272x-1,0,272x-1,0,272x-1,0,272x-1,0,272x-1,0,272x-1,0,272x-1,0,272x-1,0,272x-1,0,272x-1,0,272x-1,17x0,6262x-1","",""
+"story_4f8e73119bf4","Layout: Weapon Get","You got the X Buster!","",""
