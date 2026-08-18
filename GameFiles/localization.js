@@ -6,9 +6,9 @@
     var menuDescriptions = {
         'Adjust the volume of Sound Effects': 'Ajustar volume dos efeitos',
         'Adjust the volume of Music': 'Ajustar volume da música',
-        'Adjust the game screen size (locked in Full Screen)': 'Ajustar escala (bloqueada em tela cheia)',
-        'Adjust the game screen size (locked in browser)': 'Ajustar escala (bloqueada no navegador)',
-        'Toggle Fullscreen': 'Ativar ou desativar tela cheia',
+        'Adjust the game screen size (locked in Full Screen)': 'Escolher filtro de imagem',
+        'Adjust the game screen size (locked in browser)': 'Escolher filtro de imagem',
+        'Toggle Fullscreen': 'Escolher modo de resolução',
         'Choose language / Selecionar idioma': 'Selecionar idioma',
         'Run game at 60 FPS (beta)': 'Executar o jogo a 60 FPS (beta)',
         'Use the SNES Mega Man X sprite set': 'Selecionar sprite extra'
@@ -40,12 +40,6 @@
     var englishByUiPortuguese = {};
     var englishByDialoguePortuguese = {};
     var armorTextureState = {
-        applied: null,
-        frames: null,
-        image: null,
-        loading: false
-    };
-    var fileMenuTextureState = {
         applied: null,
         frames: null,
         image: null,
@@ -312,12 +306,6 @@
             isPortuguese);
     }
 
-    function applyFileMenuTextureLanguage(rt, isPortuguese) {
-        applyReplacementTextureLanguage(rt, fileMenuTextureState,
-            'filesmenubg-sheet0.png', 'filesmenubg-ptbr.png',
-            isPortuguese);
-    }
-
     function syncArmorTranslation(rt, isPortuguese) {
         applyArmorTextureLanguage(rt, isPortuguese);
         var overlayUids = [900330, 900331, 900332, 900333, 900334,
@@ -388,7 +376,27 @@
             }
             drawAccent(context, tx, ty, definition[2]);
         }
+        var runtime = type.runtime;
+        var instances = type.instances || [];
+        if (runtime && runtime.glwrap) {
+            if (type.webGL_texture)
+                runtime.glwrap.deleteTexture(type.webGL_texture);
+            type.webGL_texture = instances.length
+                ? runtime.glwrap.loadTexture(canvas, false,
+                    runtime.linearSampling, type.texture_pixelformat)
+                : null;
+        }
         type.texture_img = canvas;
+        for (var j = 0; j < instances.length; j++) {
+            var instance = instances[j];
+            instance.texture_img = canvas;
+            if (runtime && runtime.glwrap)
+                instance.webGL_texture = type.webGL_texture;
+            if (typeof instance.SplitSheet === 'function')
+                instance.SplitSheet();
+            instance.text_changed = true;
+        }
+        if (runtime) runtime.redraw = true;
         type.__dxExtendedFont = true;
     }
 
@@ -652,6 +660,13 @@
                 isPortuguese);
             syncTranslatedList(rt, [1934], [900031], isPortuguese);
 
+            showTranslatedLike(rt, 1937, 900012);
+            showTranslatedLike(rt, 1938, 900013);
+            setInstanceText(rt.getObjectByUID(900012),
+                isPortuguese ? 'FILTROS' : 'FILTERS');
+            setInstanceText(rt.getObjectByUID(900013),
+                isPortuguese ? 'RESOLUÇÃO' : 'RESOLUTION');
+
             setInstanceText(rt.getObjectByUID(900002),
                 isPortuguese ? 'IDIOMA' : 'LANGUAGE');
 
@@ -705,7 +720,6 @@
             syncTranslatedList(rt, titleOriginal, titlePortuguese,
                 isPortuguese);
         } else if (layout === 'Files Menu') {
-            applyFileMenuTextureLanguage(rt, isPortuguese);
             setVisible(rt, 363, true);
             setVisible(rt, 900210, false);
         }

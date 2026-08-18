@@ -33,6 +33,7 @@ using System.Threading.Tasks;
 using Windows.ApplicationModel.Core;
 using Windows.Data.Json;
 using Windows.Gaming.Input;
+using Windows.Graphics.Display;
 using Windows.Storage;
 using Windows.System;
 using Windows.UI.Core;
@@ -56,6 +57,8 @@ namespace MegaManDXtreme
         private const int MaxReloads = 3;
         private CancellationTokenSource _loadTimeoutCts;
         private bool _audioMonitorStarted;
+        private bool _bridgeInjected;
+        private string _lastDisplayMetrics;
 
         // ── Dispatcher (acesso seguro à UI a partir de threads/timers) ──────
         private readonly CoreDispatcher _dispatcher;
@@ -83,6 +86,7 @@ namespace MegaManDXtreme
 
             // Botões A/B do controle navegam a tela de erro
             this.KeyDown += OnKeyDown;
+            RootGrid.SizeChanged += OnRootGridSizeChanged;
 
             AppLogger.Log("MainPage", $"Construtor OK | Gamepads: {Gamepad.Gamepads.Count}");
 
@@ -98,6 +102,7 @@ namespace MegaManDXtreme
 
         private void LoadGame()
         {
+            _bridgeInjected = false;
             SetStatus("Carregando jogo...");
             StartLoadTimeout();
             GameWebView.Source = new Uri("ms-appx-web:///GameFiles/index.html");
@@ -159,12 +164,67 @@ namespace MegaManDXtreme
                 // não existe AddScriptToExecuteOnDocumentCreatedAsync, então
                 // injetamos via eval logo após a navegação completar.
                 await GameWebView.InvokeScriptAsync("eval", new[] { bridgeCode });
+                _bridgeInjected = true;
                 AppLogger.Log("Bridge", $"Injetado OK ({bridgeCode.Length} chars)");
+                await SendDisplayMetricsAsync();
             }
             catch (Exception ex)
             {
                 AppLogger.Log("Bridge", $"InjectBridge ERRO: {ex.Message}");
                 // Não fatal — o jogo pode funcionar sem o bridge (sem gamepad/vibração)
+            }
+        }
+
+        private async void OnRootGridSizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            if (!_bridgeInjected) return;
+            await SendDisplayMetricsAsync();
+        }
+
+        private async Task SendDisplayMetricsAsync()
+        {
+            try
+            {
+                var windowBounds = Window.Current.Bounds;
+                var visibleBounds = ApplicationView.GetForCurrentView().VisibleBounds;
+                var display = DisplayInformation.GetForCurrentView();
+                double viewWidth = RootGrid.ActualWidth > 0
+                    ? RootGrid.ActualWidth : windowBounds.Width;
+                double viewHeight = RootGrid.ActualHeight > 0
+                    ? RootGrid.ActualHeight : windowBounds.Height;
+
+                var metrics = new JsonObject();
+                metrics["viewWidth"] = JsonValue.CreateNumberValue(viewWidth);
+                metrics["viewHeight"] = JsonValue.CreateNumberValue(viewHeight);
+                metrics["windowWidth"] = JsonValue.CreateNumberValue(windowBounds.Width);
+                metrics["windowHeight"] = JsonValue.CreateNumberValue(windowBounds.Height);
+                metrics["visibleX"] = JsonValue.CreateNumberValue(
+                    visibleBounds.X - windowBounds.X);
+                metrics["visibleY"] = JsonValue.CreateNumberValue(
+                    visibleBounds.Y - windowBounds.Y);
+                metrics["visibleWidth"] = JsonValue.CreateNumberValue(
+                    visibleBounds.Width);
+                metrics["visibleHeight"] = JsonValue.CreateNumberValue(
+                    visibleBounds.Height);
+                metrics["rawPixelsPerViewPixel"] = JsonValue.CreateNumberValue(
+                    display.RawPixelsPerViewPixel);
+
+                string json = metrics.Stringify();
+                await GameWebView.InvokeScriptAsync("eval", new[]
+                {
+                    "window.__uwpSetDisplayMetrics&&" +
+                    "window.__uwpSetDisplayMetrics(" + json + ");"
+                });
+
+                if (json != _lastDisplayMetrics)
+                {
+                    _lastDisplayMetrics = json;
+                    AppLogger.Log("Display", json);
+                }
+            }
+            catch (Exception ex)
+            {
+                AppLogger.Log("Display", "Falha ao enviar métricas: " + ex.Message);
             }
         }
 
@@ -320,6 +380,7 @@ namespace MegaManDXtreme
             _loadTimeoutCts?.Cancel();
 
             AppLogger.Log("MainPage", "Jogo carregado ✓");
+            _ = SendDisplayMetricsAsync();
             if (!_audioMonitorStarted)
             {
                 _audioMonitorStarted = true;
@@ -597,6 +658,7 @@ namespace MegaManDXtreme
                     "if(rt&&typeof rt.setSuspended==='function'&&rt.pauseCount>0)rt.setSuspended(false);" +
                     "}catch(e){}})();"
                 });
+                await SendDisplayMetricsAsync();
             }
             catch (Exception ex) { AppLogger.Log("MainPage", $"OnResuming ERRO: {ex.Message}"); }
         }

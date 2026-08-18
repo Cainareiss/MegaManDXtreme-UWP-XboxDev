@@ -375,9 +375,16 @@
     var _extraNavPressed = false;
     var _extraSpriteOverlay = null;
     var _lastExtraSelected = -1;
+    var _tvFilter = 'pixel';
+    var _tvResolution = 'perfect';
+    var _settingsVisualActionPressed = false;
+    var _tvScanlineOverlay = null;
+    var _displayMetrics = null;
     var _keyboardMode = false;
     var _stickComboPressed = false;
     var _autoSaveAnyButtonPressed = false;
+    var _autoSavePromptPending = false;
+    var _autoSavePromptTriggered = false;
 
     try {
         _fps60Enabled =
@@ -387,6 +394,16 @@
                 ? 'snes' : 'original');
         if (!SPRITE_SELECTION_ENABLED)
             _spriteMode = 'original';
+        var storedFilter = global.localStorage.getItem('dx_tv_filter');
+        var storedResolution =
+            global.localStorage.getItem('dx_tv_resolution');
+        if (storedFilter === 'pixel' || storedFilter === 'smooth' ||
+            storedFilter === 'crt')
+            _tvFilter = storedFilter;
+        if (storedResolution === 'perfect' ||
+            storedResolution === 'letterbox' ||
+            storedResolution === 'fullscreen')
+            _tvResolution = storedResolution;
     } catch (e) {}
 
     // ── HELPERS ───────────────────────────────────────────────────────────────
@@ -523,6 +540,82 @@
         }
     }
 
+    function pollPresentationSettings() {
+        try {
+            var rt = typeof global.cr_getC2Runtime === 'function'
+                ? global.cr_getC2Runtime() : null;
+            if (!rt || !rt.running_layout ||
+                rt.running_layout.name !== 'Settings') {
+                _settingsVisualActionPressed = false;
+                return;
+            }
+
+            var cursor = rt.getObjectByUID(1939);
+            var filterValue = rt.getObjectByUID(1942);
+            var resolutionValue = rt.getObjectByUID(1941);
+            var language = global.DXLocalization
+                ? global.DXLocalization.getLanguage() : 'en';
+            setSpriteFontText(filterValue, filterLabel(language));
+            setSpriteFontText(resolutionValue, resolutionLabel(language));
+
+            if (filterValue) {
+                filterValue.x = 160;
+                filterValue.width = 56;
+                if (typeof filterValue.set_bbox_changed === 'function')
+                    filterValue.set_bbox_changed();
+            }
+            if (resolutionValue) {
+                resolutionValue.x = 112;
+                resolutionValue.width = 104;
+                if (typeof resolutionValue.set_bbox_changed === 'function')
+                    resolutionValue.set_bbox_changed();
+            }
+
+            var selected = cursor && cursor.instance_vars
+                ? Number(cursor.instance_vars[2]) : -1;
+            var description = rt.getObjectByUID(1949);
+            if (description && selected === 2)
+                setSpriteFontText(description, language === 'pt'
+                    ? 'Escolher filtro de imagem'
+                    : 'Choose the image filter');
+            else if (description && selected === 3)
+                setSpriteFontText(description, language === 'pt'
+                    ? 'Escolher modo de resolução'
+                    : 'Choose the display mode');
+
+            var pads = navigator.getGamepads ? navigator.getGamepads() : [];
+            var gp = null;
+            for (var i = 0; i < pads.length; i++) {
+                if (pads[i] && pads[i].connected) {
+                    gp = pads[i];
+                    break;
+                }
+            }
+            if (!gp) return;
+
+            var left = !!(gp.buttons[BTN.DPAD_LEFT] &&
+                gp.buttons[BTN.DPAD_LEFT].pressed);
+            var right = !!(gp.buttons[BTN.DPAD_RIGHT] &&
+                gp.buttons[BTN.DPAD_RIGHT].pressed);
+            var axis = gp.axes && gp.axes.length ? gp.axes[0] : 0;
+            var pressed = left || right || axis < -0.6 || axis > 0.6;
+            if (pressed && !_settingsVisualActionPressed) {
+                var delta = (right || axis > 0.6) ? 1 : -1;
+                if (selected === 2)
+                    setDisplayFilter(cycleValue(
+                        TV_FILTERS, _tvFilter, delta), true);
+                else if (selected === 3)
+                    setDisplayResolution(cycleValue(
+                        TV_RESOLUTIONS, _tvResolution, delta), true);
+            }
+            _settingsVisualActionPressed =
+                (selected === 2 || selected === 3) && pressed;
+            rt.redraw = true;
+        } catch (e) {
+            _log('Configuracoes de video erro: ' + e.message);
+        }
+    }
+
     function performanceFrame() {
         if (!_fps60Enabled) {
             _fpsRaf = 0;
@@ -567,6 +660,101 @@
             _fpsRaf = 0;
         }
         _log('60 FPS beta: ' + (_fps60Enabled ? 'ON' : 'OFF'));
+    }
+
+    var TV_FILTERS = ['pixel', 'smooth', 'crt'];
+    var TV_RESOLUTIONS = ['perfect', 'letterbox', 'fullscreen'];
+
+    function cycleValue(values, current, delta) {
+        var index = values.indexOf(current);
+        if (index < 0) index = 0;
+        index = (index + delta + values.length) % values.length;
+        return values[index];
+    }
+
+    function persistDisplaySettings() {
+        try {
+            global.localStorage.setItem('dx_tv_filter', _tvFilter);
+            global.localStorage.setItem(
+                'dx_tv_resolution', _tvResolution);
+        } catch (e) {}
+    }
+
+    function ensureTvScanlineOverlay() {
+        if (_tvScanlineOverlay) return _tvScanlineOverlay;
+        var overlay = document.createElement('div');
+        overlay.id = 'dx-tv-scanlines';
+        overlay.style.position = 'fixed';
+        overlay.style.display = 'none';
+        overlay.style.pointerEvents = 'none';
+        overlay.style.zIndex = '2147483000';
+        overlay.style.backgroundImage =
+            'repeating-linear-gradient(to bottom,' +
+            'rgba(0,0,0,0) 0,rgba(0,0,0,0) 2px,' +
+            'rgba(0,0,0,.22) 2px,rgba(0,0,0,.22) 4px)';
+        document.body.appendChild(overlay);
+        _tvScanlineOverlay = overlay;
+        return overlay;
+    }
+
+    function applyDisplayFilter() {
+        var canvas = document.getElementById('c2canvas');
+        if (!canvas) return;
+        var filter = 'none';
+        if (_tvFilter === 'smooth')
+            filter = 'contrast(102%) saturate(105%)';
+        else if (_tvFilter === 'crt')
+            filter = 'contrast(110%) saturate(108%)';
+        canvas.style.setProperty('filter', filter, 'important');
+        canvas.style.setProperty('-webkit-filter', filter, 'important');
+        canvas.style.setProperty('image-rendering',
+            _tvFilter === 'smooth' ? 'auto' : 'pixelated', 'important');
+
+        var overlay = ensureTvScanlineOverlay();
+        if (_tvFilter !== 'crt') {
+            overlay.style.display = 'none';
+            return;
+        }
+        var rect = canvas.getBoundingClientRect();
+        overlay.style.display = 'block';
+        overlay.style.left = rect.left + 'px';
+        overlay.style.top = rect.top + 'px';
+        overlay.style.width = rect.width + 'px';
+        overlay.style.height = rect.height + 'px';
+    }
+
+    function setDisplayFilter(value, persist) {
+        if (TV_FILTERS.indexOf(value) < 0) return;
+        _tvFilter = value;
+        global.__uwpTvFilter = _tvFilter;
+        if (persist) persistDisplaySettings();
+        scaleCanvas();
+        _log('Filtro de imagem: ' + _tvFilter);
+    }
+
+    function setDisplayResolution(value, persist) {
+        if (TV_RESOLUTIONS.indexOf(value) < 0) return;
+        _tvResolution = value;
+        global.__uwpTvResolution = _tvResolution;
+        global.__uwpFullscreen = _tvResolution === 'fullscreen';
+        if (persist) persistDisplaySettings();
+        scaleCanvas();
+        _log('Resolucao de TV: ' + _tvResolution);
+    }
+
+    function filterLabel(language) {
+        if (_tvFilter === 'smooth')
+            return language === 'pt' ? 'SUAVE' : 'SMOOTH';
+        if (_tvFilter === 'crt') return 'CRT';
+        return 'PIXEL';
+    }
+
+    function resolutionLabel(language) {
+        if (_tvResolution === 'letterbox')
+            return language === 'pt' ? 'BORDAS PRETAS' : 'LETTERBOX';
+        if (_tvResolution === 'fullscreen')
+            return language === 'pt' ? 'TELA CHEIA' : 'FULLSCREEN';
+        return 'PERFECT PIXEL';
     }
 
     function normalizeSpriteMode(mode) {
@@ -976,7 +1164,7 @@
 
             var selected = cursor && cursor.instance_vars
                 ? Number(cursor.instance_vars[2]) : -1;
-            updateExtraSpriteOverlay(_extraSyntheticSelected || selected === 6);
+            updateExtraSpriteOverlay(false);
 
             var pads = navigator.getGamepads ? navigator.getGamepads() : [];
             var gp = null;
@@ -992,84 +1180,16 @@
                 gp.buttons[BTN.DPAD_LEFT].pressed);
             var right = !!(gp.buttons[BTN.DPAD_RIGHT] &&
                 gp.buttons[BTN.DPAD_RIGHT].pressed);
-            var up = !!(gp.buttons[BTN.DPAD_UP] &&
-                gp.buttons[BTN.DPAD_UP].pressed);
-            var down = !!(gp.buttons[BTN.DPAD_DOWN] &&
-                gp.buttons[BTN.DPAD_DOWN].pressed);
             var axis = gp.axes && gp.axes.length ? gp.axes[0] : 0;
-            var yAxis = gp.axes && gp.axes.length > 1 ? gp.axes[1] : 0;
-            var navPressed = up || down || yAxis < -0.6 || yAxis > 0.6;
-
-            if (!SPRITE_SELECTION_ENABLED) {
-                _extraSyntheticSelected = false;
-                _extraNavPressed = navPressed;
-                updateExtraSpriteOverlay(false);
-                var fpsPressed = left || right || axis < -0.6 || axis > 0.6;
-                if (selected === 5 && fpsPressed && !_fpsActionPressed)
-                    set60FpsMode(right || axis > 0.6, true);
-                _fpsActionPressed = selected === 5 && fpsPressed;
-                _spriteActionPressed = false;
-                _lastExtraSelected = selected;
-                return;
-            }
-
-            if (_extraSyntheticSelected && (down || yAxis > 0.6) &&
-                !_extraNavPressed) {
-                _extraSyntheticSelected = false;
-                selected = 4;
-                if (cursor && cursor.instance_vars) cursor.instance_vars[2] = 4;
-                if (cursor && cursor.y !== 124) {
-                    cursor.y = 124;
-                    if (typeof cursor.set_bbox_changed === 'function')
-                        cursor.set_bbox_changed();
-                    rt.redraw = true;
-                }
-            } else if ((selected === 5 || _lastExtraSelected === 5) &&
-                (down || yAxis > 0.6) &&
-                !_extraNavPressed) {
-                _extraSyntheticSelected = true;
-            } else if ((selected === 4 || _lastExtraSelected === 4) &&
-                (up || yAxis < -0.6) && !_extraNavPressed) {
-                _extraSyntheticSelected = true;
-            } else if (_extraSyntheticSelected &&
-                (up || yAxis < -0.6) && !_extraNavPressed) {
-                _extraSyntheticSelected = false;
-                selected = 5;
-                if (cursor && cursor.instance_vars) cursor.instance_vars[2] = 5;
-                if (cursor && cursor.y !== 108) {
-                    cursor.y = 108;
-                    if (typeof cursor.set_bbox_changed === 'function')
-                        cursor.set_bbox_changed();
-                    rt.redraw = true;
-                }
-            }
-            _extraNavPressed = navPressed;
-
-            if (_extraSyntheticSelected && cursor) {
-                selected = 6;
-                if (cursor.instance_vars) cursor.instance_vars[2] = 6;
-                if (cursor.y !== 116) {
-                    cursor.y = 116;
-                    if (typeof cursor.set_bbox_changed === 'function')
-                        cursor.set_bbox_changed();
-                    rt.redraw = true;
-                }
-            }
-
-            updateExtraSpriteOverlay(selected === 6);
-
             var pressed = left || right || axis < -0.6 || axis > 0.6;
-            if (selected === 5 && pressed && !_fpsActionPressed) {
+            if (selected === 5 && pressed && !_fpsActionPressed)
                 set60FpsMode(right || axis > 0.6, true);
-            }
-            if (selected === 6 && pressed && !_spriteActionPressed) {
-                cycleSpriteMode((right || axis > 0.6) ? 1 : -1, true);
-            }
             _fpsActionPressed = selected === 5 && pressed;
-            _spriteActionPressed = selected === 6 && pressed;
+            _spriteActionPressed = false;
+            _extraSyntheticSelected = false;
             _lastExtraSelected = selected;
         } catch (e) {
-            _log('60 FPS option erro: ' + e.message);
+            _log('Opcoes Extras erro: ' + e.message);
         }
     }
 
@@ -1155,14 +1275,16 @@
     }
 
     function pollAutoSaveAnyPrompt() {
-        if (_fallbackActive) return;
         var rt = typeof global.cr_getC2Runtime === 'function'
             ? global.cr_getC2Runtime() : null;
         var layout = rt && rt.running_layout ? rt.running_layout.name : '';
         if (layout !== 'Auto Save') {
             _autoSaveAnyButtonPressed = false;
+            _autoSavePromptPending = false;
+            _autoSavePromptTriggered = false;
             return;
         }
+        if (_fallbackActive) return;
 
         var gamepads = navigator.getGamepads ? navigator.getGamepads() : [];
         var gp = null;
@@ -1181,12 +1303,23 @@
             }
         }
 
-        if (pressed && !_autoSaveAnyButtonPressed) {
-            _log('Auto Save: botao do controle convertido para Enter');
-            fireKey(KEY_MAP[BTN.MENU], 'keydown');
+        if (pressed && !_autoSaveAnyButtonPressed &&
+            !_autoSavePromptPending && !_autoSavePromptTriggered) {
+            _autoSavePromptPending = true;
             setTimeout(function () {
-                fireKey(KEY_MAP[BTN.MENU], 'keyup');
-            }, 60);
+                _autoSavePromptPending = false;
+                var current = typeof global.cr_getC2Runtime === 'function'
+                    ? global.cr_getC2Runtime() : null;
+                var currentLayout = current && current.running_layout
+                    ? current.running_layout.name : '';
+                if (currentLayout !== 'Auto Save') return;
+                _autoSavePromptTriggered = true;
+                _log('Auto Save: fallback de Enter apos gamepad nativo');
+                fireKey(KEY_MAP[BTN.MENU], 'keydown');
+                setTimeout(function () {
+                    fireKey(KEY_MAP[BTN.MENU], 'keyup');
+                }, 60);
+            }, 120);
         }
         _autoSaveAnyButtonPressed = pressed;
     }
@@ -1278,6 +1411,8 @@
         var doc = document.documentElement || {};
         var body = document.body || {};
         var raw = [
+            [_displayMetrics && _displayMetrics.viewWidth,
+                _displayMetrics && _displayMetrics.viewHeight, 'uwp.view'],
             [global.innerWidth, global.innerHeight, 'inner'],
             [doc.clientWidth, doc.clientHeight, 'document'],
             [body.clientWidth, body.clientHeight, 'body'],
@@ -1295,32 +1430,78 @@
         return { w: 1280, h: 720, source: 'fallback' };
     }
 
+    function getSafeTvBounds(viewport) {
+        var left = 0;
+        var right = 0;
+        var top = 0;
+        var bottom = 0;
+        var metrics = _displayMetrics;
+
+        if (metrics && Number(metrics.visibleWidth) > 0 &&
+            Number(metrics.visibleHeight) > 0) {
+            var hostWidth = Number(metrics.windowWidth) ||
+                Number(metrics.viewWidth) || viewport.w;
+            var hostHeight = Number(metrics.windowHeight) ||
+                Number(metrics.viewHeight) || viewport.h;
+            var scaleX = viewport.w / hostWidth;
+            var scaleY = viewport.h / hostHeight;
+            var visibleX = Math.max(0, Number(metrics.visibleX) || 0);
+            var visibleY = Math.max(0, Number(metrics.visibleY) || 0);
+            var hostLeft = Math.round(visibleX * scaleX);
+            var hostTop = Math.round(visibleY * scaleY);
+            var hostRight = Math.round(Math.max(0,
+                hostWidth - visibleX - Number(metrics.visibleWidth)) * scaleX);
+            var hostBottom = Math.round(Math.max(0,
+                hostHeight - visibleY - Number(metrics.visibleHeight)) * scaleY);
+            left = Math.max(left, hostLeft);
+            right = Math.max(right, hostRight);
+            top = Math.max(top, hostTop);
+            bottom = Math.max(bottom, hostBottom);
+        }
+
+        var width = Math.max(240, viewport.w - left - right);
+        var height = Math.max(160, viewport.h - top - bottom);
+        if (width > viewport.w || height > viewport.h)
+            return { x: 0, y: 0, w: viewport.w, h: viewport.h };
+        return { x: left, y: top, w: width, h: height };
+    }
+
     function scaleCanvas() {
         var canvas = document.getElementById('c2canvas');
         var div    = document.getElementById('c2canvasdiv');
         if (!canvas) return;
 
         var viewport = getTvViewport();
-        var fullscreen = global.__uwpFullscreen === true;
+        var safe = getSafeTvBounds(viewport);
+        var mode = _tvResolution;
         var cw;
         var ch;
-        if (fullscreen) {
-            cw = viewport.w;
-            ch = viewport.h;
+        if (mode === 'fullscreen') {
+            cw = safe.w;
+            ch = safe.h;
+        } else if (mode === 'letterbox') {
+            var fitScale = Math.min(safe.w / 240, safe.h / 160);
+            cw = Math.floor(240 * fitScale);
+            ch = Math.floor(160 * fitScale);
         } else {
-            var scale = Math.max(1, Math.min(viewport.w / 240,
-                viewport.h / 160));
+            var scale = Math.floor(Math.min(safe.w / 240,
+                safe.h / 160));
+            if (scale < 1) scale = Math.min(safe.w / 240,
+                safe.h / 160);
             cw = Math.floor(240 * scale);
             ch = Math.floor(160 * scale);
         }
 
+        var canvasLeft = Math.round(safe.x + ((safe.w - cw) / 2));
+        var canvasTop = Math.round(safe.y + ((safe.h - ch) / 2));
+
+        canvas.style.setProperty('position', 'fixed', 'important');
+        canvas.style.setProperty('left', canvasLeft + 'px', 'important');
+        canvas.style.setProperty('top', canvasTop + 'px', 'important');
         canvas.style.setProperty('width', cw + 'px', 'important');
         canvas.style.setProperty('height', ch + 'px', 'important');
-        canvas.style.setProperty('max-width', fullscreen ? 'none' :
-            viewport.w + 'px', 'important');
-        canvas.style.setProperty('max-height', fullscreen ? 'none' :
-            viewport.h + 'px', 'important');
-        canvas.style.setProperty('image-rendering', 'pixelated', 'important');
+        canvas.style.setProperty('max-width', safe.w + 'px', 'important');
+        canvas.style.setProperty('max-height', safe.h + 'px', 'important');
 
         if (div) {
             div.style.cssText =
@@ -1328,14 +1509,20 @@
                 'display:flex;align-items:center;justify-content:center;' +
                 'background:#000;';
         }
+        applyDisplayFilter();
         var logKey = viewport.source + ':' + viewport.w + 'x' + viewport.h +
-            ':' + (fullscreen ? 'fullscreen' : 'normal') +
+            ':' + mode +
+            ':safe=' + safe.x + ',' + safe.y + ',' + safe.w + 'x' + safe.h +
+            ':' + _tvFilter +
             '->' + cw + 'x' + ch;
         if (logKey !== _lastScaleLog) {
             _lastScaleLog = logKey;
             _log('TV viewport ' + viewport.source + '=' + viewport.w + 'x' +
                 viewport.h + ' | mode=' +
-                (fullscreen ? 'fullscreen' : 'normal') +
+                mode +
+                ' | safe=' + safe.x + ',' + safe.y + ' ' +
+                safe.w + 'x' + safe.h +
+                ' | filter=' + _tvFilter +
                 ' | canvas=' + cw + 'x' + ch);
         }
     }
@@ -1349,8 +1536,16 @@
         global.__uwpRequestedHeight = Number(height) || 0;
         scaleCanvas();
     };
+    global.__uwpSetDisplayMetrics = function (metrics) {
+        _displayMetrics = metrics || null;
+        global.__uwpDisplayMetrics = _displayMetrics;
+        scaleCanvas();
+        setTimeout(scaleCanvas, 100);
+    };
     global.__uwpSetFullscreen = function (enabled) {
-        global.__uwpFullscreen = !!enabled;
+        global.__uwpFullscreen = _tvResolution === 'fullscreen';
+        _log('Pedido de fullscreen do Construct ignorado; modo atual=' +
+            _tvResolution + ' request=' + !!enabled);
         scaleCanvas();
         try { global.dispatchEvent(new Event('resize')); } catch (e) {}
         setTimeout(scaleCanvas, 50);
@@ -1449,8 +1644,9 @@
     function init() {
         global.__uwpKeyboardMode = false;
         global.__uwp60FpsBeta = _fps60Enabled;
-        if (typeof global.__uwpFullscreen === 'undefined')
-            global.__uwpFullscreen = false;
+        global.__uwpTvFilter = _tvFilter;
+        global.__uwpTvResolution = _tvResolution;
+        global.__uwpFullscreen = _tvResolution === 'fullscreen';
         _log('DXtreme UWP Bridge v4.0 iniciando (WebView nativo)...');
         _log('KEY_MAP teclado: A=z B=x X=a Y=s LB=q RB=e LT/RT=Space');
         _log('L3+R3 alterna entre gamepad nativo e modo teclado');
@@ -1488,6 +1684,7 @@
 
         waitForC2AndNotify();
         setInterval(pollLanguageOption, 50);
+        setInterval(pollPresentationSettings, 50);
         setInterval(pollPerformanceOption, 50);
         setInterval(pollAutoSaveAnyPrompt, 50);
         setInterval(applySpriteMode, 500);
@@ -1521,6 +1718,18 @@
         isSnesSprites: function () { return _spriteMode === 'snes'; },
         setSpriteMode:  function (mode) { setSpriteMode(mode, true); },
         getSpriteMode:  function () { return _spriteMode; },
+        setTvFilter:    function (value) {
+            setDisplayFilter(value, true);
+        },
+        setTvResolution:function (value) {
+            setDisplayResolution(value, true);
+        },
+        getTvSettings:  function () {
+            return {
+                filter: _tvFilter,
+                resolution: _tvResolution
+            };
+        },
         cfg:           CFG,
     };
 

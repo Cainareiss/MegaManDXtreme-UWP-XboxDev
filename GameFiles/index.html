@@ -225,6 +225,11 @@
         }
 
         function scaleCanvas() {
+            if (window.__xboxBridge &&
+                typeof window.__xboxBridge.scaleCanvas === 'function') {
+                window.__xboxBridge.scaleCanvas();
+                return;
+            }
             var canvas = document.getElementById('c2canvas');
             if (!canvas) return;
 
