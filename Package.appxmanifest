@@ -8,7 +8,7 @@
   <Identity
     Name="MegaManDXtreme.XboxDev.Locale9"
     Publisher="CN=MegaManDXtreme"
-    Version="1.0.7.0" />
+    Version="1.0.8.0" />
 
   <mp:PhoneIdentity
     PhoneProductId="8336244d-8b79-41e7-ab71-6a974aa8fc3c"

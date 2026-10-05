@@ -79,7 +79,7 @@ PT-BR:
 It can't be,<TW wait 0.2>  I crushed you!
 
 PT-BR:
-Não pode ser,<TW wait 0.2>  eu te esmaguei!
+Não pode ser,<TW wait 0.2>  eu te destruir!
 
 ========================================================================
 [dialogue_038ebc3d482b] Vile Intro / linha 3 / ocorrencia 1 / VILE

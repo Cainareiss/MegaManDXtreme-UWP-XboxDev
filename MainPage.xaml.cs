@@ -58,6 +58,8 @@ namespace MegaManDXtreme
         private CancellationTokenSource _loadTimeoutCts;
         private bool _audioMonitorStarted;
         private bool _bridgeInjected;
+        private readonly SemaphoreSlim _saveLock = new SemaphoreSlim(1, 1);
+        private bool _saveReady;
         private string _lastDisplayMetrics;
 
         // ── Dispatcher (acesso seguro à UI a partir de threads/timers) ──────
@@ -102,6 +104,7 @@ namespace MegaManDXtreme
 
         private void LoadGame()
         {
+            _saveReady = false;
             _bridgeInjected = false;
             SetStatus("Carregando jogo...");
             StartLoadTimeout();
@@ -491,42 +494,84 @@ namespace MegaManDXtreme
 
         private async Task SaveStateAsync(string jsonData)
         {
+            if (!_saveReady) return;
+            await _saveLock.WaitAsync();
             try
             {
-                var file = await ApplicationData.Current.LocalFolder
-                    .CreateFileAsync("savestate.json", CreationCollisionOption.ReplaceExisting);
+                ValidateSave(jsonData);
+                var folder = ApplicationData.Current.LocalFolder;
+                var file = await folder.CreateFileAsync("savestate.tmp",
+                    CreationCollisionOption.ReplaceExisting);
                 await FileIO.WriteTextAsync(file, jsonData);
+                ValidateSave(await FileIO.ReadTextAsync(file));
+                var previous = await folder.TryGetItemAsync("savestate.json") as StorageFile;
+                if (previous != null)
+                {
+                    // Never replace the recovery copy with a damaged primary.
+                    try
+                    {
+                        ValidateSave(await FileIO.ReadTextAsync(previous));
+                        await previous.CopyAsync(folder, "savestate.backup.json",
+                            NameCollisionOption.ReplaceExisting);
+                    }
+                    catch (Exception ex) { AppLogger.Log("SaveState", "Backup: " + ex.Message); }
+                }
+                await file.RenameAsync("savestate.json", NameCollisionOption.ReplaceExisting);
                 AppLogger.Log("SaveState", "Salvo OK");
             }
             catch (Exception ex)
             {
                 AppLogger.Log("SaveState", $"Erro ao salvar: {ex.Message}");
             }
+            finally { _saveLock.Release(); }
+        }
+
+        private static void ValidateSave(string data)
+        {
+            var snapshot = JsonObject.Parse(data);
+            var storage = snapshot.GetNamedObject("localStorage");
+            foreach (var entry in storage)
+                if (entry.Value.ValueType != JsonValueType.String)
+                    throw new FormatException("Save contem um valor invalido: " + entry.Key);
         }
 
         private async Task LoadStateAndSendAsync()
         {
+            await _saveLock.WaitAsync();
             try
             {
-                var file = await ApplicationData.Current.LocalFolder
-                    .GetFileAsync("savestate.json");
-                string data = await FileIO.ReadTextAsync(file);
+                var folder = ApplicationData.Current.LocalFolder;
+                string data = "null";
+                bool found = false;
+                bool recovered = false;
+                foreach (string name in new[] { "savestate.json", "savestate.backup.json" })
+                {
+                    var file = await folder.TryGetItemAsync(name) as StorageFile;
+                    if (file == null) continue;
+                    found = true;
+                    try
+                    {
+                        data = await FileIO.ReadTextAsync(file);
+                        ValidateSave(data);
+                        recovered = true;
+                        AppLogger.Log("SaveState", "Restaurando " + name);
+                        break;
+                    }
+                    catch (Exception ex) { AppLogger.Log("SaveState", name + ": " + ex.Message); }
+                }
+                if (found && !recovered)
+                    throw new FormatException("Save e backup ilegíveis. Arquivos preservados.");
                 string script = $"document.dispatchEvent(new CustomEvent('uwpStateLoaded',{{detail:{data}}}));";
                 await GameWebView.InvokeScriptAsync("eval", new[] { script });
+                _saveReady = true;
                 AppLogger.Log("SaveState", "Carregado e enviado");
-            }
-            catch (System.IO.FileNotFoundException)
-            {
-                AppLogger.Log("SaveState", "Sem save anterior");
-                await GameWebView.InvokeScriptAsync("eval", new[]
-                {
-                    "document.dispatchEvent(new CustomEvent('uwpStateLoaded',{detail:null}));"
-                });
             }
             catch (Exception ex)
             {
                 AppLogger.Log("SaveState", $"Erro: {ex.Message}");
+                ShowError("Falha ao restaurar progresso", ex.Message);
             }
+            finally { _saveLock.Release(); }
         }
 
         // ── GAMEPAD ──────────────────────────────────────────────────────────
@@ -629,6 +674,11 @@ namespace MegaManDXtreme
             try
             {
                 AppLogger.Log("MainPage", "Suspendendo...");
+                string snapshot = await GameWebView.InvokeScriptAsync("eval", new[]
+                {
+                    "window.__uwpGetPersistentSave ? window.__uwpGetPersistentSave() : '';"
+                });
+                if (!string.IsNullOrEmpty(snapshot)) await SaveStateAsync(snapshot);
                 if (_activeGamepad != null)
                     _activeGamepad.Vibration = new GamepadVibration();
 

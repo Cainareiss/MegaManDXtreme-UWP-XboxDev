@@ -538,7 +538,11 @@
             var target = rt.getObjectByUID(translated[i]);
 
             if (source) {
-                source.visible = true;
+                // FIX PT-BR crash: quando em português, o objeto original deve ser
+                // completamente invisível (visible=false), não apenas opacity=0.
+                // O Construct 2 ainda processa triggers em objetos com opacity=0 mas
+                // visible=true, causando duplo-trigger → crash na tela de carregamento.
+                source.visible = !isPortuguese;
                 source.opacity = isPortuguese ? 0 : 1;
                 rt.redraw = true;
             }

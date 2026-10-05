@@ -152,6 +152,7 @@
             }
         } catch (e) {
             _log('Falha ao coletar localStorage: ' + e.message);
+            return null;
         }
         return {
             version: 2,
@@ -161,12 +162,13 @@
     }
 
     function flushPersistentSave() {
-        if (_restoringPersistentSave) return;
+        if (_restoringPersistentSave || !global.__uwpSaveRestored) return;
         if (_persistentSaveTimer) {
             clearTimeout(_persistentSaveTimer);
             _persistentSaveTimer = null;
         }
-        saveState(collectPersistentSave());
+        var snapshot = collectPersistentSave();
+        if (snapshot) saveState(snapshot);
     }
 
     function persistConstructSave(slot, json) {
@@ -185,9 +187,8 @@
 
     function schedulePersistentSave(key) {
         if (_restoringPersistentSave) return;
-        if (key && key.indexOf('__c2save_') !== 0 &&
-            key.indexOf('dx_') !== 0 &&
-            key.indexOf('c2') === -1) return;
+        // Construct WebStorage stores progress as File0, File1, etc.
+        // Include all keys, including settings and explicit slot deletions.
         if (_persistentSaveTimer) clearTimeout(_persistentSaveTimer);
         _persistentSaveTimer = setTimeout(flushPersistentSave, 350);
     }
@@ -208,16 +209,24 @@
             }
         } catch (e) {
             _log('Erro restaurando save persistente: ' + e.message);
+            return;
         } finally {
             _restoringPersistentSave = false;
-            global.__uwpSaveRestored = true;
-            try {
-                document.dispatchEvent(new CustomEvent('uwpSaveRestored', {
-                    detail: data || null
-                }));
-            } catch (err) {}
         }
+        global.__uwpSaveRestored = true;
+        try {
+            document.dispatchEvent(new CustomEvent('uwpSaveRestored', {
+                detail: data || null
+            }));
+        } catch (err) {}
     }
+
+    global.__uwpGetPersistentSave = function () {
+        if (!global.__uwpSaveRestored || _restoringPersistentSave) return '';
+        var snapshot = collectPersistentSave();
+        return snapshot ? JSON.stringify(snapshot) : '';
+    };
+    global.__uwpStorageChanged = schedulePersistentSave;
 
     function installPersistentSaveBridge() {
         if (_persistentSaveInstalled || !global.localStorage) return;
@@ -616,15 +625,31 @@
         }
     }
 
-    function performanceFrame() {
+    var _lastFrameTime = 0;
+    var _framePaceTimer = null;
+
+    function performanceFrame(now) {
         if (!_fps60Enabled) {
             _fpsRaf = 0;
             return;
         }
         var rt = typeof global.cr_getC2Runtime === 'function'
             ? global.cr_getC2Runtime() : null;
-        if (rt && rt.running_layout)
+        if (rt && rt.running_layout) {
+            // Forçar redraw a cada frame para manter 60 FPS estável
             rt.redraw = true;
+            // Resetar last_tick_time se o delta ficou muito grande (evita lag spike)
+            if (_lastFrameTime > 0) {
+                var elapsed = now - _lastFrameTime;
+                // Se o frame demorou mais de 50ms (menos de 20 FPS), resetar o
+                // tempo de tick do C2 para evitar que ele tente compensar com
+                // timesteps gigantes (que causam stuttering / framerate instável)
+                if (elapsed > 50 && typeof rt.last_tick_time === 'number') {
+                    rt.last_tick_time = now - 16.67; // simula 1 frame normal
+                }
+            }
+        }
+        _lastFrameTime = now || 0;
         _fpsRaf = global.requestAnimationFrame(performanceFrame);
     }
 
@@ -653,14 +678,29 @@
             rt.redraw = true;
         }
 
-        if (_fps60Enabled && !_fpsRaf)
+        // Limpar frame pacer anterior antes de iniciar novo
+        if (_framePaceTimer) {
+            clearInterval(_framePaceTimer);
+            _framePaceTimer = null;
+        }
+
+        if (_fps60Enabled && !_fpsRaf) {
+            _lastFrameTime = 0;
             _fpsRaf = global.requestAnimationFrame(performanceFrame);
-        else if (!_fps60Enabled && _fpsRaf) {
+            // Timer de segurança: garante que o C2 não "adormeça" entre RAFs
+            _framePaceTimer = setInterval(function () {
+                var rtNow = typeof global.cr_getC2Runtime === 'function'
+                    ? global.cr_getC2Runtime() : null;
+                if (rtNow && rtNow.running_layout) rtNow.redraw = true;
+            }, 8);
+        } else if (!_fps60Enabled && _fpsRaf) {
             global.cancelAnimationFrame(_fpsRaf);
             _fpsRaf = 0;
+            _lastFrameTime = 0;
         }
         _log('60 FPS beta: ' + (_fps60Enabled ? 'ON' : 'OFF'));
     }
+
 
     var TV_FILTERS = ['pixel', 'smooth', 'crt'];
     var TV_RESOLUTIONS = ['perfect', 'letterbox', 'fullscreen'];
@@ -1286,6 +1326,21 @@
         }
         if (_fallbackActive) return;
 
+        // FIX PT-BR crash: se os objetos traduzidos estão visíveis, o jogo já está
+        // usando o sistema de localização para detectar input — não devemos enviar
+        // Enter sintético, pois isso causaria duplo-trigger e crash.
+        if (rt && rt.getObjectByUID) {
+            var ptbrObj = rt.getObjectByUID(900320);
+            if (ptbrObj && ptbrObj.visible && ptbrObj.opacity > 0) {
+                // Os objetos PT-BR estão ativos — o Construct 2 vai capturar o
+                // botão diretamente; não precisamos de fallback sintético.
+                _autoSaveAnyButtonPressed = false;
+                _autoSavePromptPending = false;
+                _autoSavePromptTriggered = false;
+                return;
+            }
+        }
+
         var gamepads = navigator.getGamepads ? navigator.getGamepads() : [];
         var gp = null;
         for (var i = 0; i < gamepads.length; i++)
@@ -1313,6 +1368,11 @@
                 var currentLayout = current && current.running_layout
                     ? current.running_layout.name : '';
                 if (currentLayout !== 'Auto Save') return;
+                // Verificação adicional: checar novamente se PT-BR não está ativo
+                if (current && current.getObjectByUID) {
+                    var ptbrCheck = current.getObjectByUID(900320);
+                    if (ptbrCheck && ptbrCheck.visible && ptbrCheck.opacity > 0) return;
+                }
                 _autoSavePromptTriggered = true;
                 _log('Auto Save: fallback de Enter apos gamepad nativo');
                 fireKey(KEY_MAP[BTN.MENU], 'keydown');

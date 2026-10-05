@@ -29884,6 +29884,8 @@ cr.plugins_.WebStorage = function(runtime)
 			return;
 		try {
 			localStorage.setItem(prefix + key, data);
+			if (window["__uwpStorageChanged"])
+				window["__uwpStorageChanged"](prefix + key);
 		}
 		catch (e)
 		{
@@ -29907,6 +29909,8 @@ cr.plugins_.WebStorage = function(runtime)
 		if (!isSupported)
 			return;
 		localStorage.removeItem(prefix + key);
+		if (window["__uwpStorageChanged"])
+			window["__uwpStorageChanged"](prefix + key);
 	};
 	Acts.prototype.RemoveSession = function(key)
 	{

@@ -319,7 +319,7 @@
 
             if (window.__uwpBridgeHost && !window.__uwpSaveRestored) {
                 document.addEventListener('uwpSaveRestored', startRuntime, false);
-                setTimeout(startRuntime, 1500);
+                // Starting before restoration can overwrite existing progress.
             } else {
                 startRuntime();
             }
