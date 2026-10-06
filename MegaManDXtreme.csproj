@@ -16,8 +16,11 @@
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
     <FileAlignment>512</FileAlignment>
     <ProjectPriFileName>resources.pri</ProjectPriFileName>
-    <PackageCertificateKeyFile>MegaManDXtreme_XboxDev.pfx</PackageCertificateKeyFile>
-    
+    <!-- Signing material is local-only. Set these properties for signed builds. -->
+    <AppxPackageSigningEnabled Condition="'$(MegaManDXtremeSigningPfx)' == ''">False</AppxPackageSigningEnabled>
+    <AppxPackageSigningEnabled Condition="'$(MegaManDXtremeSigningPfx)' != ''">True</AppxPackageSigningEnabled>
+    <PackageCertificateKeyFile Condition="'$(MegaManDXtremeSigningPfx)' != ''">$(MegaManDXtremeSigningPfx)</PackageCertificateKeyFile>
+    <PackageCertificatePassword Condition="'$(MegaManDXtremeSigningPfx)' != ''">$(MegaManDXtremeSigningPassword)</PackageCertificatePassword>
     <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
     <AppxPackageSigningEnabled>true</AppxPackageSigningEnabled>
     <AppxBundle>Never</AppxBundle>
@@ -114,8 +117,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="MegaManDXtreme.pfx" />
-    <None Include="MegaManDXtreme_XboxDev.pfx" />
   </ItemGroup>
 
   <ItemGroup>
