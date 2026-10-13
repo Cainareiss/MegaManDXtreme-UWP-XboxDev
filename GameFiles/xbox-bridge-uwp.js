@@ -194,6 +194,7 @@
     }
 
     function restorePersistentSave(data) {
+        global.__uwpSaveRestoreError = '';
         _restoringPersistentSave = true;
         try {
             if (data && data.localStorage) {
@@ -208,6 +209,7 @@
                 _log('Nenhum save persistente recebido');
             }
         } catch (e) {
+            global.__uwpSaveRestoreError = 'Erro restaurando save persistente: ' + e.message;
             _log('Erro restaurando save persistente: ' + e.message);
             return;
         } finally {
@@ -267,7 +269,8 @@
 
         document.addEventListener('uwpSuspend', flushPersistentSave);
         global.addEventListener('beforeunload', flushPersistentSave);
-        loadState();
+        // The host restores explicitly after NavigationCompleted. Notifications
+        // sent while the page is still navigating are not a reliable startup gate.
     }
 
     installPersistentSaveBridge();

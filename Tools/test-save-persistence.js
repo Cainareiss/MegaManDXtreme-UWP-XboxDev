@@ -35,6 +35,7 @@ function session() {
         CustomEvent: function (type, init) { this.type = type; this.detail = init.detail; }
     };
     ctx.global = ctx;
+    ctx.window = ctx;
     vm.createContext(ctx);
     vm.runInContext(persistence + '\ninstallPersistentSaveBridge();', ctx);
     return {
@@ -45,6 +46,8 @@ function session() {
 }
 
 const first = session();
+assert.equal(first.messages.filter(m => m.type === 'loadState').length, 0,
+    'Restoration must be initiated by the host after navigation');
 first.ctx.localStorage.setItem('dx_language', 'pt');
 first.tick();
 assert.equal(first.messages.filter(m => m.type === 'saveState').length, 0,
@@ -67,9 +70,34 @@ const broken = session();
 broken.ctx.localStorage.setItem = () => { throw new Error('Storage unavailable'); };
 broken.restore(saved);
 assert(!broken.ctx.__uwpSaveRestored, 'Failed restoration must not start the game');
+assert.match(broken.ctx.__uwpSaveRestoreError, /Storage unavailable/,
+    'Host must receive the specific restoration failure');
 assert.equal(broken.ctx.__uwpGetPersistentSave(), '');
 reopened.ctx.localStorage.getItem = () => { throw new Error('Read failed'); };
 assert.equal(reopened.ctx.__uwpGetPersistentSave(), '', 'Partial snapshots must not overwrite disk');
 const index = fs.readFileSync(path.join(__dirname, '../GameFiles/index.html'), 'utf8');
 assert(!/setTimeout\(startRuntime,/.test(index), 'Startup must await restoration');
-console.log('PASS: progress, reopen, settings, deletion, startup gate, storage failures');
+const startup = index.slice(index.indexOf('        jQuery(document).ready('),
+    index.indexOf('        // \u2500\u2500 Suspend/Resume'));
+assert(startup.length > 0, 'Actual runtime startup code must be tested');
+const boot = session();
+let starts = 0;
+boot.ctx.__uwpBridgeHost = true;
+boot.ctx.jQuery = () => ({ ready: fn => fn() });
+boot.ctx.cr_createRuntime = () => { starts++; };
+boot.ctx.scaleCanvas = () => {};
+vm.runInContext(startup, boot.ctx);
+assert.equal(starts, 0, 'Runtime must wait even if the initial notify is unavailable');
+boot.restore(saved);
+assert.equal(starts, 1, 'Host restoration must release the runtime startup gate');
+boot.restore(saved);
+assert.equal(starts, 1, 'Repeated restoration events must not start a second runtime');
+const early = session();
+early.ctx.__uwpBridgeHost = true;
+early.ctx.jQuery = () => ({ ready: fn => fn() });
+early.ctx.cr_createRuntime = () => { starts++; };
+early.ctx.scaleCanvas = () => {};
+early.restore(null);
+vm.runInContext(startup, early.ctx);
+assert.equal(starts, 2, 'Restoration before DOM ready must also start the runtime');
+console.log('PASS: progress, reopen, settings, deletion, host startup, storage failures');

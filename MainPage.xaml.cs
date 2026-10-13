@@ -60,6 +60,7 @@ namespace MegaManDXtreme
         private bool _bridgeInjected;
         private readonly SemaphoreSlim _saveLock = new SemaphoreSlim(1, 1);
         private bool _saveReady;
+        private bool _saveLoadInProgress;
         private string _lastDisplayMetrics;
 
         // ── Dispatcher (acesso seguro à UI a partir de threads/timers) ──────
@@ -152,6 +153,15 @@ namespace MegaManDXtreme
             }
 
             await InjectBridgeAsync();
+            if (!_bridgeInjected)
+            {
+                ShowError("Falha na ponte do jogo",
+                    "Nao foi possivel inicializar a comunicacao com o jogo. Consulte o app.log.");
+                return;
+            }
+            // Restore after navigation, when InvokeScriptAsync can safely reach the page.
+            await LoadStateAndSendAsync();
+            if (!_saveReady) return;
             _ = MonitorGameStartupAsync();
         }
 
@@ -537,6 +547,8 @@ namespace MegaManDXtreme
 
         private async Task LoadStateAndSendAsync()
         {
+            if (_saveReady || _saveLoadInProgress) return;
+            _saveLoadInProgress = true;
             await _saveLock.WaitAsync();
             try
             {
@@ -561,8 +573,13 @@ namespace MegaManDXtreme
                 }
                 if (found && !recovered)
                     throw new FormatException("Save e backup ilegíveis. Arquivos preservados.");
-                string script = $"document.dispatchEvent(new CustomEvent('uwpStateLoaded',{{detail:{data}}}));";
-                await GameWebView.InvokeScriptAsync("eval", new[] { script });
+                string script = "(function(){" +
+                    $"document.dispatchEvent(new CustomEvent('uwpStateLoaded',{{detail:{data}}}));" +
+                    "return window.__uwpSaveRestored ? 'RESTORED' : " +
+                    "(window.__uwpSaveRestoreError || 'A pagina nao confirmou a restauracao do save.');" +
+                    "})()";
+                string restored = await GameWebView.InvokeScriptAsync("eval", new[] { script });
+                if (restored != "RESTORED") throw new InvalidOperationException(restored);
                 _saveReady = true;
                 AppLogger.Log("SaveState", "Carregado e enviado");
             }
@@ -571,7 +588,11 @@ namespace MegaManDXtreme
                 AppLogger.Log("SaveState", $"Erro: {ex.Message}");
                 ShowError("Falha ao restaurar progresso", ex.Message);
             }
-            finally { _saveLock.Release(); }
+            finally
+            {
+                _saveLock.Release();
+                _saveLoadInProgress = false;
+            }
         }
 
         // ── GAMEPAD ──────────────────────────────────────────────────────────
